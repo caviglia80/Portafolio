@@ -7,7 +7,7 @@ import { ModalModule } from 'ngx-bootstrap/modal';
 
 import { NavComponent } from '@components/nav/nav.component';
 import { ModalComponent } from '@components/modal/modal.component';
-import { MainComponent } from '@pages/main/main.component';
+/* import { MainComponent } from '@pages/main/main.component'; */
 import { DesarrolloComponent } from '@pages/desarrollo/desarrollo.component';
 import { QaComponent } from '@pages/qa/qa.component';
 import { TitleComponent } from './shared/components/title/title.component';
@@ -17,13 +17,14 @@ import { ExperienciaLaboralComponent } from './shared/components/experiencia-lab
 import { PerfilProfesionalComponent } from './shared/components/perfil-profesional/perfil-profesional.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
 import { TopButtonComponent } from './shared/components/top-button/top-button.component';
+import { MainModule } from './pages/main/main.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     ModalComponent,
-    MainComponent,
+/*     MainComponent, */
     DesarrolloComponent,
     QaComponent,
     TitleComponent,
@@ -39,7 +40,8 @@ import { TopButtonComponent } from './shared/components/top-button/top-button.co
     AppRoutingModule,
     BrowserModule,
     BrowserAnimationsModule,
-    ModalModule.forRoot()
+    ModalModule.forRoot(),
+    MainModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -9,5 +9,5 @@ import { Router } from '@angular/router';
 export class AppComponent {
   title = 'CV';
   constructor(private router: Router) { }
-  public isMainRoute(): boolean { return this.router.url === '/main'; }
+  public isMainRoute(): boolean { return this.router.url.includes('main');}
 }
