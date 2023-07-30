@@ -1,15 +1,28 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, ElementRef } from '@angular/core';
+import { Router, NavigationEnd } from '@angular/router';
 
 @Component({
   selector: 'app-nav',
   templateUrl: './nav.component.html',
   styleUrls: ['./nav.component.css']
 })
-export class NavComponent implements OnInit {
+export class NavComponent {
+  isCollapsed = true;
 
-  constructor() { }
+  constructor(private router: Router, private elementRef: ElementRef) {
+    this.router.events.subscribe((event) => {
+      if (event instanceof NavigationEnd) {
+        this.isCollapsed = true;
+      }
+    });
+  }
 
-  ngOnInit(): void {
+  @HostListener('document:click', ['$event'])
+  onDocumentClick(event: MouseEvent) {
+    const target = event.target as HTMLElement;
+    if (!this.elementRef.nativeElement.contains(target)) {
+      this.isCollapsed = true;
+    }
   }
 
 }

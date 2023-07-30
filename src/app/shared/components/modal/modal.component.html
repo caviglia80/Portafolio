@@ -1,13 +1,19 @@
-<div class="modal-header">
-    <h4 class="modal-title custom-text-center">Seleccione Sector</h4>
-    <button type="button" class="close border-0 shadow-none bg-transparent" aria-label="Close" (click)="error()">
+<div class="modal-content rounded-3 shadow">
+    
+    <button type="button" class="close border-0 shadow-none bg-transparent ms-auto m-1 p-2" aria-label="Close" (click)="error()">
         <span aria-hidden="true">&times;</span>
     </button>
-</div>
-<div *ngIf="errorLabel" class="modal-body">
-    <p class="text-danger">* Por favor, seleccione un sector.</p>
-</div>
-<div class="modal-footer justify-content-between">
-    <button type="button" class="btn btn-dark" (click)="hide()" routerLink="/desarrollo">Desarrollo Web</button>
-    <button type="button" class="btn btn-dark" (click)="hide()" routerLink="/qa">Quality Assurance</button>
-</div>
+
+    <div class="modal-body p-4 text-center">
+      <h5 class="mb-0">Seleccione sector</h5>
+      <p *ngIf="errorLabel" class="mb-0 text-danger">* Por favor, seleccione un sector.</p>
+    </div>
+    <div class="modal-footer flex-nowrap p-0">
+      <button type="button" (click)="hide()" routerLink="/desarrollo" class="btn btn-lg btn-link fs-6 text-decoration-none col-6 py-3 m-0 rounded-0 border-end">Desarrollo Web</button>
+      <button type="button" (click)="hide()" routerLink="/qa" class="btn btn-lg btn-link fs-6 text-decoration-none col-6 py-3 m-0 rounded-0">Quality Assurance</button>
+    </div>
+  </div>
+
+
+
+
