@@ -16,6 +16,8 @@ import { PortafolioComponent } from './shared/components/portafolio/portafolio.c
 import { ExperienciaLaboralComponent } from './shared/components/experiencia-laboral/experiencia-laboral.component';
 import { PerfilProfesionalComponent } from './shared/components/perfil-profesional/perfil-profesional.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
+import { TestComponent } from './shared/components/test/test.component';
+import { TopButtonComponent } from './shared/components/top-button/top-button.component';
 
 
 
@@ -33,6 +35,8 @@ import { FooterComponent } from './shared/components/footer/footer.component';
     ExperienciaLaboralComponent,
     PerfilProfesionalComponent,
     FooterComponent,
+    TestComponent,
+    TopButtonComponent,
   ],
   imports: [
     BrowserModule,
