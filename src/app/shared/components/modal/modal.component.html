@@ -4,9 +4,10 @@
         <span aria-hidden="true">&times;</span>
     </button>
 
-    <div class="modal-body p-4 text-center">
-      <h5 class="mb-0">Seleccione sector</h5>
-      <p *ngIf="errorLabel" class="mb-0 text-danger">* Por favor, seleccione un sector.</p>
+    <div class="modal-body p-3 text-center">
+      <h5 class="mb-0" [ngClass]="{'text-danger': errorLabel, 'fade-in-out': !errorLabel}">[ Seleccione sector ]</h5>
+      <p *ngIf="errorLabel" class="mb-0 fade-in-out text-danger mt-2"><i class="bi bi-exclamation-circle"></i> Por favor, seleccione un sector.</p>
+      
     </div>
     <div class="modal-footer flex-nowrap p-0">
       <button type="button" (click)="hide()" routerLink="/desarrollo" class="btn btn-lg btn-link fs-6 text-decoration-none col-6 py-3 m-0 rounded-0 border-end">Desarrollo Web</button>
