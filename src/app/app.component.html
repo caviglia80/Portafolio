@@ -1,4 +1,5 @@
 <app-nav *ngIf="!isMainRoute()"></app-nav>
 <router-outlet></router-outlet>
 <app-top-button *ngIf="!isMainRoute()"></app-top-button>
+<app-mode></app-mode>
 <footer *ngIf="!isMainRoute()" class="bg-dark text-light py-4"><app-footer></app-footer></footer>
