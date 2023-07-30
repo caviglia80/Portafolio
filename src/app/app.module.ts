@@ -11,6 +11,11 @@ import { MainComponent } from '@pages/main/main.component';
 import { DesarrolloComponent } from '@pages/desarrollo/desarrollo.component';
 import { QaComponent } from '@pages/qa/qa.component';
 import { TitleComponent } from './shared/components/title/title.component';
+import { CarouselComponent } from './shared/components/carousel/carousel.component';
+import { PortafolioComponent } from './shared/components/portafolio/portafolio.component';
+import { ExperienciaLaboralComponent } from './shared/components/experiencia-laboral/experiencia-laboral.component';
+import { PerfilProfesionalComponent } from './shared/components/perfil-profesional/perfil-profesional.component';
+import { FooterComponent } from './shared/components/footer/footer.component';
 
 
 
@@ -23,6 +28,11 @@ import { TitleComponent } from './shared/components/title/title.component';
     DesarrolloComponent,
     QaComponent,
     TitleComponent,
+    CarouselComponent,
+    PortafolioComponent,
+    ExperienciaLaboralComponent,
+    PerfilProfesionalComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
