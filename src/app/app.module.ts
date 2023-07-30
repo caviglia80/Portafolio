@@ -5,24 +5,24 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ModalModule } from 'ngx-bootstrap/modal';
 
-import { HeaderComponent } from '@components/header/header.component';
 import { NavComponent } from '@components/nav/nav.component';
 import { ModalComponent } from '@components/modal/modal.component';
 import { MainComponent } from '@pages/main/main.component';
 import { DesarrolloComponent } from '@pages/desarrollo/desarrollo.component';
 import { QaComponent } from '@pages/qa/qa.component';
+import { TitleComponent } from './shared/components/title/title.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
     NavComponent,
     ModalComponent,
     MainComponent,
     DesarrolloComponent,
     QaComponent,
+    TitleComponent,
   ],
   imports: [
     BrowserModule,
