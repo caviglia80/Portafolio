@@ -19,6 +19,7 @@ import { PerfilProfesionalComponent } from '@components/perfil-profesional/perfi
 import { FooterComponent } from '@components/footer/footer.component';
 import { TopButtonComponent } from '@components/top-button/top-button.component';
 import { CursorCircleComponent } from './shared/components/cursor-circle/cursor-circle.component';
+import { WhatsappBtnComponent } from './shared/components/whatsapp-btn/whatsapp-btn.component';
 
 
 @NgModule({
@@ -37,6 +38,7 @@ import { CursorCircleComponent } from './shared/components/cursor-circle/cursor-
     FooterComponent,
     TopButtonComponent,
     CursorCircleComponent,
+    WhatsappBtnComponent,
   ],
   imports: [
     BrowserModule,

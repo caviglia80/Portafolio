@@ -1,5 +1,6 @@
 <app-nav *ngIf="!isMainRoute()"></app-nav>
 <router-outlet></router-outlet>
 <app-top-button *ngIf="!isMainRoute()"></app-top-button>
+<app-whatsapp-btn *ngIf="!isMainRoute()"></app-whatsapp-btn>
 <app-cursor-circle></app-cursor-circle>
 <footer *ngIf="!isMainRoute()" class="bg-dark text-light py-4"><app-footer></app-footer></footer>

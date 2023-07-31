@@ -2,3 +2,7 @@
     text-align: center;
     width: 100%;
   }
+
+  .modal-content {
+    font-family: 'Ysabeau SC', sans-serif;
+  }

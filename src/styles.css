@@ -1,5 +1,7 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 @import '~bootstrap-icons/font/bootstrap-icons.css';
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@600&display=swap');
+
 
 @keyframes btnAnimation {
 	0% { transform: scale(1); }
