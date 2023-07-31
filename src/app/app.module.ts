@@ -18,6 +18,7 @@ import { ExperienciaLaboralComponent } from '@components/experiencia-laboral/exp
 import { PerfilProfesionalComponent } from '@components/perfil-profesional/perfil-profesional.component';
 import { FooterComponent } from '@components/footer/footer.component';
 import { TopButtonComponent } from '@components/top-button/top-button.component';
+import { CursorCircleComponent } from './shared/components/cursor-circle/cursor-circle.component';
 
 
 @NgModule({
@@ -35,6 +36,7 @@ import { TopButtonComponent } from '@components/top-button/top-button.component'
     PerfilProfesionalComponent,
     FooterComponent,
     TopButtonComponent,
+    CursorCircleComponent,
   ],
   imports: [
     BrowserModule,
