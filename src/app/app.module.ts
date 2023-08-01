@@ -20,6 +20,7 @@ import { FooterComponent } from '@components/footer/footer.component';
 import { TopButtonComponent } from '@components/top-button/top-button.component';
 import { CursorCircleComponent } from './shared/components/cursor-circle/cursor-circle.component';
 import { WhatsappBtnComponent } from './shared/components/whatsapp-btn/whatsapp-btn.component';
+import { LinkedinBtnComponent } from './shared/components/linkedin-btn/linkedin-btn.component';
 
 
 @NgModule({
@@ -39,6 +40,7 @@ import { WhatsappBtnComponent } from './shared/components/whatsapp-btn/whatsapp-
     TopButtonComponent,
     CursorCircleComponent,
     WhatsappBtnComponent,
+    LinkedinBtnComponent,
   ],
   imports: [
     BrowserModule,

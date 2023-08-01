@@ -15,4 +15,5 @@ export class AppComponent {
 export class GlobalVariables {
   public static wspNumer:string = '+5492364653595';
   public static wspTxt:string = '';
+  public static linkedinUser:string = 'francisco-caviglia';
 }

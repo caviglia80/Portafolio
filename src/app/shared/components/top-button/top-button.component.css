@@ -1,19 +1,10 @@
-#top-button {
+ #top-button {
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     background: 0 0;
     border: none;
-    outline: 0;
-    width: 40px;
-    position: fixed;
-    bottom: 25px;
-    right: 10px;
-    cursor: pointer;
+    width: 50px;
     display: none;
-}
-
-#top-button img {
-    width: 100%
 }
 
 #top-button:hover {
@@ -22,23 +13,13 @@
 }
 
 #top-button:active {
-    -webkit-transform: translateY(5x);
-    transform: translateY(5px);
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
 }
 
 @media screen and (max-width: 1024px) {
     #top-button {
-        bottom:20px;
-        right: 7px;
-        width: 35px
+        width: 75px
     }
 }
-
-@media screen and (max-width: 480px) {
-    #top-button {
-        bottom:15px;
-        right: 3px
-    }
-}
-
 

@@ -5,3 +5,10 @@
 .navbar-icon {
     max-width: 48px;
 }
+
+@media (max-width: 993px) {
+    .navbar.fixed-top {
+      position: static;
+    }
+  }
+  
