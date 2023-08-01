@@ -1,4 +1,4 @@
-import { Component, AfterViewInit, OnDestroy } from '@angular/core';
+import { Component, OnDestroy } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
 import { Subscription } from 'rxjs';
 
@@ -7,11 +7,10 @@ import { Subscription } from 'rxjs';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements AfterViewInit, OnDestroy {
+export class AppComponent implements OnDestroy {
   title = 'CV';
   public currentUrl: string = '';
   private routerSubscription: Subscription | undefined;
-  private onScroll: (() => void) | undefined;
 
   constructor(private router: Router) {
     this.routerSubscription = this.router.events.subscribe((event) => {
@@ -20,23 +19,8 @@ export class AppComponent implements AfterViewInit, OnDestroy {
     });
   }
 
-  ngAfterViewInit() {
-    const buttons: NodeListOf<HTMLElement> = document.querySelectorAll('.leftButtons');
-    this.onScroll = () => {
-      if (buttons.length > 0) {
-        if (window.scrollY + window.innerHeight >= document.documentElement.scrollHeight)
-          buttons.forEach(button => { button.style.display = 'none'; });
-        else
-          buttons.forEach(button => { button.style.display = 'inline-block'; });
-      }
-    };
-    window.addEventListener('scroll', this.onScroll);
-  }
-
   ngOnDestroy() {
     this.routerSubscription?.unsubscribe();
-    if (this.onScroll)
-      window.removeEventListener('scroll', this.onScroll);
   }
 }
 

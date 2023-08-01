@@ -6,3 +6,41 @@
   .modal-content {
     font-family: 'Ysabeau SC', sans-serif;
   }
+
+  .btn:active {
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2), -4px -4px 5px rgba(0, 0, 0, 0.2);
+    background-color: white !important;
+    animation: bigBtn .6s;
+  }
+
+  @keyframes bigBtn {
+    0% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(1.2);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
+.fade-in-out {
+	animation: fadeInOut 1.8s infinite;
+}
+
+@keyframes fadeInOut {
+	0% {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1.2;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, AfterViewInit, OnDestroy } from '@angular/core';
 import { GlobalVariables } from 'src/app/app.component';
 
 @Component({
@@ -6,10 +6,28 @@ import { GlobalVariables } from 'src/app/app.component';
   templateUrl: './whatsapp-btn.component.html',
   styleUrls: ['./whatsapp-btn.component.css']
 })
-export class WhatsappBtnComponent {
- 
+export class WhatsappBtnComponent implements AfterViewInit, OnDestroy {
+  private onScroll: (() => void) | undefined;
+
+  ngAfterViewInit() {
+    const button: HTMLElement | null = document.getElementById('whatsapp-btn');
+    this.onScroll = () => {
+      if (button)
+        if (window.scrollY + window.innerHeight >= document.documentElement.scrollHeight)
+          button.classList.add('hidden');
+        else
+          button.classList.remove('hidden');
+    };
+    window.addEventListener('scroll', this.onScroll);
+  }
+
+  ngOnDestroy() {
+    if (this.onScroll)
+      window.removeEventListener('scroll', this.onScroll);
+  }
+
   redirectToWsp() {
     const webLink = "https://wa.me/" + GlobalVariables.wspNumer + "/?text=" + encodeURIComponent(GlobalVariables.wspTxt);
-    window.open(webLink, '_blank', 'noopener,noreferrer');
+    setTimeout(() => { window.open(webLink, '_blank', 'noopener,noreferrer'); }, 100);
   }
 }
