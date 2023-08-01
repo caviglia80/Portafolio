@@ -1,12 +1,12 @@
-<app-nav *ngIf="!isMainRoute()"></app-nav>
+<app-nav *ngIf="!currentUrl.includes('main');"></app-nav>
 <router-outlet></router-outlet>
 
-<div class="d-flex flex-column position-fixed start-0 bottom-0 z-index-9999 text-center" *ngIf="!isMainRoute()">
+<div class="d-flex flex-column position-fixed start-0 bottom-0 z-index-9999 text-center" *ngIf="!currentUrl.includes('main');">
     <app-top-btn></app-top-btn>
-    <app-github-btn></app-github-btn>
-    <app-linkedin-btn></app-linkedin-btn>
-    <app-whatsapp-btn></app-whatsapp-btn>
+    <app-github-btn   class="leftButtons"></app-github-btn>
+    <app-linkedin-btn class="leftButtons"></app-linkedin-btn>
+    <app-whatsapp-btn class="leftButtons"></app-whatsapp-btn>
 </div>
 
-<footer class="bg-dark text-light py-4" *ngIf="!isMainRoute()" ><app-footer></app-footer></footer>
+<footer class="bg-dark text-light py-4" *ngIf="!currentUrl.includes('main');" ><app-footer></app-footer></footer>
 <app-cursor-circle></app-cursor-circle>
