@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TopButtonComponent } from './top-button.component';
+import { TopBtnComponent } from './top-btn.component';
 
-describe('TopButtonComponent', () => {
-  let component: TopButtonComponent;
-  let fixture: ComponentFixture<TopButtonComponent>;
+describe('TopBtnComponent', () => {
+  let component: TopBtnComponent;
+  let fixture: ComponentFixture<TopBtnComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ TopButtonComponent ]
+      declarations: [ TopBtnComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(TopButtonComponent);
+    fixture = TestBed.createComponent(TopBtnComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

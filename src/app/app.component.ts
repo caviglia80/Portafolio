@@ -16,4 +16,5 @@ export class GlobalVariables {
   public static wspNumer:string = '+5492364653595';
   public static wspTxt:string = '';
   public static linkedinUser:string = 'francisco-caviglia';
+  public static githubUser:string = 'caviglia80';
 }

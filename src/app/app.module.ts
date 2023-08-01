@@ -17,10 +17,11 @@ import { PortafolioComponent } from '@components/portafolio/portafolio.component
 import { ExperienciaLaboralComponent } from '@components/experiencia-laboral/experiencia-laboral.component';
 import { PerfilProfesionalComponent } from '@components/perfil-profesional/perfil-profesional.component';
 import { FooterComponent } from '@components/footer/footer.component';
-import { TopButtonComponent } from '@components/top-button/top-button.component';
 import { CursorCircleComponent } from './shared/components/cursor-circle/cursor-circle.component';
 import { WhatsappBtnComponent } from './shared/components/whatsapp-btn/whatsapp-btn.component';
 import { LinkedinBtnComponent } from './shared/components/linkedin-btn/linkedin-btn.component';
+import { GithubBtnComponent } from './shared/components/github-btn/github-btn.component';
+import { TopBtnComponent } from './shared/components/top-btn/top-btn.component';
 
 
 @NgModule({
@@ -37,10 +38,11 @@ import { LinkedinBtnComponent } from './shared/components/linkedin-btn/linkedin-
     ExperienciaLaboralComponent,
     PerfilProfesionalComponent,
     FooterComponent,
-    TopButtonComponent,
     CursorCircleComponent,
     WhatsappBtnComponent,
     LinkedinBtnComponent,
+    GithubBtnComponent,
+    TopBtnComponent,
   ],
   imports: [
     BrowserModule,

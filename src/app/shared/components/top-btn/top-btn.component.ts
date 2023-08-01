@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-top-button',
-  templateUrl: './top-button.component.html',
-  styleUrls: ['./top-button.component.css']
+  selector: 'app-top-btn',
+  templateUrl: './top-btn.component.html',
+  styleUrls: ['./top-btn.component.css']
 })
-export class TopButtonComponent implements OnInit {
+export class TopBtnComponent implements OnInit {
   private button: HTMLElement | null = null;
 
   constructor() { }
@@ -26,4 +26,5 @@ export class TopButtonComponent implements OnInit {
           this.button.style.display = 'none';
     });
   }
+
 }
