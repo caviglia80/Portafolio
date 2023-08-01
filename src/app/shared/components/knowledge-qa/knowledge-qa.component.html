@@ -1,0 +1,40 @@
+<div class="row portafolio g-0 px-4 mb-5">
+    <div class="col">
+        <h2 class="titulo text-center py-5">Conocimientos en Quality Assurance</h2>
+
+        <div class="row acerca-de align-items-center px-4 mb-5">
+            <!-- filtro 12 -->
+            <div class="col-12 form-group mb-1">
+                <input type="text" class="form-control" [(ngModel)]="filtro" (keyup)="filtrarLista()"
+                    placeholder="Filtrar">
+            </div>
+
+            <div class="col-12">
+                <div class="row">
+                    <!-- list -->
+                    <ul class="col-md-7 col-sm-12 info p-0" [ngClass]="{'lista-scroll': hayMasDeOchoItems()}">
+                        <li *ngFor="let item of listaFiltrada; let i = index" class="list-group-item py-1 px-2"
+                            [ngClass]="{'liSeleccion m-0': i === itemSeleccionadoIndex, 'm-1': i !== itemSeleccionadoIndex}"
+                            (click)="seleccionarItem(item, i)">
+                            <p class="label mb-0 mt-1">{{ item.name }}</p>
+
+                            <div class="progress mb-0">
+                                <div class="progress-bar text-start"
+                                    role="progressbar" aria-valuemin="0" aria-valuemax="100"
+                                    [style.width.%]="item.percentage">{{ item.percentage }}%
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- description -->
+                    <div class="col-md-5 col-sm-12 info pt-2" style="min-height: 200px;">
+                        <div class="cuadro-texto">
+                            <p>{{ itemSeleccionado?.description }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

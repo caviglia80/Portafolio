@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ModalModule } from 'ngx-bootstrap/modal';
 import { FormsModule } from '@angular/forms'; 
+import { HttpClientModule } from '@angular/common/http';
 
 import { NavComponent } from '@components/nav/nav.component';
 import { ModalComponent } from '@components/modal/modal.component';
@@ -22,6 +23,8 @@ import { WhatsappBtnComponent } from './shared/components/whatsapp-btn/whatsapp-
 import { LinkedinBtnComponent } from './shared/components/linkedin-btn/linkedin-btn.component';
 import { GithubBtnComponent } from './shared/components/github-btn/github-btn.component';
 import { TopBtnComponent } from './shared/components/top-btn/top-btn.component';
+import { KnowledgeQaComponent } from './shared/components/knowledge-qa/knowledge-qa.component';
+import { KnowledgeDevComponent } from './shared/components/knowledge-dev/knowledge-dev.component';
 
 
 @NgModule({
@@ -43,6 +46,8 @@ import { TopBtnComponent } from './shared/components/top-btn/top-btn.component';
     LinkedinBtnComponent,
     GithubBtnComponent,
     TopBtnComponent,
+    KnowledgeQaComponent,
+    KnowledgeDevComponent,
   ],
   imports: [
     BrowserModule,
@@ -50,7 +55,8 @@ import { TopBtnComponent } from './shared/components/top-btn/top-btn.component';
     BrowserModule,
     BrowserAnimationsModule,
     ModalModule.forRoot(),
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

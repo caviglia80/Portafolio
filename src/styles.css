@@ -141,6 +141,14 @@ header .logo p {
 	margin-bottom: 30px;
 }
 
+.acerca-de .info .sub-titulo {
+	color: #005385;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 200;
+	font-size: 28px;
+	margin-bottom: 30px;
+}
+
 .acerca-de .info .resumen {
 	letter-spacing: 1px;
 }
@@ -153,7 +161,7 @@ header .logo p {
 }
 
 .acerca-de .info .progress {
-	background: #005385;
+	background: #9bc4dd;
 	border-radius: 0;
 	height: 25px;
 }
@@ -162,101 +170,6 @@ header .logo p {
 	background: #3da5e2;
 	line-height: 25px;
 	padding-left: 20px;
-}
-
-/* Contacto */
-.contacto {
-	border-top: 1px solid #cbcbcb;
-	border-bottom: 1px solid #cbcbcb;
-}
-
-.contacto .titulo {
-	color: #003855;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
-	font-size: 40px;
-	margin-bottom: 40px;
-	text-align: center;
-}
-
-.contacto .formulario input[type="text"],
-.contacto .formulario input[type="email"],
-.contacto .formulario textarea {
-	padding: 15px;
-	border: none;
-	font-family: 'Open Sans', sans-serif;
-}
-
-.contacto .formulario textarea {
-	height: 150px;
-	min-height: 150px;
-	max-height: 250px;
-}
-
-.contacto .formulario .boton {
-	background: #3da5e2;
-	border: none;
-	padding: 7px 30px;
-	color: #fff;
-	font-family: 'Open Sans', sans-serif;
-	cursor: pointer;
-	width: auto;
-	border-radius: 3px;
-}
-
-.contacto .formulario .boton:hover {
-	background: #1BA0EF;
-}
-
-/* Footer */
-.redes-sociales {
-	padding: 40px 0;
-	margin-bottom: 40px;
-}
-
-.redes-sociales .icono {
-	width: 100px;
-	height: 100px;
-	color: #fff;
-	background: #cbcbcb;
-	display: inline-block;
-	margin: 0px 20px;
-	text-decoration: none;
-	border-radius: 100px;
-	transition: all .3s ease;
-}
-
-.redes-sociales .icono svg {
-	width: 40px;
-	height: 40px;
-}
-
-.redes-sociales .twitter {
-	background: #1da1f2;
-}
-
-.redes-sociales .instagram {
-	background: #833ab4;
-}
-
-.redes-sociales .facebook {
-	background: #3b5998;
-}
-
-
-/* MEDIAQUERIES */
-/* Dispositivo sm */
-@media screen and (max-width: 576px) {
-	.redes-sociales .icono {
-		width: 50px;
-		height: 50px;
-	}
-
-	.redes-sociales .icono svg {
-		width: 25px;
-		height: 25px;
-	}
-
 }
 
 /* Dispositivo md */
