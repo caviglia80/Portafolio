@@ -1,7 +1,7 @@
 [
-    { "name": "HTML", "description": "", "percentage": 100 },
-    { "name": "CSS", "description": "", "percentage": 100 },
-    { "name": "JS/JavaScript", "description": "", "percentage": 100 },
+    { "name": "HTML", "description": "", "percentage": 99 },
+    { "name": "CSS", "description": "", "percentage": 90 },
+    { "name": "JS/JavaScript", "description": "", "percentage": 80 },
     { "name": "TS/TypeScript", "description": "", "percentage": 100 },
     { "name": "PHP", "description": "", "percentage": 100 },
     { "name": "SQL", "description": "", "percentage": 100 },

@@ -5,8 +5,7 @@
 }
 
 .liSeleccion {
-  /* border: 1px solid black; */
-  box-shadow: 0px 0px 15px #16445f; /* #3da5e2 */
+  box-shadow: 3px 3px 15px #16445f; /* #3da5e2 */
 }
 
 .cuadro-texto {
