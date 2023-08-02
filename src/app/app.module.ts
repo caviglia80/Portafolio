@@ -23,8 +23,7 @@ import { WhatsappBtnComponent } from './shared/components/whatsapp-btn/whatsapp-
 import { LinkedinBtnComponent } from './shared/components/linkedin-btn/linkedin-btn.component';
 import { GithubBtnComponent } from './shared/components/github-btn/github-btn.component';
 import { TopBtnComponent } from './shared/components/top-btn/top-btn.component';
-import { KnowledgeQaComponent } from './shared/components/knowledge-qa/knowledge-qa.component';
-import { KnowledgeDevComponent } from './shared/components/knowledge-dev/knowledge-dev.component';
+import { SkillsComponent } from './shared/components/skills/skills.component';
 
 
 @NgModule({
@@ -46,8 +45,7 @@ import { KnowledgeDevComponent } from './shared/components/knowledge-dev/knowled
     LinkedinBtnComponent,
     GithubBtnComponent,
     TopBtnComponent,
-    KnowledgeQaComponent,
-    KnowledgeDevComponent,
+    SkillsComponent,
   ],
   imports: [
     BrowserModule,

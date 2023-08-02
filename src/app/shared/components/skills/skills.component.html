@@ -1,10 +1,10 @@
 <div class="row portafolio g-0 px-4 mb-5">
     <div class="col">
-        <h2 class="titulo text-center py-5">Conocimientos en Quality Assurance</h2>
+        <h2 class="titulo text-center py-5">{{title}}</h2>
 
         <div class="row acerca-de align-items-center px-4 mb-5">
             <!-- filtro 12 -->
-            <div class="col-12 form-group mb-1">
+            <div class="col-12 form-group mb-2">
                 <input type="text" class="form-control" [(ngModel)]="filtro" (keyup)="filtrarLista()"
                     placeholder="Filtrar">
             </div>
@@ -29,7 +29,8 @@
                     <!-- description -->
                     <div class="col-md-5 col-sm-12 info pt-2" style="min-height: 200px;">
                         <div class="cuadro-texto">
-                            <p>{{ itemSeleccionado?.description }}</p>
+                            <p *ngIf="!itemSeleccionado">😐</p>
+                            <p *ngIf="itemSeleccionado">{{ itemSeleccionado.description }}</p>
                         </div>
                     </div>
                 </div>

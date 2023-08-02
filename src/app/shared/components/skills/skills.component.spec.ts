@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { KnowledgeQaComponent } from './knowledge-qa.component';
+import { SkillsComponent } from './skills.component';
 
-describe('KnowledgeQaComponent', () => {
-  let component: KnowledgeQaComponent;
-  let fixture: ComponentFixture<KnowledgeQaComponent>;
+describe('SkillsComponent', () => {
+  let component: SkillsComponent;
+  let fixture: ComponentFixture<SkillsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ KnowledgeQaComponent ]
+      declarations: [ SkillsComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(KnowledgeQaComponent);
+    fixture = TestBed.createComponent(SkillsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

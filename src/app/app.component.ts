@@ -9,13 +9,16 @@ import { Subscription } from 'rxjs';
 })
 export class AppComponent implements OnDestroy {
   title = 'CV';
+  public static currentUrl: string = '';
   public currentUrl: string = '';
   private routerSubscription: Subscription | undefined;
 
   constructor(private router: Router) {
     this.routerSubscription = this.router.events.subscribe((event) => {
-      if (event instanceof NavigationEnd)
+      if (event instanceof NavigationEnd) {
         this.currentUrl = event.url;
+        AppComponent.currentUrl = event.url;
+      }
     });
   }
 
@@ -29,6 +32,18 @@ export class GlobalVariables {
   public static wspTxt: string = '';
   public static linkedinUser: string = 'francisco-caviglia';
   public static githubUser: string = 'caviglia80';
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
