@@ -7,8 +7,8 @@ import { AppComponent } from 'src/app/app.component';
   styleUrls: ['./carousel.component.css']
 })
 export class CarouselComponent implements OnInit {
-  private img_dev: string[] = ['assets/carousel/devslide1.jpg', 'assets/carousel/devslide2.jpg'];
-  private img_qa: string[] = ['assets/carousel/qaslide1.jpg', 'assets/carousel/qaslide2.jpg'];
+  private img_dev: string[] = ['assets/carousel/dev.jpg', 'assets/carousel/tools.jpg'];
+  private img_qa: string[] = ['assets/carousel/qa.jpg', 'assets/carousel/tools.jpg'];
   private img: string[] = [];
 
   constructor() { }

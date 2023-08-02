@@ -1,4 +1,4 @@
-import { Component, OnDestroy } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
 import { Subscription } from 'rxjs';
 
@@ -7,11 +7,12 @@ import { Subscription } from 'rxjs';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnDestroy {
+export class AppComponent implements OnInit, OnDestroy {
   title = 'CV';
+  private routerSubscription: Subscription | undefined;
   public static currentUrl: string = '';
   public currentUrl: string = '';
-  private routerSubscription: Subscription | undefined;
+  public defaultLanguage: string = '';
 
   constructor(private router: Router) {
     this.routerSubscription = this.router.events.subscribe((event) => {
@@ -20,6 +21,10 @@ export class AppComponent implements OnDestroy {
         AppComponent.currentUrl = this.currentUrl;
       }
     });
+  }
+
+  ngOnInit() {
+    this.defaultLanguage = navigator.language || 'es';
   }
 
   public isMain():boolean {

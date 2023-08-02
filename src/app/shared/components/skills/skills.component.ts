@@ -1,6 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { AppComponent } from 'src/app/app.component';
 
 interface Skill {
   name: string;
@@ -16,7 +15,6 @@ interface Skill {
 export class SkillsComponent implements OnInit {
 
   private lista: Skill[] = [];
-  private listaUrl: string = '';
   public title: string = '';
   public listaFiltrada: Skill[] = this.lista;
   public filtro: string = '';
@@ -27,21 +25,11 @@ export class SkillsComponent implements OnInit {
   constructor(private http: HttpClient) { }
 
   ngOnInit() {
-/*     if (AppComponent.currentUrl.includes('desarrollo')) {
-      this.listaUrl = 'assets/data/dev.json';
-      this.title = 'Desarrollo y otros conocimientos';
-    }
-    else {
-      this.listaUrl = 'assets/data/qa.json';
-      this.title = 'Quality Assurance y otros conocimientos';
-    } */
-
-    this.listaUrl = 'assets/data/skills.json';
     this.cargarDatos();
   }
 
   cargarDatos() {
-    this.http.get<any>(this.listaUrl).subscribe((data) => {
+    this.http.get<any>('assets/data/skills.json').subscribe((data) => {
       if (data && data[this.Json]) {
         this.lista = data[this.Json];
         this.filtrarLista();
