@@ -1,12 +1,12 @@
-<app-nav *ngIf="!currentUrl.includes('main');"></app-nav>
+<app-nav *ngIf="!isMain()"></app-nav>
 <router-outlet></router-outlet>
 
-<div class="d-flex flex-column position-fixed start-0 bottom-0 z-index-9999 text-center" *ngIf="!currentUrl.includes('main');">
+<div class="d-flex flex-column position-fixed start-0 bottom-0 z-index-9999 text-center" *ngIf="!isMain()">
     <app-top-btn></app-top-btn>
     <app-github-btn></app-github-btn>
     <app-linkedin-btn></app-linkedin-btn>
     <app-whatsapp-btn></app-whatsapp-btn>
 </div>
 
-<footer class="bg-dark text-light py-4" *ngIf="!currentUrl.includes('main');" ><app-footer></app-footer></footer>
+<footer class="bg-dark text-light py-4" *ngIf="!isMain()"><app-footer></app-footer></footer>
 <app-cursor-circle></app-cursor-circle>

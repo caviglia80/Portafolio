@@ -14,7 +14,7 @@
                     <!-- list -->
                     <ul class="col-md-7 col-sm-12 info p-0"
                         [ngClass]="{'lista-scroll': hayMasDeOchoItems(),'hidden' :!itemSeleccionado}">
-                        <li *ngFor="let item of listaFiltrada; let i = index"
+                        <li *ngFor="let item of listaFiltrada | percentageSort; let i = index"
                             class="list-group-item py-1 px-2 m-2 Animation-active"
                             [ngClass]="{'liSeleccion my-3': i === itemSeleccionadoIndex}"
                             (click)="seleccionarItem(item, i)" (touchstart)="null" tabindex="-1" style="overflow: hidden;">
@@ -22,7 +22,7 @@
                             <div style="display: inline-flex;" class="align-items-center">
                                 <p class="label mb-0 mt-1">{{ item.name }}</p>
                                 <div style="margin-left: 5px;" [ngClass]="{'hidden': item.percentage === 100}"
-                                    class="spinner-border spinner-border-sm text-success" role="status">
+                                    class="spinner-border spinner-border-sm text-info" role="status">
                                 </div>
                             </div>
 
