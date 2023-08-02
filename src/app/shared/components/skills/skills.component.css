@@ -1,16 +1,16 @@
 .lista-scroll {
-    max-height: 375px;
-    overflow-y: auto;
-  }
-  
-  .liSeleccion {
-    border: 1px solid black;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, .5);
-  }
-  
-  .cuadro-texto {
-    border: 1px solid #b3b3b3;
-    padding: 10px;
-    max-height: 350px;
-    overflow-y: auto;
-  }
+  max-height: 375px;
+  overflow-y: auto;
+}
+
+.liSeleccion {
+  border: 1px solid black;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, .5);
+}
+
+.cuadro-texto {
+  border: 1px solid #b3b3b3;
+  padding: 10px;
+  max-height: 350px;
+  overflow-y: auto;
+}
