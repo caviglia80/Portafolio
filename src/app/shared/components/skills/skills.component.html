@@ -13,15 +13,14 @@
                 <div class="row">
                     <!-- list -->
                     <ul class="col-md-7 col-sm-12 info p-0" [ngClass]="{'lista-scroll': hayMasDeOchoItems()}">
-                        <li *ngFor="let item of listaFiltrada; let i = index" class="list-group-item py-1 px-2"
+                        <li *ngFor="let item of listaFiltrada; let i = index" class="list-group-item py-1 px-2 Animation-active"
                             [ngClass]="{'liSeleccion m-0': i === itemSeleccionadoIndex, 'm-1': i !== itemSeleccionadoIndex}"
-                            (click)="seleccionarItem(item, i)">
+                            (click)="seleccionarItem(item, i)" (touchstart)="null" tabindex="-1">
                             <p class="label mb-0 mt-1">{{ item.name }}</p>
 
                             <div class="progress mb-0">
-                                <div class="progress-bar text-start"
-                                    role="progressbar" aria-valuemin="0" aria-valuemax="100"
-                                    [style.width.%]="item.percentage">{{ item.percentage }}%
+                                <div [ngClass]="{'bg-success': item.percentage === 100}" class="progress-bar text-start" role="progressbar" aria-valuemin="0"
+                                    aria-valuemax="100" [style.width.%]="item.percentage">{{ item.percentage }}%
                                 </div>
                             </div>
                         </li>
@@ -29,8 +28,8 @@
                     <!-- description -->
                     <div class="col-md-5 col-sm-12 info pt-2" style="min-height: 200px;">
                         <div class="cuadro-texto">
-                            <p *ngIf="!itemSeleccionado">😐</p>
-                            <p *ngIf="itemSeleccionado">{{ itemSeleccionado.description }}</p>
+                            <p class="infoDetalles" *ngIf="!itemSeleccionado">😐</p>
+                            <p class="infoDetalles" *ngIf="itemSeleccionado">{{ itemSeleccionado.description }}</p>
                         </div>
                     </div>
                 </div>
@@ -39,3 +38,4 @@
 
     </div>
 </div>
+ 

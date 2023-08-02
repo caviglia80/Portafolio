@@ -28,11 +28,11 @@ export class SkillsComponent implements OnInit {
   ngOnInit() {
     if (AppComponent.currentUrl.includes('desarrollo')) {
       this.listaUrl = 'assets/data/dev.json';
-      this.title = 'Conocimientos en Desarrollo';
+      this.title = 'Desarrollo y otros conocimientos';
     }
     else {
       this.listaUrl = 'assets/data/qa.json';
-      this.title = 'Conocimientos en Quality Assurance';
+      this.title = 'Quality Assurance y otros conocimientos';
     }
     this.cargarDatos();
   }

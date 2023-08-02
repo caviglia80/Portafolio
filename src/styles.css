@@ -152,6 +152,11 @@ header .logo p {
 	letter-spacing: 1px;
 }
 
+.infoDetalles {
+	letter-spacing: 1px;
+	font-size: 12px;
+}
+
 .acerca-de .info .label {
 	font-size: 18px;
 	font-weight: 600;
