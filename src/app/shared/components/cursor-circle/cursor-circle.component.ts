@@ -10,13 +10,7 @@ export class CursorCircleComponent implements OnInit {
   public circleX: number = 0;
   public circleY: number = 0;
 
-  @HostListener('document:mousemove', ['$event'])
-  onMouseMove(event: MouseEvent) {
-    const limit = this.circles[0].getBoundingClientRect().width * 1.4 + event.pageX;
-    if (limit < window.innerWidth)
-      this.circleX = event.pageX;
-    this.circleY = event.pageY;
-  }
+  constructor() { }
 
   ngOnInit(): void {
     this.circles = Array.from(document.getElementsByClassName('cursor') as HTMLCollectionOf<HTMLElement>);
@@ -32,4 +26,11 @@ export class CursorCircleComponent implements OnInit {
     });
   }
 
+  @HostListener('document:mousemove', ['$event'])
+  onMouseMove(event: MouseEvent) {
+    const limit = this.circles[0].getBoundingClientRect().width * 1.4 + event.pageX;
+    if (limit < window.innerWidth)
+      this.circleX = event.pageX;
+    this.circleY = event.pageY;
+  }
 }
