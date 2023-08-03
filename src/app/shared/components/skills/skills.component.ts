@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { AppComponent } from 'src/app/app.component';
 
 interface Skill {
   name: string;
@@ -29,6 +30,7 @@ export class SkillsComponent implements OnInit {
   }
 
   cargarDatos() {
+    this.title = AppComponent.currentUrl.includes('desarrollo') ? 'Desarrollo y otros conocimientos' : 'Quality Assurance y otros conocimientos';
     this.http.get<any>('assets/data/skills.json').subscribe((data) => {
       if (data && data[this.Json]) {
         this.lista = data[this.Json];
