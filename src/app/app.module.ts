@@ -47,7 +47,7 @@ import { PercentageSortPipe } from './core/pipes/percentage-sort.pipe';
     GithubBtnComponent,
     TopBtnComponent,
     SkillsComponent,
-    PercentageSortPipe,
+    PercentageSortPipe
   ],
   imports: [
     BrowserModule,
