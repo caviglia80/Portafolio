@@ -1,0 +1,22 @@
+<div class="row portafolio g-0 px-4 mb-5">
+    <div class="col">
+
+        <h2 class="titulo text-center py-5">Repositorios de GitHub</h2>
+
+        <div *ngIf="repos$ | async as repos" class="row text-center justify-content-center">
+            <div *ngFor="let repo of repos" class="col-lg-4 mb-3"><!-- omitir el repo de git.io -->
+                <a href="{{ repo.owner.html_url }}" target="_blank" rel="noreferrer">
+                    <img src="{{ repo.owner.avatar_url }}" alt="{{ repo.owner.login }}"
+                        class="bd-placeholder-img rounded-circle" width="140" height="140" role="img"
+                        title="{{ repo.owner.login }}">
+                </a>
+                <h2 class="fw-normal">{{ repo.name }}</h2>
+                <p>{{ truncateDescription(repo.description) }}</p>
+                <p>
+                    <a class="btn btn-secondary" href="{{ repo.html_url }}" target="_blank" rel="noreferrer">Repositorio »</a>
+                </p>
+            </div>
+        </div>
+
+    </div>
+</div>
