@@ -1,0 +1,22 @@
+.icono-contenedor {
+  text-align: center;
+}
+
+.onda {
+  overflow: hidden;
+  border-radius: 50%;
+  position: relative;
+  animation: onda-agua 2.5s linear infinite;
+}
+
+@keyframes onda-agua {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

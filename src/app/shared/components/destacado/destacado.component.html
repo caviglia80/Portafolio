@@ -1,0 +1,56 @@
+<div class="row g-0 px-4 mb-5">
+    <div class="row text-center justify-content-center destacados">
+
+        <div class="col-lg-4 mb-3">
+            <div class="icono-contenedor onda">
+                <i class="bi bi-star" style="font-size: 30px;"></i>
+            </div>
+            <img src="assets/Logos/ecosistemas.png" alt="" class="bd-placeholder-img rounded-circle" width="140"
+                height="140" role="img" title="Ecosistemas" data-bs-toggle="modal" data-bs-target="#detallesModal"
+                (click)="openModal('ECOSISTEMAS')">
+            <h2 class="fw-normal">Ecosistemas</h2>
+            <p>Brinde recomendaciones valiosas para solucionar problemas informaticos/electronicos.</p>
+        </div>
+
+        <div class="col-lg-4 mb-3">
+            <div class="icono-contenedor onda">
+                <i class="bi bi-star" style="font-size: 40px;"></i>
+            </div>
+            <img src="assets/Logos/hsbc.png" alt="" class="bd-placeholder-img rounded-circle" width="140" height="140"
+                role="img" title="HSBC BANK" data-bs-toggle="modal" data-bs-target="#detallesModal"
+                (click)="openModal('HSBC')">
+            <h2 class="fw-normal">HSBC BANK</h2>
+            <p>Encontré una vulnerabilidad productiva mientras verificaba un aplicativo web de alta de productos
+                financieros.</p>
+        </div>
+
+        <div class="col-lg-4 mb-3">
+            <div class="icono-contenedor onda">
+                <i class="bi bi-star" style="font-size: 30px;"></i>
+            </div>
+            <img src="assets/Logos/fravega.png" alt="" class="bd-placeholder-img rounded-circle" width="140"
+                height="140" role="img" title="Frávega" data-bs-toggle="modal" data-bs-target="#detallesModal"
+                (click)="openModal('FRAVEGA')">
+            <h2 class="fw-normal">Frávega</h2>
+            <p>Automatice por coordenadas varias tareas costosas en tiempo y dificilmente automatizables.</p>
+        </div>
+
+    </div>
+</div>
+
+<div class="modal fade" id="detallesModal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title" id="ModalLabel">{{ title }}</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body">
+                {{ body }}
+            </div>
+
+        </div>
+    </div>
+</div>

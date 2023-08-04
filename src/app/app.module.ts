@@ -27,6 +27,7 @@ import { SkillsComponent } from './shared/components/skills/skills.component';
 import { PercentageSortPipe } from './core/pipes/percentage-sort.pipe';
 import { EmpleadoresComponent } from './shared/components/empleadores/empleadores.component';
 import { DevRepositoriesComponent } from './shared/components/dev-repositories/dev-repositories.component';
+import { DestacadoComponent } from './shared/components/destacado/destacado.component';
 
 
 @NgModule({
@@ -51,7 +52,8 @@ import { DevRepositoriesComponent } from './shared/components/dev-repositories/d
     SkillsComponent,
     PercentageSortPipe,
     EmpleadoresComponent,
-    DevRepositoriesComponent
+    DevRepositoriesComponent,
+    DestacadoComponent
   ],
   imports: [
     BrowserModule,
