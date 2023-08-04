@@ -2,7 +2,7 @@
     <div class="col">
       <div class="carousel slide" data-bs-ride="carousel" id="slider">
         <div class="carousel-inner">
-          <div class="carousel-item" *ngFor="let image of getImages(); let i = index" [class.active]="i === 0">
+          <div class="carousel-item" *ngFor="let image of img; let i = index" [class.active]="i === 0">
             <img class="d-block w-100" [src]="image" alt="Slideshow {{ i + 1 }}">
           </div>
         </div>

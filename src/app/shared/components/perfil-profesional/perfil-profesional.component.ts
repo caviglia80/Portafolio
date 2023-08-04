@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GlobalChecker } from 'src/app/app.component';
 
 @Component({
   selector: 'app-perfil-profesional',
@@ -6,10 +7,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./perfil-profesional.component.css']
 })
 export class PerfilProfesionalComponent implements OnInit {
+  public imgPerfil: string = 'assets/Perfil1.jpg';
 
   constructor() { }
 
   ngOnInit(): void {
+    this.checkImages();
   }
 
+  private async checkImages() {
+    this.imgPerfil = await GlobalChecker.checkImageExists(this.imgPerfil);
+  }
 }

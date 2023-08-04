@@ -1,5 +1,6 @@
 import { Component, HostListener, ElementRef } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
+import { GlobalChecker } from 'src/app/app.component';
 
 @Component({
   selector: 'app-nav',
@@ -7,6 +8,7 @@ import { Router, NavigationEnd } from '@angular/router';
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent {
+  public imgLogo: string = 'assets/cavigliaLogo.png';
   isCollapsed = true;
 
   constructor(private router: Router, private elementRef: ElementRef) {
@@ -17,6 +19,10 @@ export class NavComponent {
     });
   }
 
+  ngOnInit(): void {
+    this.checkImages();
+  }
+
   @HostListener('document:click', ['$event'])
   onDocumentClick(event: MouseEvent) {
     const target = event.target as HTMLElement;
@@ -25,4 +31,7 @@ export class NavComponent {
     }
   }
 
+  private async checkImages() {
+    this.imgLogo = await GlobalChecker.checkImageExists(this.imgLogo);
+  }
 }

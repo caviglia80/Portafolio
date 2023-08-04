@@ -1,12 +1,14 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
 import { Subscription } from 'rxjs';
+import { Injectable } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent implements OnInit, OnDestroy {
   title = 'CV';
   private routerSubscription: Subscription | undefined;
@@ -27,15 +29,16 @@ export class AppComponent implements OnInit, OnDestroy {
     this.defaultLanguage = navigator.language || 'es';
   }
 
-  public isMain():boolean {
-    return this.currentUrl.includes('main') || (this.currentUrl === '');
-  }
-
   ngOnDestroy() {
     this.routerSubscription?.unsubscribe();
   }
+
+  public isMain(): boolean {
+    return this.currentUrl.includes('main') || (this.currentUrl === '');
+  }
 }
 
+@Injectable()
 export class GlobalVariables {
   public static wspNumer: string = '+5492364653595';
   public static wspTxt: string = '';
@@ -43,5 +46,13 @@ export class GlobalVariables {
   public static githubUser: string = 'caviglia80';
 }
 
-
-
+export class GlobalChecker {
+  static async checkImageExists(imageUrl: string): Promise<string> {
+    try {
+      const response = await fetch(imageUrl);
+      return response.ok ? imageUrl : 'assets/error.svg';
+    } catch (error) {
+      return 'assets/error.svg';
+    }
+  }
+}
