@@ -37,8 +37,18 @@ export class SkillsComponent implements OnInit {
     });
   }
 
+  /* filtrar solo por name */
+  /*   public filtrarLista(): void {
+      this.listaFiltrada = this.lista.filter(item => item.name.toLowerCase().includes(this.filtro.toLowerCase()));
+      this.seleccionarPrimerItem();
+    } */
+
+  /* filtrar por name y description */
   public filtrarLista(): void {
-    this.listaFiltrada = this.lista.filter(item => item.name.toLowerCase().includes(this.filtro.toLowerCase()));
+    this.listaFiltrada = this.lista.filter(item =>
+      item.name.toLowerCase().includes(this.filtro.toLowerCase()) ||
+      item.description.toLowerCase().includes(this.filtro.toLowerCase())
+    );
     this.seleccionarPrimerItem();
   }
 
