@@ -118,6 +118,7 @@
         { "name": "eMail Security and Phishing Recognition 2020", "description": "Capacitación Global Obligatoria HSBC (Completo y Certificado).", "percentage": 100 },
         { "name": "Angular desde cero a experto", "description": "Institución educativa: Udemy (Completo y Certificado). Angular desde cero a experto: Crear una aplicación real. Angular 12 y TypeScript.", "percentage": 100 },
         { "name": "Bootstrap 5", "description": "Institución educativa: Udemy (Completo y Certificado). Bootstrap 5: El Curso Completo, Práctico y Desde Cero + CSS.", "percentage": 100 },
+        { "name": "Cypress 12", "description": "Institución educativa: Udemy (Completo y Certificado). Cypress 12: Automatización de pruebas de punta a punta", "percentage": 100 },
         { "name": "Angular 14 - La Guia Completa", "description": "Institución educativa: Udemy (Completo y Certificado). Angular 14 y TypeScript.", "percentage": 100 }
     ]
 }
