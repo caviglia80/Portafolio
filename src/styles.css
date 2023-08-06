@@ -236,9 +236,24 @@ h3 {
 }
 
 .dark-mode .modal-content .bi {
-	color: red!important;
+	color: red !important;
 }
 
 .dark-mode .modal-content button span {
 	color: #1ba0ef;
+}
+
+.dark-mode .toast-body {
+	color: #0e0d0d;
+}
+
+.dark-mode .toast {
+	border: 1px solid #00426a !important;
+}
+
+.dark-mode .toast a,
+.dark-mode .toast-header,
+.dark-mode .toast-header svg {
+	color: #00426a !important;
+	fill: #00426a !important;
 }

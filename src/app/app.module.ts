@@ -29,6 +29,7 @@ import { EmpleadoresComponent } from './shared/components/empleadores/empleadore
 import { DevRepositoriesComponent } from './shared/components/dev-repositories/dev-repositories.component';
 import { DestacadoComponent } from './shared/components/destacado/destacado.component';
 import { DarkModeComponent } from './shared/components/dark-mode/dark-mode.component';
+import { ToastComponent } from './shared/components/toast/toast.component';
 
 
 @NgModule({
@@ -55,7 +56,8 @@ import { DarkModeComponent } from './shared/components/dark-mode/dark-mode.compo
     EmpleadoresComponent,
     DevRepositoriesComponent,
     DestacadoComponent,
-    DarkModeComponent
+    DarkModeComponent,
+    ToastComponent
   ],
   imports: [
     BrowserModule,
