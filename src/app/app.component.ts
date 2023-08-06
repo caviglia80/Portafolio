@@ -13,14 +13,12 @@ export class AppComponent implements OnInit, OnDestroy {
   title = 'CV';
   private routerSubscription: Subscription | undefined;
   public static currentUrl: string = '';
-  public currentUrl: string = '';
   public defaultLanguage: string = '';
 
   constructor(private router: Router) {
     this.routerSubscription = this.router.events.subscribe((event) => {
       if (event instanceof NavigationEnd) {
-        this.currentUrl = event.url.split('/').pop() ?? '';
-        AppComponent.currentUrl = this.currentUrl;
+        AppComponent.currentUrl = event.url.split('/').pop() ?? '';
       }
     });
   }
@@ -34,7 +32,7 @@ export class AppComponent implements OnInit, OnDestroy {
   }
 
   public isMain(): boolean {
-    return this.currentUrl.includes('main') || (this.currentUrl === '');
+    return AppComponent.currentUrl.includes('main') || (AppComponent.currentUrl === '');
   }
 }
 

@@ -12,29 +12,19 @@
 
     <div class="collapse navbar-collapse" id="menu" [ngClass]="{'show': !isCollapsed}">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0 Animation">
-        <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" (click)="scrollTo('inicio')">Inicio</a></li>
 
-        <li class="nav-item"><a class="nav-link" href="#">Portafolio</a></li>
+        <li class="nav-item"><a class="nav-link" (click)="scrollTo('experiencias')">Experiencias</a></li>
 
-        <li class="nav-item"><a class="nav-link" href="#">Perfil</a></li>
+        <li class="nav-item"><a class="nav-link" (click)="scrollTo('perfil')">Perfil</a></li>
 
-        <li class="nav-item"><a class="nav-link" href="#">Info</a></li>
+        <li class="nav-item"><a class="nav-link" (click)="scrollTo('certificados')">Certificados</a></li>
 
-        <li class="nav-item"><a class="nav-link" href="#">Habilidades</a></li>
+        <li *ngIf="router.url.includes('qa')" class="nav-item"><a class="nav-link" (click)="scrollTo('destacado')">Destacado</a></li>
 
-        <li class="nav-item"><a class="nav-link" href="#">Formación</a></li>
+        <li *ngIf="router.url.includes('desarrollo')" class="nav-item"><a class="nav-link" (click)="scrollTo('repositorio')">Repositorio</a></li>
 
-        <li class="nav-item"><a class="nav-link" href="#">Desarrollo</a></li>
-
-        <li class="nav-item"><a class="nav-link" href="#">QA</a></li>
-
-        <li class="nav-item"><a class="nav-link" href="#">Experiencia</a></li>
-
-        <li class="nav-item"><a class="nav-link" href="#">Destacado</a></li>
-
-        <li class="nav-item"><a class="nav-link" href="#">Certificados</a></li>
-
-        <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+        <li class="nav-item"><a class="nav-link" (click)="scrollTo('contacto')">Contacto</a></li>
 
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown" aria-expanded="false">Sector</a>

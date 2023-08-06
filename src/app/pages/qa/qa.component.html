@@ -1,3 +1,6 @@
+<app-nav></app-nav>
+
+
 <header class="container my-5">
     <app-title></app-title>
 </header>
@@ -7,9 +10,9 @@
 </div>
 
 <div class="container my-5">
-    <app-skills [Json]="'QA_tecnologias'" [title]="'Quality Assurance y otros conocimientos'"></app-skills>
-    <app-perfil-profesional></app-perfil-profesional>
-    <app-skills [Json]="'certificaciones'" [title]="'Cursos y certificaciones'"></app-skills>
-    <app-destacado></app-destacado>
+    <app-skills id="experiencias" [Json]="'QA_tecnologias'" [title]="'Quality Assurance y otros conocimientos'"></app-skills>
+    <app-perfil-profesional id="perfil"></app-perfil-profesional>
+    <app-skills id="certificados" [Json]="'certificaciones'" [title]="'Cursos y certificaciones'"></app-skills>
+    <app-destacado id="destacado"></app-destacado>
     <app-empleadores></app-empleadores>
 </div>

@@ -9,9 +9,9 @@ import { GlobalChecker } from 'src/app/app.component';
 })
 export class NavComponent {
   public imgLogo: string = 'assets/cavigliaLogo.png';
-  isCollapsed = true;
+  public isCollapsed = true;
 
-  constructor(private router: Router, private elementRef: ElementRef) {
+  constructor(public router: Router, private elementRef: ElementRef) {
     this.router.events.subscribe((event) => {
       if (event instanceof NavigationEnd) {
         this.isCollapsed = true;
@@ -25,8 +25,7 @@ export class NavComponent {
 
   @HostListener('document:click', ['$event'])
   onDocumentClick(event: MouseEvent) {
-    const target = event.target as HTMLElement;
-    if (!this.elementRef.nativeElement.contains(target)) {
+    if (!this.elementRef.nativeElement.contains(event.target)) {
       this.isCollapsed = true;
     }
   }
@@ -34,4 +33,14 @@ export class NavComponent {
   private async checkImages() {
     this.imgLogo = await GlobalChecker.checkImageExists(this.imgLogo);
   }
+
+  public scrollTo(id: string): void {
+    this.isCollapsed = true;
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+
+
 }

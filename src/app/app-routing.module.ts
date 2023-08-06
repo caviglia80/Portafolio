@@ -5,7 +5,6 @@ import { MainComponent } from '@pages/main/main.component';
 import { DesarrolloComponent } from '@pages/desarrollo/desarrollo.component';
 import { QaComponent } from '@pages/qa/qa.component';
 
-
 const routes: Routes = [
   { path: 'main', component: MainComponent },
   { path: 'desarrollo', component: DesarrolloComponent },

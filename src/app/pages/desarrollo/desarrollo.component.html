@@ -1,3 +1,5 @@
+<app-nav></app-nav>
+
 <header class="container my-5">
     <app-title></app-title>
 </header>
@@ -8,9 +10,9 @@
 
 <div class="container my-5">
     <!-- <app-portafolio></app-portafolio> -->
-    <app-skills [Json]="'DEV_tecnologias'" [title]="'Desarrollo y otros conocimientos'"></app-skills>
-    <app-perfil-profesional></app-perfil-profesional>
-    <app-skills [Json]="'certificaciones'" [title]="'Cursos y certificaciones'"></app-skills>
-    <app-dev-repositories></app-dev-repositories>
+    <app-skills  id="experiencias" [Json]="'DEV_tecnologias'" [title]="'Desarrollo y otros conocimientos'"></app-skills>
+    <app-perfil-profesional id="perfil"></app-perfil-profesional>
+    <app-skills id="certificados" [Json]="'certificaciones'" [title]="'Cursos y certificaciones'"></app-skills>
+    <app-dev-repositories id="repositorio"></app-dev-repositories>
     <app-empleadores></app-empleadores>
 </div> 
