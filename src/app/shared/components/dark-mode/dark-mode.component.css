@@ -13,7 +13,7 @@ label {
 	z-index: 9999;
 	left: 48%;
 	transition: opacity 0.3s;
-	opacity: 0.4;
+	opacity: 0.5;
 }
 
 label:hover {
