@@ -28,6 +28,7 @@ import { PercentageSortPipe } from './core/pipes/percentage-sort.pipe';
 import { EmpleadoresComponent } from './shared/components/empleadores/empleadores.component';
 import { DevRepositoriesComponent } from './shared/components/dev-repositories/dev-repositories.component';
 import { DestacadoComponent } from './shared/components/destacado/destacado.component';
+import { DarkModeComponent } from './shared/components/dark-mode/dark-mode.component';
 
 
 @NgModule({
@@ -53,7 +54,8 @@ import { DestacadoComponent } from './shared/components/destacado/destacado.comp
     PercentageSortPipe,
     EmpleadoresComponent,
     DevRepositoriesComponent,
-    DestacadoComponent
+    DestacadoComponent,
+    DarkModeComponent
   ],
   imports: [
     BrowserModule,

@@ -1,7 +1,5 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 @import '~bootstrap-icons/font/bootstrap-icons.css';
-@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@600&display=swap');
-
 
 .Animation-active:active {
 	animation: btnAnimation .7s;
@@ -9,6 +7,10 @@
 
 .Animation {
 	animation: btnAnimation .6s;
+}
+
+.hidden {
+	display: none !important;
 }
 
 @keyframes btnAnimation {
@@ -25,10 +27,6 @@
 	}
 }
 
-.hidden {
-	display: none !important;
-}
-
 /* desktop */
 @media (min-width: 993px) {
 
@@ -40,15 +38,37 @@
 }
 
 /* mobile */
-@media (max-width: 993px) {
+@media (max-width: 99px) {
 	.cursor-circle {
 		display: none !important;
 	}
+
+	.logo {
+		height: 76px;
+	}
+
+	header .menu {
+		min-height: 76px;
+	}
+
+	header .menu a {
+		width: 100%;
+	}
 }
+
+
+
+
+
+
+
+
+
+
 
 body {
 	background: #f2f2f2;
-	font-family: 'Lato', 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 header .nav {
@@ -63,75 +83,53 @@ header .logo p {
 	display: inline-block;
 }
 
-header .logo .icono {
-	color: #bfbfbf;
-}
-
-header .logo svg {
-	width: 20px;
-	height: 20px;
-}
-
 header .logo p {
 	color: #777777;
 }
 
-.c1 {
-	background: #2e70a2;
+header .logo .icono {
+	color: #bfbfbf;
 }
 
-.c2 {
-	background: #3887c3;
-}
-
-.c1:hover {
-	background: #1ba0ef;
-}
-
-.c2:hover {
-	background: #00426a;
-}
-
-/* MAIN */
-/* Portafolio */
 .portafolio {
 	border-top: 5px solid #3da5e2;
 	background: #fff;
 }
 
-.portafolio .titulo {
+h2 {
 	color: #3da5e2;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
+	font-size: 32px;
 }
 
-/* Ventana Modal */
+.nav h2 {
+	color: #0e0d0d;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 32px;
+}
+
+.destacados h2 {
+	color: #777777;
+}
+
+h3 {
+	color: #1ba0ef;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 200;
+	font-size: 28px;
+}
+
 .modal-dialog {
 	max-width: 1000px;
 }
 
-/* Acerca de */
 .acerca-de .foto .nombre {
 	color: #545454;
 	font-weight: 300;
 	font-size: 18px;
 	letter-spacing: 2px;
-}
-
-.titulo {
-	color: #005385;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
-	font-size: 40px;
-	margin-bottom: 30px;
-}
-
-.sub-titulo {
-	color: #005385;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 200;
-	font-size: 28px;
-	margin-bottom: 30px;
 }
 
 .resumen {
@@ -146,7 +144,7 @@ header .logo p {
 .acerca-de .info .label {
 	font-size: 18px;
 	font-weight: 600;
-	color: #005385;
+	color: #00426a;
 	margin-bottom: 10px;
 }
 
@@ -162,26 +160,85 @@ header .logo p {
 	padding-left: 20px;
 }
 
-/* Dispositivo md */
-@media screen and (max-width: 768px) {}
-
-/* Dispositivo lg */
-@media screen and (max-width: 992px) {
-	.logo {
-		height: 76px;
-	}
-
-	header .menu {
-		min-height: 76px;
-	}
-
-	header .menu a {
-		width: 100%;
-	}
+.dark-mode {
+	background: #121212;
+	color: #ffffff;
 }
 
-/* Dispositivo xl */
-@media screen and (max-width: 1200px) {}
+.dark-mode .nav,
+.dark-mode .portafolio {
+	background: #121212;
+	color: #ffffff;
+	border: 1px solid #00426a;
+}
 
-/* Dispositivo xxl */
-@media screen and (max-width: 1400px) {}
+.dark-mode input,
+.dark-mode input:focus {
+	border: 1px solid #00426a;
+	background-color: #00000098;
+	color: #ccc;
+}
+
+.dark-mode input::placeholder {
+	color: #ccc;
+}
+
+.dark-mode .cuadro-texto {
+	color: #ccc;
+	border: 1px solid #00426a !important;
+}
+
+.dark-mode p,
+.dark-mode .logo h2,
+.dark-mode .destacados h2,
+.dark-mode h4 {
+	color: #ccc;
+}
+
+.dark-mode .btn {
+	color: #1ba0ef;
+	border: 1px solid #00426a !important;
+	background-color: transparent;
+}
+
+.dark-mode .btn:hover {
+	color: #ffffff;
+	background-color: #00426a;
+}
+
+.dark-mode .btn:active {
+	color: #ffffff;
+	background-color: #3887c3;
+}
+
+.dark-mode ul li a {
+	color: #3887c3;
+}
+
+.dark-mode nav,
+.dark-mode footer {
+	background-color: #0e0d0d !important;
+}
+
+.dark-mode .bi,
+.dark-mode .moon {
+	color: #1ba0ef;
+	fill: #1ba0ef !important;
+}
+
+.dark-mode .modal-content {
+	background-color: #0e0d0d !important;
+	border: 1px solid #00426a !important;
+}
+
+.dark-mode .modal-content h5 {
+	color: #1ba0ef;
+}
+
+.dark-mode .modal-content .bi {
+	color: red!important;
+}
+
+.dark-mode .modal-content button span {
+	color: #1ba0ef;
+}

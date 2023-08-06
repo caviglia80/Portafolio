@@ -5,7 +5,8 @@
 }
 
 .liSeleccion {
-  box-shadow: 3px 3px 15px #16445f; /* #3da5e2 */
+  box-shadow: 4px 3px 10px #1ba1efbb; /* #3da5e2 */
+  background-color: rgba(128, 128, 128, 0.1);
 }
 
 .cuadro-texto {
@@ -13,4 +14,4 @@
   padding: 10px;
   max-height: 350px;
   overflow-y: auto;
-}
+} 
