@@ -3,7 +3,7 @@
   padding: 10px;
   max-height: 350px;
   overflow-y: auto;
-} 
+}
 
 .lista-scroll {
   max-height: 375px;
@@ -12,10 +12,16 @@
 }
 
 .liSeleccion {
-  box-shadow: 4px 3px 10px #1ba1efbb; /* #3da5e2 */
+  box-shadow: 4px 3px 10px #1ba1efbb;
+  /* #3da5e2 */
   background-color: rgba(128, 128, 128, 0.1);
 }
 
 li:hover {
   filter: brightness(130%);
+}
+
+.contenedor-filtro {
+  display: flex;
+  align-items: center;
 }

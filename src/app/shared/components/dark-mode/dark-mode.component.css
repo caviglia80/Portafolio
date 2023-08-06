@@ -1,7 +1,6 @@
 label {
 	width: 60px;
 	height: 30px;
-	/* position: absolute; */
 	display: block;
 	background: #ebebeb;
 	border-radius: 200px;
@@ -11,14 +10,18 @@ label {
 	position: fixed;
 	bottom: 2px;
 	z-index: 9999;
-	left: 48%;
+	left: 47%;
 	transition: opacity 0.3s;
 	opacity: 0.5;
 }
 
 label:hover {
 	opacity: 1;
-  }
+}
+
+label:focus {
+	outline: none;
+}
 
 label:after {
 	content: "";
@@ -92,3 +95,30 @@ input:checked+label svg.sun {
 input:checked+label svg.moon {
 	fill: #fff;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
