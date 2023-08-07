@@ -267,11 +267,14 @@ h3 {
 }
 
 .dark-mode .cursor-circle {
-	border: 1px solid #00426a!important;
+	border: 1px solid #00426a !important;
 }
 
 .dark-mode .cursor-point {
-	background-color: #1ba0ef!important;
+	background-color: #1ba0ef !important;
 }
 
-
+.dark-mode .nav-item .dropdown-menu {
+	background-color: #0e0d0d;
+	border: 1px solid #00426a;
+}
