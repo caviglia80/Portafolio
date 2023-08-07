@@ -8,7 +8,7 @@ import { GlobalChecker } from 'src/app/app.component';
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent {
-  public imgLogo: string = 'assets/cavigliaLogo.png';
+  public imgLogo: string = 'assets/Logos/logo.png';
   public isCollapsed = true;
 
   constructor(public router: Router, private elementRef: ElementRef) {
