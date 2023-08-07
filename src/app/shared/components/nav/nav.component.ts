@@ -38,7 +38,7 @@ export class NavComponent {
     this.isCollapsed = true;
     const element = document.getElementById(id);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
   }
 

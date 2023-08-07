@@ -64,7 +64,20 @@
 
 
 
+/* No permitir seleccionar texto para todos los navegadores */
+* {
+	user-select: none;
+}
 
+/* Para Safari */
+*::selection {
+	background-color: transparent;
+}
+
+/* Para Firefox */
+*::-moz-selection {
+	background-color: transparent;
+}
 
 body {
 	background: #f2f2f2;
@@ -287,3 +300,6 @@ h3 {
 	border: 1px solid #00426a;
 }
 
+.dark-mode ul li p {
+	color: #3887c3 !important;
+}
