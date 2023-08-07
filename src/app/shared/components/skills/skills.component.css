@@ -13,15 +13,15 @@
 
 .liSeleccion {
   box-shadow: 4px 3px 10px #1ba1efbb;
-  /* #3da5e2 */
   background-color: rgba(128, 128, 128, 0.1);
 }
 
 li:hover {
-  filter: brightness(130%);
+  filter: brightness(120%);
 }
 
 .contenedor-filtro {
   display: flex;
   align-items: center;
 }
+
