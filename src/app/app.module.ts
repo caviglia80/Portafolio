@@ -14,7 +14,6 @@ import { DesarrolloComponent } from '@pages/desarrollo/desarrollo.component';
 import { QaComponent } from '@pages/qa/qa.component';
 import { TitleComponent } from '@components/title/title.component';
 import { CarouselComponent } from '@components/carousel/carousel.component';
-import { PortafolioComponent } from '@components/portafolio/portafolio.component';
 import { ExperienciaLaboralComponent } from '@components/experiencia-laboral/experiencia-laboral.component';
 import { PerfilProfesionalComponent } from '@components/perfil-profesional/perfil-profesional.component';
 import { FooterComponent } from '@components/footer/footer.component';
@@ -42,7 +41,6 @@ import { ToastComponent } from './shared/components/toast/toast.component';
     QaComponent,
     TitleComponent,
     CarouselComponent,
-    PortafolioComponent,
     ExperienciaLaboralComponent,
     PerfilProfesionalComponent,
     FooterComponent,
