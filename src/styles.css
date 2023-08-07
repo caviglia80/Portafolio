@@ -265,3 +265,16 @@ h3 {
 #destacado img:hover {
 	box-shadow: 4px 4px 15px #0e0d0d;
 }
+
+
+.dark-mode .cursor-circle {
+	border: 1px solid #00426a!important;
+}
+
+.dark-mode .cursor-point {
+	background-color: #1ba0ef!important;
+}
+
+
+
+

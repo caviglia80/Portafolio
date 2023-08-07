@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 export class GithubService {
   constructor(private http: HttpClient) { }
 
-  getRepos(): Observable<any[]> {
+  getRepos(): Observable<any[]> {  
     return this.http.get<any[]>(`https://api.github.com/users/caviglia80/repos`);
   }
 }
