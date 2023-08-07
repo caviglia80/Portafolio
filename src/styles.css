@@ -257,3 +257,11 @@ h3 {
 	color: #00426a !important;
 	fill: #00426a !important;
 }
+
+.dark-mode #destacado img:hover {
+	box-shadow: 5px 5px 15px #1ba1efbb;
+}
+
+#destacado img:hover {
+	box-shadow: 4px 4px 15px #0e0d0d;
+}

@@ -28,12 +28,14 @@ export class AppComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy() {
-    this.routerSubscription?.unsubscribe();
+    if (this.routerSubscription)
+      this.routerSubscription.unsubscribe();
   }
 
   public isMain(): boolean {
     return AppComponent.currentUrl.includes('main') || (AppComponent.currentUrl === '');
   }
+
 }
 
 @Injectable()

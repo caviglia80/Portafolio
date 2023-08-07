@@ -29,12 +29,14 @@ export class SkillsComponent implements OnInit {
   }
 
   cargarDatos() {
-    this.http.get<any>('assets/data/skills.json').subscribe((data) => {
-      if (data && data[this.Json]) {
-        this.lista = data[this.Json];
-        this.filtrarLista();
-      }
-    });
+
+    if (this.http)
+      this.http.get<any>('assets/data/skills.json').subscribe((data) => {
+        if (data && data[this.Json]) {
+          this.lista = data[this.Json];
+          this.filtrarLista();
+        }
+      });
   }
 
   /* filtrar solo por name */

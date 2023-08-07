@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { GithubService } from '@services/github.service';
 import { Observable } from 'rxjs';
 
@@ -7,14 +7,10 @@ import { Observable } from 'rxjs';
   templateUrl: './dev-repositories.component.html',
   styleUrls: ['./dev-repositories.component.css']
 })
-export class DevRepositoriesComponent implements OnInit {
-  public repos$: Observable<any[]> = new Observable as Observable<any[]>;
+export class DevRepositoriesComponent {
+  public repos$: Observable<any[]> = this.githubService.getRepos();
 
   constructor(private githubService: GithubService) { }
-
-  ngOnInit(): void {
-    this.repos$ = this.githubService.getRepos();
-  }
 
   public truncateDescription(description: string): string {
     if (description)
