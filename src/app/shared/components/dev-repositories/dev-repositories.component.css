@@ -1,0 +1,14 @@
+a img {
+	box-shadow: 0px 0px 10px #0e0d0d;
+    filter: brightness(95%);
+    transition: all .3s;
+}
+
+a img:hover {
+    filter: brightness(140%);
+    box-shadow: 4px 4px 10px #0e0d0d;
+}
+
+.repoItem h3{
+    overflow: hidden;
+}
