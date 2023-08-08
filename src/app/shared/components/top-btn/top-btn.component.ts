@@ -11,21 +11,24 @@ export class TopBtnComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.button = document.getElementById('top-button');
+    try {
+      this.button = document.getElementById('top-button');
 
-    if (this.button)
-      this.button.addEventListener('click', () => {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-      });
-
-    window.addEventListener('scroll', () => {
       if (this.button)
-        if (window.scrollY > 0)
-          this.button.style.display = 'inline-block';
-        else
-          this.button.style.display = 'none';
-    });
+        this.button.addEventListener('click', () => {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+  
+      window.addEventListener('scroll', () => {
+        if (this.button)
+          if (window.scrollY > 0)
+            this.button.style.display = 'inline-block';
+          else
+            this.button.style.display = 'none';
+      });
+    } catch (error) {
+      console.log(error);
+    }
   }
-
 }
  

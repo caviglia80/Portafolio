@@ -16,11 +16,15 @@ export class AppComponent implements OnInit, OnDestroy {
   public defaultLanguage: string = '';
 
   constructor(private router: Router) {
-    this.routerSubscription = this.router.events.subscribe((event) => {
-      if (event instanceof NavigationEnd) {
-        AppComponent.currentUrl = event.url.split('/').pop() ?? '';
-      }
-    });
+    try {
+      this.routerSubscription = this.router.events.subscribe((event) => {
+        if (event instanceof NavigationEnd) {
+          AppComponent.currentUrl = event.url.split('/').pop() ?? '';
+        }
+      });
+    } catch (error) {
+      console.log(error);
+    }
   }
 
   ngOnInit() {
@@ -28,14 +32,22 @@ export class AppComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy() {
-    if (this.routerSubscription)
-      this.routerSubscription.unsubscribe();
+    try {
+      if (this.routerSubscription)
+        this.routerSubscription.unsubscribe();
+    } catch (error) {
+      console.log(error);
+    }
   }
 
   public isMain(): boolean {
-    return AppComponent.currentUrl.includes('main') || (AppComponent.currentUrl === '');
+    try {
+      return AppComponent.currentUrl.includes('main') || (AppComponent.currentUrl === '');
+    } catch (error) {
+      console.log(error);
+      return false;
+    }
   }
-
 }
 
 @Injectable()

@@ -17,7 +17,6 @@ import { CarouselComponent } from '@components/carousel/carousel.component';
 import { ExperienciaLaboralComponent } from '@components/experiencia-laboral/experiencia-laboral.component';
 import { PerfilProfesionalComponent } from '@components/perfil-profesional/perfil-profesional.component';
 import { FooterComponent } from '@components/footer/footer.component';
-import { CursorCircleComponent } from './shared/components/cursor-circle/cursor-circle.component';
 import { WhatsappBtnComponent } from './shared/components/whatsapp-btn/whatsapp-btn.component';
 import { LinkedinBtnComponent } from './shared/components/linkedin-btn/linkedin-btn.component';
 import { GithubBtnComponent } from './shared/components/github-btn/github-btn.component';
@@ -44,7 +43,6 @@ import { ToastComponent } from './shared/components/toast/toast.component';
     ExperienciaLaboralComponent,
     PerfilProfesionalComponent,
     FooterComponent,
-    CursorCircleComponent,
     WhatsappBtnComponent,
     LinkedinBtnComponent,
     GithubBtnComponent,

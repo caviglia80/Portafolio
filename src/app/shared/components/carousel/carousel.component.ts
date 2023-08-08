@@ -15,13 +15,21 @@ export class CarouselComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.img = AppComponent.currentUrl.includes('desarrollo') ? this.img_dev : this.img_qa;
-    this.checkImages();
+    try {
+      this.img = AppComponent.currentUrl.includes('desarrollo') ? this.img_dev : this.img_qa;
+      this.checkImages();
+    } catch (error) {
+      console.log(error);
+    }
   }
 
   private async checkImages() {
-    for (let i = 0; i < this.img.length; i++) {
-      this.img[i] = await GlobalChecker.checkImageExists(this.img[i]);
+    try {
+      for (let i = 0; i < this.img.length; i++) {
+        this.img[i] = await GlobalChecker.checkImageExists(this.img[i]);
+      }
+    } catch (error) {
+      console.log(error);
     }
   }
 }

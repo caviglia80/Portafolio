@@ -16,6 +16,10 @@ export class PerfilProfesionalComponent implements OnInit {
   }
 
   private async checkImages() {
-    this.imgPerfil = await GlobalChecker.checkImageExists(this.imgPerfil);
+    try {
+      this.imgPerfil = await GlobalChecker.checkImageExists(this.imgPerfil);
+    } catch (error) {
+      console.log(error);
+    }
   }
 }

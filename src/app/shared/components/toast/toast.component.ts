@@ -21,28 +21,40 @@ export class ToastComponent implements OnDestroy {
   private timerSubscription: Subscription | undefined;
 
   constructor() {
-    const timer$ = interval(1000).pipe(
-      take(this.secondsLeft)
-    );
-
-    this.timerSubscription = timer$.subscribe(() => {
-      this.secondsLeft--;
-
-      if (this.secondsLeft === 0) {
-        this.closeToast();
-      }
-    });
+    try {
+      const timer$ = interval(1000).pipe(
+        take(this.secondsLeft)
+      );
+  
+      this.timerSubscription = timer$.subscribe(() => {
+        this.secondsLeft--;
+  
+        if (this.secondsLeft === 0) {
+          this.closeToast();
+        }
+      });
+    } catch (error) {
+      console.log(error);
+    }
   }
 
   ngOnDestroy() {
-    if (this.timerSubscription) {
-      this.timerSubscription.unsubscribe();
+    try {
+      if (this.timerSubscription) {
+        this.timerSubscription.unsubscribe();
+      }
+    } catch (error) {
+      console.log(error);
     }
   }
 
   closeToast() {
-    const toast: HTMLElement | null = document.getElementById('toast');
-    if (toast)
-      toast.classList.add('hidden');
+    try {
+      const toast: HTMLElement | null = document.getElementById('toast');
+      if (toast)
+        toast.classList.add('hidden');
+    } catch (error) {
+      console.log(error);
+    }
   }
 }

@@ -9,6 +9,11 @@ export class GithubService {
   constructor(private http: HttpClient) { }
 
   getRepos(): Observable<any[]> {  
-    return this.http.get<any[]>(`https://api.github.com/users/caviglia80/repos`);
+    try {
+      return this.http.get<any[]>(`https://api.github.com/users/caviglia80/repos`);
+    } catch (error) {
+      console.log(error);
+      return new Observable<any[]>;
+    }
   }
 }

@@ -12,11 +12,15 @@ export class NavComponent {
   public isCollapsed = true;
 
   constructor(public router: Router, private elementRef: ElementRef) {
-    this.router.events.subscribe((event) => {
-      if (event instanceof NavigationEnd) {
-        this.isCollapsed = true;
-      }
-    });
+    try {
+      this.router.events.subscribe((event) => {
+        if (event instanceof NavigationEnd) {
+          this.isCollapsed = true;
+        }
+      });
+    } catch (error) {
+      console.log(error);
+    }
   }
 
   ngOnInit(): void {
@@ -25,22 +29,32 @@ export class NavComponent {
 
   @HostListener('document:click', ['$event'])
   onDocumentClick(event: MouseEvent) {
-    if (!this.elementRef.nativeElement.contains(event.target)) {
-      this.isCollapsed = true;
+    try {
+      if (!this.elementRef.nativeElement.contains(event.target)) {
+        this.isCollapsed = true;
+      }
+    } catch (error) {
+      console.log(error);
     }
   }
 
   private async checkImages() {
-    this.imgLogo = await GlobalChecker.checkImageExists(this.imgLogo);
-  }
-
-  public scrollTo(id: string): void {
-    this.isCollapsed = true;
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    try {
+      this.imgLogo = await GlobalChecker.checkImageExists(this.imgLogo);
+    } catch (error) {
+      console.log(error);
     }
   }
 
-
+  public scrollTo(id: string): void {
+    try {
+      this.isCollapsed = true;
+      const element = document.getElementById(id);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    } catch (error) {
+      console.log(error);
+    }
+  }
 }

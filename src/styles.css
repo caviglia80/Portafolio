@@ -29,19 +29,10 @@
 
 /* desktop */
 @media (min-width: 992px) {
-
-	a,
-	button,
-	body {
-		cursor: none !important;
-	}
 }
 
 /* mobile */
 @media (max-width: 992px) {
-	.cursor-circle {
-		display: none !important;
-	}
 
 	.logo {
 		height: 76px;
@@ -172,7 +163,7 @@ h3 {
 	line-height: 25px;
 	padding-left: 20px;
 }
-
+ 
 #destacado img:hover {
 	box-shadow: 4px 4px 15px #0e0d0d;
 }
@@ -285,14 +276,6 @@ h3 {
 
 .dark-mode #destacado img:hover {
 	box-shadow: 5px 5px 15px #1ba1efbb;
-}
-
-.dark-mode .cursor-circle {
-	border: 1px solid #00426a !important;
-}
-
-.dark-mode .cursor-point {
-	background-color: #1ba0ef !important;
 }
 
 .dark-mode .nav-item .dropdown-menu {

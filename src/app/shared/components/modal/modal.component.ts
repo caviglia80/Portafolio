@@ -11,8 +11,21 @@ export class ModalComponent {
 
   constructor(public bsModalRef: BsModalRef) { }
 
-  hide(): void { this.bsModalRef.hide(); }
-  error(): void { this.errorLabel = true; }
+  hide(): void {
+    try {
+      this.bsModalRef.hide();
+    } catch (error) {
+      console.log(error);
+    }
+  }
+  error(): void {
+    try {
+      this.errorLabel = true;
+    } catch (error) {
+      console.log(error);
+    }
+  }
+
 }
 
 

@@ -12,6 +12,10 @@ export class TitleComponent implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit(): void {
-    this.title = this.router.url.includes('desarrollo') ? 'Desarrollador Web' : 'Quality Assurance Analyst';
+    try {
+      this.title = this.router.url.includes('desarrollo') ? 'Desarrollador Web' : 'Quality Assurance Analyst';
+    } catch (error) {
+      console.log(error);
+    }
   }
 }

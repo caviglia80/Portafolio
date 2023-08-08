@@ -13,9 +13,14 @@ export class DevRepositoriesComponent {
   constructor(private githubService: GithubService) { }
 
   public truncateDescription(description: string): string {
-    if (description)
+    try {
+      if (description)
       return description.length > 76 ? description.substring(0, 76) + '..' : description;
     else
       return '';
+    } catch (error) {
+      console.log(error);
+      return '';
+    }
   }
 }

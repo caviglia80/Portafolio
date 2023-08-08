@@ -29,14 +29,17 @@ export class SkillsComponent implements OnInit {
   }
 
   cargarDatos() {
-
-    if (this.http)
+    try {
+      if (this.http)
       this.http.get<any>('assets/data/skills.json').subscribe((data) => {
         if (data && data[this.Json]) {
           this.lista = data[this.Json];
           this.filtrarLista();
         }
       });
+    } catch (error) {
+      console.log(error);
+    }
   }
 
   /* filtrar solo por name */
@@ -47,30 +50,46 @@ export class SkillsComponent implements OnInit {
 
   /* filtrar por name y description */
   public filtrarLista(): void {
-    this.listaFiltrada = this.lista.filter(item =>
-      item.name.toLowerCase().includes(this.filtro.toLowerCase()) ||
-      item.description.toLowerCase().includes(this.filtro.toLowerCase())
-    );
-    this.seleccionarPrimerItem();
-  }
-
-  public hayMasDeOchoItems(): boolean {
-    return this.lista.length > 8;
-  }
-
-  public seleccionarItem(item: Skill, index: number) {
-    this.itemSeleccionado = item;
-    this.itemSeleccionadoIndex = index;
-  }
-
-  private seleccionarPrimerItem() {
-    if (this.listaFiltrada.length > 0) {
-      this.itemSeleccionado = this.listaFiltrada[0];
-      this.itemSeleccionadoIndex = 0;
-    } else {
-      this.itemSeleccionado = null;
-      this.itemSeleccionadoIndex = -1;
+    try {
+      this.listaFiltrada = this.lista.filter(item =>
+        item.name.toLowerCase().includes(this.filtro.toLowerCase()) ||
+        item.description.toLowerCase().includes(this.filtro.toLowerCase())
+      );
+      this.seleccionarPrimerItem();
+    } catch (error) {
+      console.log(error);
     }
   }
 
+  public hayMasDeOchoItems(): boolean {
+    try {
+      return this.lista.length > 8;
+    } catch (error) {
+      console.log(error);
+      return true;
+    }
+  }
+
+  public seleccionarItem(item: Skill, index: number) {
+    try {
+      this.itemSeleccionado = item;
+      this.itemSeleccionadoIndex = index;
+    } catch (error) {
+      console.log(error);
+    }
+  }
+
+  private seleccionarPrimerItem() {
+    try {
+      if (this.listaFiltrada.length > 0) {
+        this.itemSeleccionado = this.listaFiltrada[0];
+        this.itemSeleccionadoIndex = 0;
+      } else {
+        this.itemSeleccionado = null;
+        this.itemSeleccionadoIndex = -1;
+      }
+    } catch (error) {
+      console.log(error);
+    }
+  }
 }

@@ -10,24 +10,36 @@ export class GithubBtnComponent implements AfterViewInit, OnDestroy {
   private onScroll: (() => void) | undefined;
 
   ngAfterViewInit() {
-    const button: HTMLElement | null = document.getElementById('github-btn');
-    this.onScroll = () => {
-      if (button)
-        if (window.scrollY + window.innerHeight >= document.documentElement.scrollHeight)
-          button.classList.add('hidden');
-        else
-          button.classList.remove('hidden');
-    };
-    window.addEventListener('scroll', this.onScroll);
+    try {
+      const button: HTMLElement | null = document.getElementById('github-btn');
+      this.onScroll = () => {
+        if (button)
+          if (window.scrollY + window.innerHeight >= document.documentElement.scrollHeight)
+            button.classList.add('hidden');
+          else
+            button.classList.remove('hidden');
+      };
+      window.addEventListener('scroll', this.onScroll);
+    } catch (error) {
+      console.log(error);
+    }
   }
 
   ngOnDestroy() {
-    if (this.onScroll)
-      window.removeEventListener('scroll', this.onScroll);
+    try {
+      if (this.onScroll)
+        window.removeEventListener('scroll', this.onScroll);
+    } catch (error) {
+      console.log(error);
+    }
   }
 
   redirectToGithub() {
-    const webLink = "https://github.com/" + GlobalVariables.githubUser;
-    setTimeout(() => { window.open(webLink, '_blank', 'noopener,noreferrer'); }, 100);
+    try {
+      const webLink = "https://github.com/" + GlobalVariables.githubUser;
+      setTimeout(() => { window.open(webLink, '_blank', 'noopener,noreferrer'); }, 100);
+    } catch (error) {
+      console.log(error);
+    }
   }
 }

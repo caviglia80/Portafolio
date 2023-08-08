@@ -10,16 +10,19 @@ export class ExperienciaLaboralComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    const imagenes = document.querySelectorAll('.galeria .contenedor-imagen');
-    const imagenModal: HTMLImageElement = document.getElementById('imagen-modal') as HTMLImageElement;
+    try {
+      const imagenes = document.querySelectorAll('.galeria .contenedor-imagen');
+      const imagenModal: HTMLImageElement = document.getElementById('imagen-modal') as HTMLImageElement;
 
-    imagenes.forEach((imagen) => {
-      imagen.addEventListener('click', () => {
-        const imgElement = imagen.querySelector('img');
-        if (imgElement)
-          imagenModal.src = imgElement.src;
+      imagenes.forEach((imagen) => {
+        imagen.addEventListener('click', () => {
+          const imgElement = imagen.querySelector('img');
+          if (imgElement)
+            imagenModal.src = imgElement.src;
+        });
       });
-    });
+    } catch (error) {
+      console.log(error);
+    }
   }
-
 }
