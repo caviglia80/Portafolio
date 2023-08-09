@@ -29,7 +29,6 @@ import { DestacadoComponent } from './shared/components/destacado/destacado.comp
 import { DarkModeComponent } from './shared/components/dark-mode/dark-mode.component';
 import { ToastComponent } from './shared/components/toast/toast.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
