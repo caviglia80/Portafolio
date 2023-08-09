@@ -23,4 +23,16 @@ export class DevRepositoriesComponent {
       return '';
     }
   }
+
+  public truncateTitle(title: string): string {
+    try {
+      if (title)
+      return title.length > 20 ? title.substring(0, 20) + '..' : title;
+    else
+      return '';
+    } catch (error) {
+      console.log(error);
+      return '';
+    }
+  }
 }
