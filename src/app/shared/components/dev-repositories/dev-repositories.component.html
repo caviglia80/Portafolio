@@ -1,11 +1,11 @@
 <div class="row g-0 px-4 mb-5">
     <div class="col">
 
-        <h2 class="titulo text-center py-5">Repositorios en GitHub</h2>
+        <h2  class="titulo text-center py-5">Repositorios en GitHub</h2>
 
         <div *ngIf="repos$ | async as repos" class="row text-center justify-content-center">
             <div *ngFor="let repo of repos" class="repoItem col-lg-4 mb-3">
-                <a href="{{ repo.owner.html_url }}" target="_blank" rel="noreferrer">
+                <a id="repositorio" href="{{ repo.owner.html_url }}" target="_blank" rel="noreferrer">
                     <img src="{{ repo.owner.avatar_url }}" alt="{{ repo.owner.login }}"
                         class="bd-placeholder-img rounded-circle mb-2" width="140" height="140" role="img"
                         title="{{ repo.owner.login }}">

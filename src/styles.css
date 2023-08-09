@@ -263,10 +263,6 @@ h3 {
 	color: #0e0d0d;
 }
 
-.dark-mode .toast {
-	border: 1px solid #00426a !important;
-}
-
 .dark-mode .toast a,
 .dark-mode .toast-header,
 .dark-mode .toast-header svg {

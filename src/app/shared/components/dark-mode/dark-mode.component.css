@@ -1,16 +1,20 @@
 label {
 	width: 60px;
 	height: 30px;
-	display: block;
+	/* 	display: block; */
 	background: #ebebeb;
 	border-radius: 200px;
 	box-shadow: inset 0px 5px 15px rgba(0, 0, 0, 0.4), inset 0px -5px 15px rgba(255, 255, 255, 0.4);
 	cursor: pointer;
 	transition: 0.3s;
-	position: fixed;
-	bottom: 2px;
+	/* 	position: fixed; */
+
+	position: relative;
+	top: 10%;
+
+	/* 	bottom: 2px; */
 	z-index: 9999;
-	left: 47%;
+	/* 	left: 47%; */
 	transition: opacity 0.3s;
 	opacity: 0.5;
 }
@@ -95,30 +99,3 @@ input:checked+label svg.sun {
 input:checked+label svg.moon {
 	fill: #fff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
