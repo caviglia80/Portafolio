@@ -5,8 +5,14 @@ a img {
 }
 
 a img:hover {
-    filter: brightness(140%);
+    filter: brightness(120%);
+    transform: scale(110%) translateY(-10%);
     box-shadow: 4px 4px 10px #0e0d0d;
+}
+
+a img:active {
+    filter: brightness(130%);
+    transform: scale(90%);
 }
 
 .repoItem h3{
