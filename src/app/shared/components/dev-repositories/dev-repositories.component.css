@@ -1,5 +1,5 @@
 a img {
-	box-shadow: 0px 0px 10px #0e0d0d;
+    box-shadow: 0px 0px 10px #0e0d0d;
     filter: brightness(95%);
     transition: all .3s;
 }
@@ -15,6 +15,28 @@ a img:active {
     transform: scale(90%);
 }
 
-.repoItem h3{
+.repoItem h3 {
     overflow: hidden;
+}
+
+.verMas {
+    font-weight: bold !important;
+    animation: agrandamiento 1s linear infinite;
+}
+
+@keyframes agrandamiento {
+    0% {
+        filter: brightness(90%);
+        transform: scaleX(1);
+    }
+
+    50% {
+        filter: brightness(130%);
+        transform: scaleX(1.1);
+    }
+
+    100% {
+        filter: brightness(90%);
+        transform: scaleX(1);
+    }
 }

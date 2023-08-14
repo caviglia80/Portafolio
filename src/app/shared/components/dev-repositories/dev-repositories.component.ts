@@ -9,15 +9,22 @@ import { Observable } from 'rxjs';
 })
 export class DevRepositoriesComponent {
   public repos$: Observable<any[]> = this.githubService.getRepos();
+  public repoCount: number = 0;
+  public showAllRepos: boolean = false;
 
-  constructor(private githubService: GithubService) { }
+
+  constructor(private githubService: GithubService) {
+    this.repos$.subscribe(repos => {
+      this.repoCount = repos.length - 6;
+    });
+  }
 
   public truncateDescription(description: string): string {
     try {
       if (description)
-      return description.length > 76 ? description.substring(0, 76) + '..' : description;
-    else
-      return '';
+        return description.length > 76 ? description.substring(0, 76) + '..' : description;
+      else
+        return '';
     } catch (error) {
       console.log(error);
       return '';
@@ -27,9 +34,9 @@ export class DevRepositoriesComponent {
   public truncateTitle(title: string): string {
     try {
       if (title)
-      return title.length > 20 ? title.substring(0, 20) + '..' : title;
-    else
-      return '';
+        return title.length > 20 ? title.substring(0, 20) + '..' : title;
+      else
+        return '';
     } catch (error) {
       console.log(error);
       return '';

@@ -17,7 +17,7 @@ export class ToastComponent implements OnDestroy {
   @Input()
   public linkTxt: string = '';
 
-  public secondsLeft: number = 5;
+  public secondsLeft: number = 10;
   private timerSubscription: Subscription | undefined;
 
   constructor() {
