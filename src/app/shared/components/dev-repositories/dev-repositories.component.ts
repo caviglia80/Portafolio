@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { GithubService } from '@services/github.service';
+import { GithubService } from '@services/github/github.service';
 import { Observable } from 'rxjs';
 
 @Component({
@@ -11,7 +11,6 @@ export class DevRepositoriesComponent {
   public repos$: Observable<any[]> = this.githubService.getRepos();
   public repoCount: number = 0;
   public showAllRepos: boolean = false;
-
 
   constructor(private githubService: GithubService) {
     this.repos$.subscribe(repos => {

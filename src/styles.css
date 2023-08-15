@@ -251,6 +251,10 @@ h3 {
 	color: #1ba0ef;
 }
 
+.dark-mode .toast {
+	box-shadow: 1px 1px 4px #00416aa8 !important;
+}
+
 .dark-mode .toast-body {
 	color: #0e0d0d;
 }
