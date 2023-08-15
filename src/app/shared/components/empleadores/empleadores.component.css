@@ -1,0 +1,8 @@
+ul li svg {
+    transition: all .5s !important;
+}
+
+ul li svg:hover {
+    transform: scale(1.2);
+    filter: brightness(105%);
+}

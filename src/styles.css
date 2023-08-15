@@ -1,5 +1,6 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 @import '~bootstrap-icons/font/bootstrap-icons.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Ysabeau+SC:wght@600&display=swap');
 
 .Animation-active:active {
 	animation: btnAnimation .7s;
@@ -50,6 +51,7 @@
 * {
 	user-select: none !important;
 	-webkit-user-drag: none !important;
+	font-family: 'Roboto', 'Open Sans', sans-serif !important;
 }
 
 /* Para Safari */
@@ -64,7 +66,7 @@
 
 body {
 	background: #f2f2f2;
-	font-family: 'Open Sans', sans-serif;
+	/* font-family: 'Open Sans', sans-serif; */
 }
 
 header .nav {
@@ -94,14 +96,14 @@ header .logo .icono {
 
 h2 {
 	color: #3da5e2;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
+	/* font-family: 'Open Sans', sans-serif; */
+	font-weight: 300 !important;
 	font-size: 32px;
 }
 
 .nav h2 {
 	color: #0e0d0d;
-	font-family: 'Open Sans', sans-serif;
+	/* font-family: 'Open Sans', sans-serif; */
 	font-weight: 300;
 	font-size: 32px;
 }
@@ -112,7 +114,7 @@ h2 {
 
 h3 {
 	color: #1ba0ef;
-	font-family: 'Open Sans', sans-serif;
+	/* font-family: 'Open Sans', sans-serif; */
 	font-weight: 200;
 	font-size: 28px;
 }
