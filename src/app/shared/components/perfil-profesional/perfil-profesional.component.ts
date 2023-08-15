@@ -7,7 +7,7 @@ import { GlobalChecker } from 'src/app/app.component';
   styleUrls: ['./perfil-profesional.component.css']
 })
 export class PerfilProfesionalComponent implements OnInit {
-  public imgPerfil: string = 'assets/Perfil.jpg';
+  public imgPerfil: string = '/assets/Perfil.jpg';
 
   constructor() { }
 
