@@ -1,4 +1,8 @@
 <app-nav *ngIf="!isMain()"></app-nav>
+<!-- <app-dark-mode *ngIf="isMain()"></app-dark-mode> -->
+
+<app-particles *ngIf="gVariableService.darkModeState"></app-particles>
+<!-- <app-particles></app-particles> -->
 
 <router-outlet></router-outlet>
 

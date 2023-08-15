@@ -2,6 +2,7 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
 import { Subscription } from 'rxjs';
 import { Injectable } from '@angular/core';
+import { GVariableService } from '@services/gVariable/g-variable.service';
 
 @Component({
   selector: 'app-root',
@@ -15,7 +16,7 @@ export class AppComponent implements OnInit, OnDestroy {
   public static currentUrl: string = '';
   public defaultLanguage: string = '';
 
-  constructor(private router: Router) {
+  constructor(private router: Router, public gVariableService: GVariableService) {
     try {
       this.routerSubscription = this.router.events.subscribe((event) => {
         if (event instanceof NavigationEnd) {
@@ -28,7 +29,8 @@ export class AppComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit() {
-    this.defaultLanguage = navigator.language || 'es';
+    if (!localStorage.getItem('darkModeEnabled')) this.gVariableService.darkModeState = this.gVariableService.darkModeDefault;
+    /*     this.defaultLanguage = navigator.language || 'es'; */
   }
 
   ngOnDestroy() {

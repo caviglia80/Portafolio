@@ -49,6 +49,7 @@
 /* No permitir seleccionar texto para todos los navegadores */
 * {
 	user-select: none !important;
+	-webkit-user-drag: none !important;
 }
 
 /* Para Safari */

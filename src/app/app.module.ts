@@ -4,7 +4,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ModalModule } from 'ngx-bootstrap/modal';
-import { FormsModule } from '@angular/forms'; 
+import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
 import { NavComponent } from '@components/nav/nav.component';
@@ -27,6 +27,8 @@ import { DevRepositoriesComponent } from './shared/components/dev-repositories/d
 import { DestacadoComponent } from './shared/components/destacado/destacado.component';
 import { DarkModeComponent } from './shared/components/dark-mode/dark-mode.component';
 import { ToastComponent } from './shared/components/toast/toast.component';
+import { ParticlesComponent } from './shared/components/particles/particles.component';
+import { GVariableService } from '@services/gVariable/g-variable.service';
 
 @NgModule({
   declarations: [
@@ -50,7 +52,8 @@ import { ToastComponent } from './shared/components/toast/toast.component';
     DevRepositoriesComponent,
     DestacadoComponent,
     DarkModeComponent,
-    ToastComponent
+    ToastComponent,
+    ParticlesComponent
   ],
   imports: [
     BrowserModule,
@@ -61,7 +64,7 @@ import { ToastComponent } from './shared/components/toast/toast.component';
     FormsModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [GVariableService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

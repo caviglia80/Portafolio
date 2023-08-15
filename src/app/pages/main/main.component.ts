@@ -9,5 +9,5 @@ import { ModalComponent } from '@components/modal/modal.component';
 })
 export class MainComponent implements OnInit {
   constructor(private modalService: BsModalService) { }
-  ngOnInit() { this.modalService.show(ModalComponent, { class: 'modal-dialog-centered', backdrop: 'static' }); }
+  ngOnInit() { this.modalService.show(ModalComponent, { class: 'modal-dialog-centered', backdrop: 'static', keyboard: false, ignoreBackdropClick: true }); }
 }

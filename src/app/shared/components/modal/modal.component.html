@@ -1,20 +1,22 @@
 <div class="modal-content rounded-3 shadow">
-    
-    <button type="button" class="close border-0 shadow-none bg-transparent ms-auto m-1 p-2" aria-label="Close" (click)="error()">
-        <span aria-hidden="true">&times;</span>
-    </button>
 
-    <div class="modal-body p-3 text-center">
-      <h5 class="mb-0" [ngClass]="{'text-danger': errorLabel, 'fade-in-out': !errorLabel}">[ Seleccione sector ]</h5>
-      <p *ngIf="errorLabel" class="mb-0 fade-in-out text-danger mt-2"><i class="bi bi-exclamation-circle"></i> Por favor, seleccione un sector.</p>
-      
-    </div>
-    <div class="modal-footer flex-nowrap p-0">
-      <button type="button" (click)="hide()" routerLink="/desarrollo" class="btn btn-lg btn-link fs-6 text-decoration-none col-6 py-3 m-0 rounded-0 border-end">Desarrollo Web</button>
-      <button type="button" (click)="hide()" routerLink="/qa" class="btn btn-lg btn-link fs-6 text-decoration-none col-6 py-3 m-0 rounded-0">Quality Assurance</button>
-    </div>
+  <div class="d-flex d-block m-1 my-0">
+    <app-dark-mode></app-dark-mode>
+    <button type="button" class="close border-0 shadow-none bg-transparent ms-auto m-1 p-2" aria-label="Close"
+      (click)="error()">
+      <span aria-hidden="true">&times;</span>
+    </button>
   </div>
 
-
-
-
+  <div class="modal-body p-3 text-center">
+    <h5 class="mb-0" [ngClass]="{'text-danger': errorLabel, 'fade-in-out': !errorLabel}">[ Seleccione sector ]</h5>
+    <p *ngIf="errorLabel" class="mb-0 fade-in-out text-danger mt-2"><i class="bi bi-exclamation-circle"></i>
+      Por favor, seleccione un sector.</p>
+  </div>
+  <div class="modal-footer flex-nowrap p-0">
+    <button type="button" (click)="hide()" routerLink="/desarrollo"
+      class="btn btn-lg btn-link fs-6 text-decoration-none col-6 py-3 m-0 rounded-0 border-end">Desarrollo Web</button>
+    <button type="button" (click)="hide()" routerLink="/qa"
+      class="btn btn-lg btn-link fs-6 text-decoration-none col-6 py-3 m-0 rounded-0">Quality Assurance</button>
+  </div>
+</div>

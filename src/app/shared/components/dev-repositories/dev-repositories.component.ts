@@ -42,4 +42,16 @@ export class DevRepositoriesComponent {
       return '';
     }
   }
+
+  public scrollTo(id: string): void {
+    try {
+      if(!this.showAllRepos) return;
+      const element = document.getElementById(id);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    } catch (error) {
+      console.log(error);
+    }
+  }
 }

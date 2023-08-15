@@ -16,11 +16,11 @@ label {
 	z-index: 9999;
 	/* 	left: 47%; */
 	transition: opacity 0.3s;
-	opacity: 0.5;
+	opacity: 0.8;
 }
 
 label:hover {
-	opacity: 1;
+	opacity: 1 !important;
 }
 
 label:focus {
