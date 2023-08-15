@@ -43,14 +43,14 @@ export class ParticlesComponent implements OnInit {
           random: true,
           anim: {
             enable: false,
-            speed: 50,
+            speed: 40,
             size_min: 0.1,
             sync: false
           }
         },
         line_linked: {
           enable: true,
-          distance: 150,
+          distance: 180,
           color: "#ffffff",
           opacity: 0.4,
           width: 1
