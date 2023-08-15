@@ -14,6 +14,9 @@ export class AppComponent implements OnInit, OnDestroy {
   title = 'CV';
   private routerSubscription: Subscription | undefined;
   public static currentUrl: string = '';
+  loaded: boolean = false;
+  exitBack: boolean = false;
+  exit: boolean = false;
   public defaultLanguage: string = '';
 
   constructor(private router: Router, public gVariableService: GVariableService) {
@@ -30,6 +33,7 @@ export class AppComponent implements OnInit, OnDestroy {
 
   ngOnInit() {
     if (!localStorage.getItem('darkModeEnabled')) this.gVariableService.darkModeState = this.gVariableService.darkModeDefault;
+    this.presentacion();
     /*     this.defaultLanguage = navigator.language || 'es'; */
   }
 
@@ -40,6 +44,18 @@ export class AppComponent implements OnInit, OnDestroy {
     } catch (error) {
       console.log(error);
     }
+  }
+
+  private presentacion() {
+    setTimeout(() => {
+      this.loaded = true;
+      setTimeout(() => {
+        this.exitBack = true;
+        setTimeout(() => {
+          this.exit = true;
+        }, 800);
+      }, 800);
+    }, 250);
   }
 
   public isMain(): boolean {

@@ -1,3 +1,6 @@
-.toast {
+#toast {
 	box-shadow: 1px 1px 3px #0e0d0d73;
+	position: fixed; 
+	width: 100%;
+	z-index: 9999 !important;
 }

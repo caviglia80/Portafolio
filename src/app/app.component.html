@@ -1,8 +1,14 @@
+<section>
+    <div class="loading-screen" [ngClass]="{'loaded': loaded, 'exitBack': exitBack, 'exit': exit}">
+        <div class="content">
+            <img src="assets/Logos/logo.png" alt="">
+        </div>
+    </div>
+</section>
+
 <app-nav *ngIf="!isMain()"></app-nav>
-<!-- <app-dark-mode *ngIf="isMain()"></app-dark-mode> -->
 
 <app-particles *ngIf="gVariableService.darkModeState"></app-particles>
-<!-- <app-particles></app-particles> -->
 
 <router-outlet></router-outlet>
 
