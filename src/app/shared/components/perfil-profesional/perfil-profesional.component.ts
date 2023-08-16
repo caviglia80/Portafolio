@@ -8,7 +8,7 @@ import { GlobalChecker } from 'src/app/app.component';
 })
 export class PerfilProfesionalComponent implements OnInit {
   public imgPerfil: string = 'assets/Perfil.jpg';
-/* src\assets\Perfil.jpg */
+
   constructor() { }
 
   ngOnInit(): void {
