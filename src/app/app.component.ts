@@ -66,6 +66,24 @@ export class AppComponent implements OnInit, OnDestroy {
       return false;
     }
   }
+
+  public isDesarrollo(): boolean {
+    try {
+      return AppComponent.currentUrl.includes('desarrollo');
+    } catch (error) {
+      console.log(error);
+      return false;
+    }
+  }
+
+  public isQa(): boolean {
+    try {
+      return AppComponent.currentUrl.includes('qa');
+    } catch (error) {
+      console.log(error);
+      return false;
+    }
+  }
 }
 
 @Injectable()

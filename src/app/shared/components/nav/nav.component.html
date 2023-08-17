@@ -1,8 +1,8 @@
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark"> <!-- sm/lg/xl -->
   <div class="container-fluid">
 
-    <!-- href="/main" -->
-    <a routerLink="/main" class="mx-1"><img class="navbar-icon img-fluid" src="{{imgLogo}}" alt="Logo"></a>
+    <!-- href="/main" routerLink="/main" -->
+    <a href="" class="mx-1"><img class="navbar-icon img-fluid" src="{{imgLogo}}" alt="Logo"></a>
 
     <button class="navbar-toggler Animation-active" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
       aria-controls="menu" aria-label="Mostrar / Ocultar Menu" [attr.aria-expanded]="!isCollapsed"
@@ -31,8 +31,8 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown" aria-expanded="false">Sector</a>
           <ul class="dropdown-menu dropdown-menu-end mb-2">
-            <li><a class="dropdown-item" routerLink="/desarrollo">Desarrollo Web</a></li>
-            <li><a class="dropdown-item" routerLink="/qa">Quality Assurance</a></li>
+            <li><a class="dropdown-item" routerLink="/desarrollo" (click)="scrollTo('perfil')">Desarrollo Web</a></li>
+            <li><a class="dropdown-item" routerLink="/qa" (click)="scrollTo('perfil')">Quality Assurance</a></li>
           </ul>
         </li>
 

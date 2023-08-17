@@ -11,6 +11,8 @@ export class NavComponent {
   public imgLogo: string = 'assets/Logos/logo.png';
   public isCollapsed = true;
 
+  /*   public isScaled: boolean = false; */
+
   constructor(public router: Router, private elementRef: ElementRef) {
     try {
       this.router.events.subscribe((event) => {
@@ -52,7 +54,21 @@ export class NavComponent {
       const element = document.getElementById(id);
       if (element) {
         element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+
+        element.classList.add('ShowDiv');
+        setTimeout(() => {
+          element.classList.remove('ShowDiv');
+        }, 500);
       }
+
+
+
+
+
+
+
+
     } catch (error) {
       console.log(error);
     }

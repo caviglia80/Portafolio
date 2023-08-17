@@ -7,6 +7,7 @@ import { ModalComponent } from '@components/modal/modal.component';
   templateUrl: './main.component.html',
   styleUrls: ['./main.component.css']
 })
+
 export class MainComponent implements OnInit {
   constructor(private modalService: BsModalService) { }
   ngOnInit() { this.modalService.show(ModalComponent, { class: 'modal-dialog-centered', backdrop: 'static', keyboard: false, ignoreBackdropClick: true }); }
