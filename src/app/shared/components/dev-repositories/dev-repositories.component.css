@@ -40,3 +40,17 @@ a img:active {
         transform: scaleX(1);
     }
 }
+
+h2 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h2:hover {
+    transition: all .3s;
+}
+
+h2:hover {
+    transform: scale(110%);
+    filter: brightness(120%);
+}
