@@ -285,8 +285,7 @@ h3 {
 	color: #3887c3 !important;
 }
 
-
 .dark-mode #repositorio a img {
-    filter: brightness(5);
-    opacity: .5;
+	filter: brightness(5);
+	opacity: .5;
 }
