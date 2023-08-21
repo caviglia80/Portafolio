@@ -12,7 +12,7 @@ export class DestacadoComponent {
 
   constructor(private http: HttpClient) { }
 
-  openModal(item: string) {
+  public openModal(item: string) {
     try {
       this.http.get<any>('assets/data/destacadosQA.json').subscribe((data) => {
         if (data)
