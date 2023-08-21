@@ -1,9 +1,5 @@
 <section>
-    <div class="loading-screen" [ngClass]="{'loaded': loaded, 'exitBack': exitBack, 'exit': exit}">
-        <div class="content">
-            <img src="assets/Logos/logo.png" alt="">
-        </div>
-    </div>
+    <app-presentation></app-presentation>
 </section>
 
 <app-nav *ngIf="!isMain()"></app-nav>
@@ -20,9 +16,3 @@
 </div>
 
 <footer id="contacto" class="bg-dark text-light py-4" *ngIf="!isMain()"><app-footer></app-footer></footer>
-
-
-
-
-
-

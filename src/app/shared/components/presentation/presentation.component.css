@@ -1,4 +1,4 @@
-/* .loaded .loading-screen {
+.loaded .loading-screen {
     pointer-events: none;
 }
 
@@ -35,4 +35,4 @@
     opacity: 0;
     transform: scale(500%);
     filter: brightness(10%) !important;
-} */
+}

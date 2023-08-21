@@ -29,6 +29,7 @@ import { DarkModeComponent } from '@components/dark-mode/dark-mode.component';
 import { ToastComponent } from '@components/toast/toast.component';
 import { ParticlesComponent } from '@components/particles/particles.component';
 import { GVariableService } from '@services/gVariable/g-variable.service';
+import { PresentationComponent } from './shared/components/presentation/presentation.component';
 
 @NgModule({
   declarations: [
@@ -53,7 +54,8 @@ import { GVariableService } from '@services/gVariable/g-variable.service';
     DestacadoComponent,
     DarkModeComponent,
     ToastComponent,
-    ParticlesComponent
+    ParticlesComponent,
+    PresentationComponent
   ],
   imports: [
     BrowserModule,
