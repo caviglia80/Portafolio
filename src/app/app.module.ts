@@ -30,6 +30,7 @@ import { ToastComponent } from '@components/toast/toast.component';
 import { ParticlesComponent } from '@components/particles/particles.component';
 import { GVariableService } from '@services/gVariable/g-variable.service';
 import { PresentationComponent } from './shared/components/presentation/presentation.component';
+import { ExperienceTimelineComponent } from './shared/components/experience-timeline/experience-timeline.component';
 
 @NgModule({
   declarations: [
@@ -55,7 +56,8 @@ import { PresentationComponent } from './shared/components/presentation/presenta
     DarkModeComponent,
     ToastComponent,
     ParticlesComponent,
-    PresentationComponent
+    PresentationComponent,
+    ExperienceTimelineComponent
   ],
   imports: [
     BrowserModule,
