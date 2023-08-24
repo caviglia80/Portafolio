@@ -1,45 +1,109 @@
 {
-    "Boreal": {
+    "BOLDT": {
         "position": "QA Manual y Automatizado Sr.",
-        "date": "noviembre 2020 – Actualmente",
+        "date": "Noviembre 2020 – Actualmente",
         "responsibilities": [
-            "xx"
+            "Metodologia Agil: Scrum",
+            "Automatización de Pruebas",
+            "Pruebas de Funcionalidad",
+            "Pruebas de Integración Automatizadas",
+            "Pruebas de Humo Automatizadas",
+            "Pruebas de API Automatizadas",
+            "Pruebas de Seguridad Automatizadas",
+            "Pruebas Unitarias",
+            "Mantenimiento de Scripts",
+            "Pruebas de Compatibilidad Automatizadas",
+            "Generación de Informes Automatizados",
+            "Planificación de Pruebas",
+            "Diseño de Casos de Prueba",
+            "Ejecución de Pruebas",
+            "Pruebas de Funcionalidad",
+            "Pruebas de Usabilidad",
+            "Pruebas de Regresión",
+            "Pruebas de Integración",
+            "Pruebas Exploratorias",
+            "Revisión de Diseños",
+            "Pruebas de Carga Manual"
         ]
     },
     "HSBC": {
         "position": "QA Manual Sr.",
-        "date": "septiembre 2019 – noviembre 2020",
+        "date": "Septiembre 2019 – Noviembre 2020",
         "responsibilities": [
-            "xx"
+            "Metodologia Agil: Scrum",
+            "Planificación de Pruebas",
+            "Diseño de Casos de Prueba",
+            "Ejecución de Pruebas",
+            "Pruebas de Funcionalidad",
+            "Pruebas de Usabilidad",
+            "Pruebas de Regresión",
+            "Pruebas de Integración",
+            "Pruebas Exploratorias",
+            "Revisión de Diseños",
+            "Pruebas de Carga Manual",
+            "Pruebas de Seguridad Básicas"
         ]
     },
     "Hipotecario": {
         "position": "QA Manual Ssr.",
-        "date": "septiembre 2018 – junio 2019",
+        "date": "Septiembre 2018 – Junio 2019",
         "responsibilities": [
-            "xx"
+            "Metodologia Agil: Scrum",
+            "Planificación de Pruebas",
+            "Diseño de Casos de Prueba",
+            "Ejecución de Pruebas",
+            "Pruebas de Funcionalidad",
+            "Pruebas de Usabilidad",
+            "Pruebas de Regresión",
+            "Pruebas de Integración",
+            "Pruebas Exploratorias",
+            "Revisión de Diseños",
+            "Pruebas de Carga Manual"
         ]
     },
     "DIA": {
         "position": "QA Manual Ssr.",
-        "date": "marzo 2018 – septiembre 2018",
+        "date": "Marzo 2018 – Septiembre 2018",
         "responsibilities": [
-            "xx"
+            "Metodologia Agil: Scrum",
+            "Planificación de Pruebas",
+            "Diseño de Casos de Prueba",
+            "Ejecución de Pruebas",
+            "Pruebas de Funcionalidad",
+            "Pruebas de Usabilidad",
+            "Pruebas de Regresión",
+            "Pruebas de Integración",
+            "Pruebas Exploratorias",
+            "Pruebas de Carga Manual"
         ]
     },
     "BNP": {
         "position": "QA Manual Ssr.",
-        "date": "agosto 2017 – marzo 2018",
+        "date": "Agosto 2017 – Marzo 2018",
         "responsibilities": [
-            "Identificación y documentación de problemas y fallos."
+            "Metodologia Agil: Scrum",
+            "Planificación de Pruebas",
+            "Diseño de Casos de Prueba",
+            "Ejecución de Pruebas",
+            "Pruebas de Funcionalidad",
+            "Pruebas de Regresión",
+            "Pruebas Exploratorias",
+            "Pruebas de Carga Manual"
         ]
     },
     "Fravega": {
         "position": "QA Manual Jr.",
-        "date": "enero 2017 – agosto 2017",
+        "date": "Enero 2017 – Agosto 2017",
         "responsibilities": [
-            "Realización de pruebas manuales en aplicaciones web y móviles.",
-            "Identificación y documentación de problemas y fallos."
+            "Pruebas de Aceptación del Usuario",
+            "Planificación de Pruebas",
+            "Diseño de Casos de Prueba",
+            "Ejecución de Pruebas",
+            "Validación de Funcionalidad",
+            "Pruebas de Regresión",
+            "Pruebas Exploratorias",
+            "Pruebas de Integración",
+            "Pruebas de Carga Manual"
         ]
     }
 }
