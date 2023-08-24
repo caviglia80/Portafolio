@@ -21,8 +21,8 @@
 }
 
 input {
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     background-color: #1ba0ef;
     position: relative;
     border-radius: 50%;
@@ -34,6 +34,11 @@ input {
     cursor: pointer;
     transition: all 2s;
     opacity: .7;
+}
+
+input:hover {
+    border: 1px solid #1ba0ef;
+    transform: scale(1.5);
 }
 
 input:focus {
@@ -73,7 +78,7 @@ input:checked+.dot-info span {
 
 .dot-info span {
     transition: all 1s;
-    visibility: visible;    
+    visibility: visible;
     position: absolute;
     font-size: 12px;
 }
@@ -94,15 +99,20 @@ input:checked+.dot-info span {
 
 #timeline-descriptions-wrapper {
     width: 100%;
-    margin-top: 140px;
-    font-size: 22px;
-    font-weight: 400;
-    margin-left: calc((-80vw - 25px) / 20);
+    margin-top: 90px;
+    /* margin-left: calc((-80vw - 25px) / 20); */
+    transition: all 3s;
 }
 
 #timeline-descriptions-wrapper p {
-    margin-top: 0;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
     display: none;
+}
+
+#timeline-descriptions-wrapper .btn {
+    position: absolute;
+    right: 0;
 }
 
 input[data-description="0"]:checked~#timeline-descriptions-wrapper p[data-description="0"] {
@@ -137,9 +147,13 @@ input[data-description="5"]:checked~#timeline-descriptions-wrapper p[data-descri
         text-align: center;
     }
 
+    #timeline-descriptions-wrapper .btn {
+        top: 0;
+    }
+
     .input-flex-container {
         height: auto;
-        margin-top: 10vh;
+        margin-top: 3vh;
         margin-bottom: 10vh;
         margin-left: 0;
         padding-bottom: 0px;
@@ -169,15 +183,15 @@ input[data-description="5"]:checked~#timeline-descriptions-wrapper p[data-descri
 
 @keyframes agrandamiento {
     0% {
-        transform: scale(1);
+        transform: scale(.4);
     }
 
     50% {
-        transform: scale(1.4);
+        transform: scale(1);
     }
 
     100% {
-        transform: scale(1);
+        transform: scale(.4);
     }
 }
 

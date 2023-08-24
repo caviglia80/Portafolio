@@ -28,15 +28,15 @@ export class SkillsComponent implements OnInit {
     this.cargarDatos();
   }
 
-  cargarDatos() {
+  private cargarDatos() {
     try {
       if (this.http)
-      this.http.get<any>('assets/data/skills.json').subscribe((data) => {
-        if (data && data[this.Json]) {
-          this.lista = data[this.Json];
-          this.filtrarLista();
-        }
-      });
+        this.http.get<any>('assets/data/skills.json').subscribe((data) => {
+          if (data && data[this.Json]) {
+            this.lista = data[this.Json];
+            this.filtrarLista();
+          }
+        });
     } catch (error) {
       console.log(error);
     }

@@ -32,12 +32,131 @@
         </div>
 
         <div id="timeline-descriptions-wrapper">
-            <p data-description="0">0</p>
-            <p data-description="1">1</p>
-            <p data-description="2">2</p>
-            <p data-description="3">3</p>
-            <p data-description="4">4</p>
-            <p data-description="5">5</p>
+
+
+
+
+            <p data-description="0">
+                {{ jobData["Fravega"]?.date || '...' }}
+                <br>
+                {{ jobData["Fravega"]?.position || '...' }}
+                <br>
+                <br>
+                Responsabilidades:
+                <br>
+                <ng-container *ngIf="jobData['Fravega']?.responsibilities; else noResponsibilities">
+                    <ng-container *ngFor="let responsibility of jobData['Fravega'].responsibilities; let i = index">
+                        <i class="bi bi-arrow-right-short"></i> {{ i + 1 }}. {{ responsibility }}<br>
+                    </ng-container>
+                </ng-container>
+                <ng-template #noResponsibilities>
+                    ...
+                </ng-template>
+                <br>
+            </p>
+
+            <p data-description="1">
+                {{ jobData["Fravega"]?.date || '...' }}
+                <br>
+                {{ jobData["Fravega"]?.position || '...' }}
+                <br>
+                <br>
+                Responsabilidades:
+                <br>
+                <ng-container *ngIf="jobData['Fravega']?.responsibilities; else noResponsibilities">
+                    <ng-container *ngFor="let responsibility of jobData['Fravega'].responsibilities; let i = index">
+                        <i class="bi bi-arrow-right-short"></i> {{ i + 1 }}. {{ responsibility }}<br>
+                    </ng-container>
+                </ng-container>
+                <ng-template #noResponsibilities>
+                    ...
+                </ng-template>
+                <br>
+            </p>
+
+            <p data-description="2">
+                {{ jobData["Fravega"]?.date || '...' }}
+                <br>
+                {{ jobData["Fravega"]?.position || '...' }}
+                <br>
+                <br>
+                Responsabilidades:
+                <br>
+                <ng-container *ngIf="jobData['Fravega']?.responsibilities; else noResponsibilities">
+                    <ng-container *ngFor="let responsibility of jobData['Fravega'].responsibilities; let i = index">
+                        <i class="bi bi-arrow-right-short"></i> {{ i + 1 }}. {{ responsibility }}<br>
+                    </ng-container>
+                </ng-container>
+                <ng-template #noResponsibilities>
+                    ...
+                </ng-template>
+                <br>
+            </p>
+
+            <p data-description="3">
+                {{ jobData["Fravega"]?.date || '...' }}
+                <br>
+                {{ jobData["Fravega"]?.position || '...' }}
+                <br>
+                <br>
+                Responsabilidades:
+                <br>
+                <ng-container *ngIf="jobData['Fravega']?.responsibilities; else noResponsibilities">
+                    <ng-container *ngFor="let responsibility of jobData['Fravega'].responsibilities; let i = index">
+                        <i class="bi bi-arrow-right-short"></i> {{ i + 1 }}. {{ responsibility }}<br>
+                    </ng-container>
+                </ng-container>
+                <ng-template #noResponsibilities>
+                    ...
+                </ng-template>
+                <br>
+            </p>
+
+            <p data-description="4">
+                {{ jobData["Fravega"]?.date || '...' }}
+                <br>
+                {{ jobData["Fravega"]?.position || '...' }}
+                <br>
+                <br>
+                Responsabilidades:
+                <br>
+                <ng-container *ngIf="jobData['Fravega']?.responsibilities; else noResponsibilities">
+                    <ng-container *ngFor="let responsibility of jobData['Fravega'].responsibilities; let i = index">
+                        <i class="bi bi-arrow-right-short"></i> {{ i + 1 }}. {{ responsibility }}<br>
+                    </ng-container>
+                </ng-container>
+                <ng-template #noResponsibilities>
+                    ...
+                </ng-template>
+                <br>
+            </p>
+
+            <p data-description="5">
+                {{ jobData["Fravega"]?.date || '...' }}
+                <br>
+                {{ jobData["Fravega"]?.position || '...' }}
+                <br>
+                <br>
+                Responsabilidades:
+                <br>
+                <ng-container *ngIf="jobData['Fravega']?.responsibilities; else noResponsibilities">
+                    <ng-container *ngFor="let responsibility of jobData['Fravega'].responsibilities; let i = index">
+                        <i class="bi bi-arrow-right-short"></i> {{ i + 1 }}. {{ responsibility }}<br>
+                    </ng-container>
+                </ng-container>
+                <ng-template #noResponsibilities>
+                    ...
+                </ng-template>
+                <br>
+            </p>
+
+
+
+
+
+            <button class="btn btn-secondary Animation-active" (click)="scrollTo('experiencias')">Más</button>
         </div>
+
+
     </div>
 </div>

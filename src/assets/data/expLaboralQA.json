@@ -1,0 +1,45 @@
+{
+    "Boreal": {
+        "position": "QA Manual y Automatizado Sr.",
+        "date": "noviembre 2020 – Actualmente",
+        "responsibilities": [
+            "xx"
+        ]
+    },
+    "HSBC": {
+        "position": "QA Manual Sr.",
+        "date": "septiembre 2019 – noviembre 2020",
+        "responsibilities": [
+            "xx"
+        ]
+    },
+    "Hipotecario": {
+        "position": "QA Manual Ssr.",
+        "date": "septiembre 2018 – junio 2019",
+        "responsibilities": [
+            "xx"
+        ]
+    },
+    "DIA": {
+        "position": "QA Manual Ssr.",
+        "date": "marzo 2018 – septiembre 2018",
+        "responsibilities": [
+            "xx"
+        ]
+    },
+    "BNP": {
+        "position": "QA Manual Ssr.",
+        "date": "agosto 2017 – marzo 2018",
+        "responsibilities": [
+            "Identificación y documentación de problemas y fallos."
+        ]
+    },
+    "Fravega": {
+        "position": "QA Manual Jr.",
+        "date": "enero 2017 – agosto 2017",
+        "responsibilities": [
+            "Realización de pruebas manuales en aplicaciones web y móviles.",
+            "Identificación y documentación de problemas y fallos."
+        ]
+    }
+}
