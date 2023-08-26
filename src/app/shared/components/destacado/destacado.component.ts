@@ -16,9 +16,9 @@ export class DestacadoComponent {
     try {
       this.http.get<any>('assets/data/destacadosQA.json').subscribe((data) => {
         if (data)
-          if (item === 'ECOSISTEMAS') {
-            this.title = data.ECOSISTEMAS.title;
-            this.body = data.ECOSISTEMAS.body;
+          if (item === 'DIA') {
+            this.title = data.DIA.title;
+            this.body = data.DIA.body;
           } else if (item === 'HSBC') {
             this.title = data.HSBC.title;
             this.body = data.HSBC.body;
