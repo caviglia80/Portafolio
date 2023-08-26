@@ -30,9 +30,8 @@ export class AppComponent implements OnInit, OnDestroy {
 
   ngOnInit() {
     if (!localStorage.getItem('darkModeEnabled')) this.gVariableService.darkModeState = this.gVariableService.darkModeDefault;
-    /*     this.defaultLanguage = navigator.language || 'es'; */
   }
-
+  
   ngOnDestroy() {
     try {
       if (this.routerSubscription)
