@@ -29,20 +29,28 @@
   }
 }
 
-.destacados img {
-  box-shadow: 0px 0px 5px #0e0d0d;
-  filter: brightness(95%);
+.destacados svg {
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
+  shape-rendering: geometricPrecision;
+  text-rendering: geometricPrecision;
+  image-rendering: optimizeQuality;
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  width: 140px;
+  height: 140px;
+  overflow: visible;
+}
+
+.destacados svg .trazosGroup {
   transition: all .3s;
 }
 
-.destacados img:hover {
-  filter: brightness(120%);
-  transform: scale(110%) translateY(-10%);
-  box-shadow: 4px 4px 10px #0e0d0d;
+.destacados svg .trazosGroup:hover {
+  filter: brightness(110%);
+  transform: scale(120%) translateY(-12%) translateX(-5%);
 }
 
-.destacados img:active {
-  filter: brightness(130%);
-  transform: scale(90%);
+.destacados svg .trazosGroup:active {
+  filter: brightness(140%);
+  transform: scale(150%) translateY(-20%) translateX(-12%);
 }
-
