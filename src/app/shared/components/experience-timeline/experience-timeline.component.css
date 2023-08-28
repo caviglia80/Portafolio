@@ -49,7 +49,7 @@ input:focus {
 
 input:checked {
     background-color: #1ba0ef;
-    animation: agrandamiento 1s linear infinite;
+    animation: agrandamiento 1s linear infinite !important;
     filter: brightness(1.1);
     opacity: .9 !important;
 }

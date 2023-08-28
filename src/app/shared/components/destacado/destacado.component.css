@@ -3,7 +3,7 @@
   overflow: hidden;
   border-radius: 50%;
   position: relative;
-  animation: agrandamiento 3s linear infinite;
+  animation: agrandamiento 3s linear infinite !important;
   transition: all 1s;
 }
 
