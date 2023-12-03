@@ -20,6 +20,11 @@
     "percentage": 85
   },
   {
+    "name": "Implementacion de la API de CHAT GPT",
+    "description": "Implementacion de la inteligencia artificial de OpenAI para soluciones especificas.",
+    "percentage": 100
+  },
+  {
     "name": "IDEs",
     "description": "Manejo de Eclipse, Visual Studio y Visual Studio Code para el desarrollo en diversos lenguajes, adaptándome a diferentes entornos y necesidades de proyectos.",
     "percentage": 100
