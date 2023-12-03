@@ -1,109 +1,129 @@
 {
-    "BOLDT": {
-        "position": "QA Manual y Automatizado Sr.",
-        "date": "Noviembre 2020 – Actualmente",
-        "responsibilities": [
-            "Metodologia Agil: Scrum",
-            "Automatización de Pruebas",
-            "Pruebas de Funcionalidad",
-            "Pruebas de Integración Automatizadas",
-            "Pruebas de Humo Automatizadas",
-            "Pruebas de API Automatizadas",
-            "Pruebas de Seguridad Automatizadas",
-            "Pruebas Unitarias",
-            "Mantenimiento de Scripts",
-            "Pruebas de Compatibilidad Automatizadas",
-            "Generación de Informes Automatizados",
-            "Planificación de Pruebas",
-            "Diseño de Casos de Prueba",
-            "Ejecución de Pruebas",
-            "Pruebas de Funcionalidad",
-            "Pruebas de Usabilidad",
-            "Pruebas de Regresión",
-            "Pruebas de Integración",
-            "Pruebas Exploratorias",
-            "Revisión de Diseños",
-            "Pruebas de Carga Manual"
-        ]
-    },
-    "HSBC": {
-        "position": "QA Manual Sr.",
-        "date": "Septiembre 2019 – Noviembre 2020",
-        "responsibilities": [
-            "Metodologia Agil: Scrum",
-            "Planificación de Pruebas",
-            "Diseño de Casos de Prueba",
-            "Ejecución de Pruebas",
-            "Pruebas de Funcionalidad",
-            "Pruebas de Usabilidad",
-            "Pruebas de Regresión",
-            "Pruebas de Integración",
-            "Pruebas Exploratorias",
-            "Revisión de Diseños",
-            "Pruebas de Carga Manual",
-            "Pruebas de Seguridad Básicas"
-        ]
-    },
-    "Hipotecario": {
-        "position": "QA Manual Ssr.",
-        "date": "Septiembre 2018 – Junio 2019",
-        "responsibilities": [
-            "Metodologia Agil: Scrum",
-            "Planificación de Pruebas",
-            "Diseño de Casos de Prueba",
-            "Ejecución de Pruebas",
-            "Pruebas de Funcionalidad",
-            "Pruebas de Usabilidad",
-            "Pruebas de Regresión",
-            "Pruebas de Integración",
-            "Pruebas Exploratorias",
-            "Revisión de Diseños",
-            "Pruebas de Carga Manual"
-        ]
-    },
-    "DIA": {
-        "position": "QA Manual Ssr.",
-        "date": "Marzo 2018 – Septiembre 2018",
-        "responsibilities": [
-            "Metodologia Agil: Scrum",
-            "Planificación de Pruebas",
-            "Diseño de Casos de Prueba",
-            "Ejecución de Pruebas",
-            "Pruebas de Funcionalidad",
-            "Pruebas de Usabilidad",
-            "Pruebas de Regresión",
-            "Pruebas de Integración",
-            "Pruebas Exploratorias",
-            "Pruebas de Carga Manual"
-        ]
-    },
-    "BNP": {
-        "position": "QA Manual Ssr.",
-        "date": "Agosto 2017 – Marzo 2018",
-        "responsibilities": [
-            "Metodologia Agil: Scrum",
-            "Planificación de Pruebas",
-            "Diseño de Casos de Prueba",
-            "Ejecución de Pruebas",
-            "Pruebas de Funcionalidad",
-            "Pruebas de Regresión",
-            "Pruebas Exploratorias",
-            "Pruebas de Carga Manual"
-        ]
-    },
-    "Fravega": {
-        "position": "QA Manual Jr.",
-        "date": "Enero 2017 – Agosto 2017",
-        "responsibilities": [
-            "Pruebas de Aceptación del Usuario",
-            "Planificación de Pruebas",
-            "Diseño de Casos de Prueba",
-            "Ejecución de Pruebas",
-            "Validación de Funcionalidad",
-            "Pruebas de Regresión",
-            "Pruebas Exploratorias",
-            "Pruebas de Integración",
-            "Pruebas de Carga Manual"
-        ]
-    }
+  "BOLDT2": {
+    "position": "Desarrollador Web",
+    "date": "Diciembre 2021 – Actualmente",
+    "responsibilities": [
+      "Metodología Ágil Scrum",
+      "Más desarrollo en frontend que backend",
+      "Diseñar/arreglar estilos con CSS, incluyendo mejoras y correcciones de responsividad",
+      "Diseñar/arreglar estilos con Bootstrap",
+      "Diseñar/arreglar HTML",
+      "Diseñar/arreglar funcionalidades en TypeScript con RXJS y otras librerías",
+      "Diseñar/arreglar Interceptores",
+      "Diseñar/arreglar clases e interfaces",
+      "Actualizar la versión de Angular",
+      "Versionado con GitHub (comandos)",
+      "Mantenimiento en .NET Core con C#, validadores y expresiones lambda",
+      "Agregar/editar tablas en SQL Server y MySQL",
+      "Mantenimiento de campos en JSON y XML",
+      "Diseñar APIs en PHP",
+      "Gestión de tokens JWT (expiración y autenticación en backend)",
+      "Desarrollo utilizando Lazy Loading"
+    ]
+  },
+  "BOLDT": {
+    "position": "QA Manual y Automatizado Sr.",
+    "date": "Noviembre 2020 – Diciembre 2021",
+    "responsibilities": [
+      "Metodología Ágil Scrum",
+      "Automatización de Pruebas",
+      "Pruebas de Funcionalidad",
+      "Pruebas de Integración Automatizadas",
+      "Pruebas de Humo Automatizadas",
+      "Pruebas de API Automatizadas",
+      "Pruebas de Seguridad Automatizadas",
+      "Pruebas Unitarias",
+      "Mantenimiento de Scripts",
+      "Pruebas de Compatibilidad Automatizadas",
+      "Generación de Informes Automatizados",
+      "Planificación de Pruebas",
+      "Diseño de Casos de Prueba",
+      "Ejecución de Pruebas",
+      "Pruebas de Usabilidad",
+      "Pruebas de Regresión",
+      "Pruebas de Integración",
+      "Pruebas Exploratorias",
+      "Revisión de Diseños",
+      "Pruebas de Carga Manual"
+    ]
+  },
+  "HSBC": {
+    "position": "QA Manual Sr.",
+    "date": "Septiembre 2019 – Noviembre 2020",
+    "responsibilities": [
+      "Metodología Ágil Scrum",
+      "Planificación de Pruebas",
+      "Diseño de Casos de Prueba",
+      "Ejecución de Pruebas",
+      "Pruebas de Funcionalidad",
+      "Pruebas de Usabilidad",
+      "Pruebas de Regresión",
+      "Pruebas de Integración",
+      "Pruebas Exploratorias",
+      "Revisión de Diseños",
+      "Pruebas de Carga Manual",
+      "Pruebas de Seguridad Básicas"
+    ]
+  },
+  "Hipotecario": {
+    "position": "QA Manual Ssr.",
+    "date": "Septiembre 2018 – Junio 2019",
+    "responsibilities": [
+      "Metodología Ágil Scrum",
+      "Planificación de Pruebas",
+      "Diseño de Casos de Prueba",
+      "Ejecución de Pruebas",
+      "Pruebas de Funcionalidad",
+      "Pruebas de Usabilidad",
+      "Pruebas de Regresión",
+      "Pruebas de Integración",
+      "Pruebas Exploratorias",
+      "Revisión de Diseños",
+      "Pruebas de Carga Manual"
+    ]
+  },
+  "DIA": {
+    "position": "QA Manual Ssr.",
+    "date": "Marzo 2018 – Septiembre 2018",
+    "responsibilities": [
+      "Metodología Ágil Scrum.",
+      "Planificación de Pruebas",
+      "Diseño de Casos de Prueba",
+      "Ejecución de Pruebas",
+      "Pruebas de Funcionalidad",
+      "Pruebas de Usabilidad",
+      "Pruebas de Regresión",
+      "Pruebas de Integración",
+      "Pruebas Exploratorias",
+      "Pruebas de Carga Manual"
+    ]
+  },
+  "BNP": {
+    "position": "QA Manual Ssr.",
+    "date": "Agosto 2017 – Marzo 2018",
+    "responsibilities": [
+      "Metodología Ágil Scrum",
+      "Planificación de Pruebas",
+      "Diseño de Casos de Prueba",
+      "Ejecución de Pruebas",
+      "Pruebas de Funcionalidad",
+      "Pruebas de Regresión",
+      "Pruebas Exploratorias",
+      "Pruebas de Carga Manual"
+    ]
+  },
+  "Fravega": {
+    "position": "QA Manual Jr.",
+    "date": "Enero 2017 – Agosto 2017",
+    "responsibilities": [
+      "Pruebas de Aceptación de Usuario",
+      "Planificación de Pruebas",
+      "Diseño de Casos de Prueba",
+      "Ejecución de Pruebas",
+      "Validación de Funcionalidad",
+      "Pruebas de Regresión",
+      "Pruebas Exploratorias",
+      "Pruebas de Integración"
+    ]
+  }
 }

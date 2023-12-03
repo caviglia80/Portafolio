@@ -142,6 +142,10 @@ input[data-description="5"]:checked~#timeline-descriptions-wrapper .item[data-de
     display: block;
 }
 
+input[data-description="6"]:checked~#timeline-descriptions-wrapper .item[data-description="6"] {
+  display: block;
+}
+
 @media (max-width: 770px) {
 
     #timeline-descriptions-wrapper {
