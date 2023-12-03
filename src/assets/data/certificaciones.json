@@ -1,137 +1,137 @@
 [
   {
     "name": "Bases de Datos y SQL",
-    "description": "Institución educativa: Educación IT (Completo y Certificado).",
+    "description": "Educación IT: Curso completo sobre fundamentos de bases de datos y SQL, incluyendo diseño, manipulación y consultas.",
     "percentage": 100
   },
   {
     "name": "Introducción a la Seguridad Informática",
-    "description": "Institución educativa: Educación IT (Completo y Certificado).",
+    "description": "Educación IT: Curso completo sobre los principios básicos de la seguridad informática, incluyendo protección de datos y prevención de ataques.",
     "percentage": 100
   },
   {
     "name": "Introducción a Redes",
-    "description": "Institución educativa: Educación IT (Completo y Certificado).",
+    "description": "Educación IT: Curso completo sobre conceptos fundamentales de redes, incluyendo arquitectura de red, protocolos y configuración.",
     "percentage": 100
   },
   {
     "name": "Introducción a Linux",
-    "description": "Institución educativa: Educación IT (Completo y Certificado).",
+    "description": "Educación IT: Curso completo sobre los fundamentos de Linux, cubriendo su instalación, configuración y administración.",
     "percentage": 100
   },
   {
     "name": "Software Tester QA",
-    "description": "Institución educativa: Educación IT (Completo y Certificado).",
+    "description": "Educación IT: Curso completo en pruebas de software, enfocado en técnicas de aseguramiento de calidad y metodologías de testing.",
     "percentage": 100
   },
   {
     "name": "Testing Automation con Selenium",
-    "description": "Institución educativa: Educación IT (Completo y Certificado).",
+    "description": "Educación IT: Curso completo en automatización de pruebas utilizando Selenium, incluyendo escritura de scripts y frameworks de testing.",
     "percentage": 100
   },
   {
     "name": "Cypress: Automatización de pruebas de punta a punta",
-    "description": "Institución educativa: Udemy (Completo y Certificado).",
+    "description": "Udemy: Curso completo en automatización de pruebas con Cypress, enfocado en pruebas end-to-end para aplicaciones web.",
     "percentage": 100
   },
   {
     "name": "Automatización de pruebas con Cucumber y Gherkin",
-    "description": "Institución educativa: Udemy (Completo y Certificado).",
+    "description": "Udemy: Curso completo sobre automatización de pruebas utilizando Cucumber y Gherkin, incluyendo técnicas BDD (Behavior Driven Development).",
     "percentage": 100
   },
   {
     "name": "Remote Working",
-    "description": "Capacitación Global Obligatoria HSBC (Completo y Certificado).",
+    "description": "HSBC: Capacitación sobre trabajo remoto, incluyendo mejores prácticas, herramientas de colaboración y gestión de equipos a distancia.",
     "percentage": 100
   },
   {
     "name": "Lucha Contra el Delito Financiero",
-    "description": "Capacitación Global Obligatoria HSBC (Completo y Certificado).",
+    "description": "HSBC: Curso sobre prevención y detección del delito financiero, incluyendo blanqueo de capitales y financiación del terrorismo.",
     "percentage": 100
   },
   {
     "name": "Personal Conflicts of Interest",
-    "description": "Capacitación Global Obligatoria HSBC (Completo y Certificado).",
+    "description": "HSBC: Capacitación sobre manejo de conflictos de interés personales en el entorno laboral, incluyendo políticas y casos prácticos.",
     "percentage": 100
   },
   {
     "name": "HSBC and Me - New Joiners",
-    "description": "Capacitación Global Obligatoria HSBC (Completo y Certificado).",
+    "description": "HSBC: Orientación para nuevos empleados sobre la cultura, políticas y procedimientos de HSBC.",
     "percentage": 100
   },
   {
     "name": "Valores, conducta y yo: New Joiners",
-    "description": "Capacitación Global Obligatoria HSBC (Completo y Certificado).",
+    "description": "HSBC: Curso sobre ética laboral y valores corporativos de HSBC para nuevos empleados.",
     "percentage": 100
   },
   {
     "name": "2020 Market Conduct Risks",
-    "description": "Capacitación Global Obligatoria HSBC (Completo y Certificado).",
+    "description": "HSBC: Capacitación sobre riesgos de conducta en el mercado, incluyendo regulaciones y cómo gestionarlos efectivamente.",
     "percentage": 100
   },
   {
     "name": "HSBC and Me - Colaboradores Existentes",
-    "description": "Capacitación Global Obligatoria HSBC (Completo y Certificado).",
+    "description": "HSBC: Curso de actualización para empleados existentes sobre cambios en políticas y procedimientos de HSBC.",
     "percentage": 100
   },
   {
     "name": "Lucha Contra el Delito Financiero CE 2021",
-    "description": "Capacitación Global Obligatoria HSBC (Completo y Certificado).",
+    "description": "HSBC: Capacitación actualizada sobre estrategias y herramientas para combatir el delito financiero.",
     "percentage": 100
   },
   {
     "name": "eMail Security and Phishing Recognition 2020",
-    "description": "Capacitación Global Obligatoria HSBC (Completo y Certificado).",
+    "description": "HSBC: Curso sobre seguridad en el correo electrónico y reconocimiento de phishing, enfocado en la prevención de ciberataques.",
     "percentage": 100
   },
   {
     "name": "Angular desde cero a experto",
-    "description": "Institución educativa: Udemy (Completo y Certificado). Angular desde cero a experto: Crear una aplicación real. Angular 12 y TypeScript.",
+    "description": "Udemy: Curso completo sobre Angular, desde fundamentos hasta nivel experto, incluyendo creación de aplicaciones reales con Angular 12 y TypeScript.",
     "percentage": 100
   },
   {
     "name": "Bootstrap 5",
-    "description": "Institución educativa: Udemy (Completo y Certificado). Bootstrap 5: El Curso Completo, Práctico y Desde Cero + CSS.",
+    "description": "Udemy: Curso completo sobre Bootstrap 5, abarcando desde conceptos básicos hasta avanzados, con proyectos prácticos y CSS.",
     "percentage": 100
   },
   {
     "name": "Cypress 12",
-    "description": "Institución educativa: Udemy (Completo y Certificado). Cypress 12: Automatización de pruebas de punta a punta",
+    "description": "Udemy: Curso avanzado sobre Cypress 12 para automatización de pruebas, incluyendo escenarios complejos y pruebas end-to-end.",
     "percentage": 100
   },
   {
     "name": "Angular 14 - La Guia Completa",
-    "description": "Institución educativa: Udemy (Completo y Certificado). Angular 14 y TypeScript.",
+    "description": "Udemy: Curso integral sobre Angular 14, cubriendo desde los fundamentos hasta técnicas avanzadas, con énfasis en TypeScript.",
     "percentage": 100
   },
   {
     "name": "RxJS nivel PRO",
-    "description": "",
+    "description": "Curso avanzado sobre RxJS, enfocado en programación reactiva y manejo de eventos asincrónicos para aplicaciones web.",
     "percentage": 40
   },
   {
     "name": "Appium + Serenity",
-    "description": "Aprende automatizar aplicaciones móviles con Appium + Serenity.",
+    "description": "Curso sobre automatización de aplicaciones móviles utilizando Appium y Serenity, incluyendo configuración y ejecución de pruebas.",
     "percentage": 20
   },
   {
     "name": "Maestría en CSS3",
-    "description": "Maestría en CSS3: Flexbox, Grid, SASS, Bootstrap 5",
+    "description": "Curso avanzado en CSS3, cubriendo Flexbox, Grid, SASS y Bootstrap 5, con enfoque en diseño responsivo y estilización moderna.",
     "percentage": 60
   },
   {
     "name": "CSS La Guía Completa",
-    "description": "CSS La Guía Completa - Flexbox, CSS Grid, SASS +20 proyectos",
+    "description": "Curso exhaustivo sobre CSS, incluyendo Flexbox, CSS Grid y SASS, con más de 20 proyectos prácticos para consolidar conocimientos.",
     "percentage": 15
   },
   {
     "name": "Curso de PHP",
-    "description": "",
+    "description": "Curso completo sobre PHP, abarcando desde conceptos básicos hasta programación avanzada, con enfoque en desarrollo web backend.",
     "percentage": 100
   },
   {
     "name": "Master en APIs RESTful",
-    "description": "Master en APIs RESTful con NodeJS: Crea 3 backends completos.",
+    "description": "Curso avanzado sobre desarrollo de APIs RESTful con NodeJS, incluyendo creación de tres backends completos y manejo de datos.",
     "percentage": 45
   }
 ]
