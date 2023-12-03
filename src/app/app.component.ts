@@ -31,7 +31,7 @@ export class AppComponent implements OnInit, OnDestroy {
   ngOnInit() {
     if (!localStorage.getItem('darkModeEnabled')) this.gVariableService.darkModeState = this.gVariableService.darkModeDefault;
   }
-  
+
   ngOnDestroy() {
     try {
       if (this.routerSubscription)
@@ -71,7 +71,7 @@ export class AppComponent implements OnInit, OnDestroy {
 
 @Injectable()
 export class GlobalVariables {
-  public static wspNumer: string = '+5492364653595';
+  public static wspNumer: string = '+393500415970';
   public static wspTxt: string = '';
   public static linkedinUser: string = 'francisco-caviglia';
   public static githubUser: string = 'caviglia80';
