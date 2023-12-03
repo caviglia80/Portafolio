@@ -25,7 +25,7 @@ export class ExperienceTimelineComponent implements OnInit {
   public cargarDatos() {
     try {
       if (this.http) {
-        this.http.get<any>('assets/data/expLaboralQA.json').subscribe((data) => {
+        this.http.get<any>('assets/data/expLaboral.json').subscribe((data) => {
           if (data) {
             this.jobData = data;
           }

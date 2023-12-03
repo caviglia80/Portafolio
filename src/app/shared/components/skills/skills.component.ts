@@ -31,9 +31,9 @@ export class SkillsComponent implements OnInit {
   private cargarDatos() {
     try {
       if (this.http)
-        this.http.get<any>('assets/data/skills.json').subscribe((data) => {
-          if (data && data[this.Json]) {
-            this.lista = data[this.Json];
+        this.http.get<any>(this.Json).subscribe((data) => {
+          if (data) {
+            this.lista = data;
             this.filtrarLista();
           }
         });

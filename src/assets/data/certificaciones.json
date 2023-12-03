@@ -1,0 +1,137 @@
+[
+  {
+    "name": "Bases de Datos y SQL",
+    "description": "Institución educativa: Educación IT (Completo y Certificado).",
+    "percentage": 100
+  },
+  {
+    "name": "Introducción a la Seguridad Informática",
+    "description": "Institución educativa: Educación IT (Completo y Certificado).",
+    "percentage": 100
+  },
+  {
+    "name": "Introducción a Redes",
+    "description": "Institución educativa: Educación IT (Completo y Certificado).",
+    "percentage": 100
+  },
+  {
+    "name": "Introducción a Linux",
+    "description": "Institución educativa: Educación IT (Completo y Certificado).",
+    "percentage": 100
+  },
+  {
+    "name": "Software Tester QA",
+    "description": "Institución educativa: Educación IT (Completo y Certificado).",
+    "percentage": 100
+  },
+  {
+    "name": "Testing Automation con Selenium",
+    "description": "Institución educativa: Educación IT (Completo y Certificado).",
+    "percentage": 100
+  },
+  {
+    "name": "Cypress: Automatización de pruebas de punta a punta",
+    "description": "Institución educativa: Udemy (Completo y Certificado).",
+    "percentage": 100
+  },
+  {
+    "name": "Automatización de pruebas con Cucumber y Gherkin",
+    "description": "Institución educativa: Udemy (Completo y Certificado).",
+    "percentage": 100
+  },
+  {
+    "name": "Remote Working",
+    "description": "Capacitación Global Obligatoria HSBC (Completo y Certificado).",
+    "percentage": 100
+  },
+  {
+    "name": "Lucha Contra el Delito Financiero",
+    "description": "Capacitación Global Obligatoria HSBC (Completo y Certificado).",
+    "percentage": 100
+  },
+  {
+    "name": "Personal Conflicts of Interest",
+    "description": "Capacitación Global Obligatoria HSBC (Completo y Certificado).",
+    "percentage": 100
+  },
+  {
+    "name": "HSBC and Me - New Joiners",
+    "description": "Capacitación Global Obligatoria HSBC (Completo y Certificado).",
+    "percentage": 100
+  },
+  {
+    "name": "Valores, conducta y yo: New Joiners",
+    "description": "Capacitación Global Obligatoria HSBC (Completo y Certificado).",
+    "percentage": 100
+  },
+  {
+    "name": "2020 Market Conduct Risks",
+    "description": "Capacitación Global Obligatoria HSBC (Completo y Certificado).",
+    "percentage": 100
+  },
+  {
+    "name": "HSBC and Me - Colaboradores Existentes",
+    "description": "Capacitación Global Obligatoria HSBC (Completo y Certificado).",
+    "percentage": 100
+  },
+  {
+    "name": "Lucha Contra el Delito Financiero CE 2021",
+    "description": "Capacitación Global Obligatoria HSBC (Completo y Certificado).",
+    "percentage": 100
+  },
+  {
+    "name": "eMail Security and Phishing Recognition 2020",
+    "description": "Capacitación Global Obligatoria HSBC (Completo y Certificado).",
+    "percentage": 100
+  },
+  {
+    "name": "Angular desde cero a experto",
+    "description": "Institución educativa: Udemy (Completo y Certificado). Angular desde cero a experto: Crear una aplicación real. Angular 12 y TypeScript.",
+    "percentage": 100
+  },
+  {
+    "name": "Bootstrap 5",
+    "description": "Institución educativa: Udemy (Completo y Certificado). Bootstrap 5: El Curso Completo, Práctico y Desde Cero + CSS.",
+    "percentage": 100
+  },
+  {
+    "name": "Cypress 12",
+    "description": "Institución educativa: Udemy (Completo y Certificado). Cypress 12: Automatización de pruebas de punta a punta",
+    "percentage": 100
+  },
+  {
+    "name": "Angular 14 - La Guia Completa",
+    "description": "Institución educativa: Udemy (Completo y Certificado). Angular 14 y TypeScript.",
+    "percentage": 100
+  },
+  {
+    "name": "RxJS nivel PRO",
+    "description": "",
+    "percentage": 40
+  },
+  {
+    "name": "Appium + Serenity",
+    "description": "Aprende automatizar aplicaciones móviles con Appium + Serenity.",
+    "percentage": 30
+  },
+  {
+    "name": "Maestría en CSS3",
+    "description": "Maestría en CSS3: Flexbox, Grid, SASS, Bootstrap 5",
+    "percentage": 60
+  },
+  {
+    "name": "CSS La Guía Completa",
+    "description": "CSS La Guía Completa - Flexbox, CSS Grid, SASS +20 proyectos",
+    "percentage": 15
+  },
+  {
+    "name": "Curso de PHP",
+    "description": "",
+    "percentage": 100
+  },
+  {
+    "name": "Master en APIs RESTful",
+    "description": "Master en APIs RESTful con NodeJS: Crea 3 backends completos.",
+    "percentage": 45
+  }
+]
