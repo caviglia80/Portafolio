@@ -1,582 +1,152 @@
 [
   {
-    "name": "Framework de Automatización Junit",
-    "description": "IDE: Eclipse. Lenguaje: JAVA. Utilicé Maven.",
-    "percentage": 100
-  },
-  {
-    "name": "Framework de Automatización TestNG",
-    "description": "IDE: Eclipse. Lenguaje: JAVA. Utilicé Maven.",
-    "percentage": 100
-  },
-  {
-    "name": "Framework de Automatización Xunit",
-    "description": "IDE: Visual Studio 2019. Lenguaje: C#.",
-    "percentage": 100
-  },
-  {
-    "name": "Framework de Automatización Selenium WebDriver",
-    "description": "IDE: Visual Studio 2019. Lenguaje: C#. Realicé pruebas automatizadas con Selenium WebDriver.",
-    "percentage": 100
-  },
-  {
-    "name": "Framework Cypress de Automatización",
-    "description": "IDE: Visual Studio Code. Lenguaje: JavaScript con sintaxis Jasmine.",
-    "percentage": 100
-  },
-  {
-    "name": "Jasmine",
-    "description": "IDE: Visual Studio Code. Lenguaje: JavaScript con el framework Jasmine.",
-    "percentage": 100
-  },
-  {
-    "name": "SQL",
-    "description": "Lenguaje de consultas SQL. Lo empleo para trabajar con SQL Server y Jira.",
-    "percentage": 75
-  },
-  {
-    "name": "Java",
-    "description": "IDE: Eclipse. Realizo pruebas automatizadas en Java con Selenium WebDriver.",
-    "percentage": 90
-  },
-  {
-    "name": "BACH",
-    "description": "Lenguaje de lotes de Windows, automatización de tareas y ejecución de pruebas con DotNet SDK.",
-    "percentage": 100
-  },
-  {
-    "name": "Powershell",
-    "description": "Ejecuto pruebas con DotNet SDK.",
-    "percentage": 100
-  },
-  {
-    "name": "XML",
-    "description": "Realizo lectura de archivos XML.",
-    "percentage": 100
-  },
-  {
-    "name": "JSON",
-    "description": "Llevo a cabo lectura de archivos JSON.",
-    "percentage": 100
-  },
-  {
-    "name": "GIT",
-    "description": "Utilizo GIT CLI consola, conectado con Github.",
+    "name": "Lenguajes de Programación",
+    "description": "Desarrollo con lenguajes de programación como JavaScript, TypeScript, C#, PHP, C, C++, Java y VB.NET. Utilizo estos lenguajes para crear soluciones robustas y eficientes en proyectos de software.",
     "percentage": 95
   },
   {
-    "name": "GitKraken",
-    "description": "Uso GitKraken en Windows, conectado con Github.",
+    "name": "Lenguajes de Consulta y Manipulación de Datos",
+    "description": "Uso de SQL para la gestión de bases de datos, y JSON para la manipulación de datos en aplicaciones web. Estas herramientas son fundamentales para el manejo eficiente de datos y la integración de sistemas.",
+    "percentage": 90
+  },
+  {
+    "name": "Lenguajes de Maquetación y Estilos",
+    "description": "Desarrollo con HTML para la estructuración de páginas web y CSS para la definición de estilos visuales. Estas tecnologías son esenciales para crear interfaces de usuario atractivas y responsivas.",
+    "percentage": 90
+  },
+  {
+    "name": "Estructuras de Datos",
+    "description": "Manejo de estructuras de datos como XML, empleadas para la configuración, intercambio y almacenamiento de información en un formato estructurado y accesible.",
+    "percentage": 85
+  },
+  {
+    "name": "IDEs",
+    "description": "Manejo de Eclipse, Visual Studio y Visual Studio Code para el desarrollo en diversos lenguajes, adaptándome a diferentes entornos y necesidades de proyectos.",
+    "percentage": 100
+  },
+  {
+    "name": "Sistemas Operativos",
+    "description": "Trabajo con Windows y Linux, adaptándome a diferentes entornos de desarrollo y despliegue.",
     "percentage": 100
   },
   {
     "name": "API REST",
-    "description": "Desarrollo soluciones informáticas que consumen APIs utilizando Fetch o XHR. Realizo pruebas automatizadas de APIs.",
+    "description": "Desarrollo, consumo e integración de APIs REST en diversas soluciones informáticas, con pruebas automatizadas para asegurar su funcionalidad.",
     "percentage": 100
   },
   {
     "name": "DevOps",
-    "description": "Cuento con experiencia en la implementación de prácticas DevOps, incluyendo integración continua, despliegue continuo, automatización, colaboración entre equipos y monitoreo.",
+    "description": "Implementación de prácticas DevOps, incluyendo integración y despliegue continuo, automatización y colaboración entre equipos.",
     "percentage": 100
   },
   {
-    "name": "Eclipse IDE",
-    "description": "Tengo experiencia en JAVA utilizando el IDE Eclipse.",
-    "percentage": 80
-  },
-  {
-    "name": "Visual Studio IDE",
-    "description": "Tengo experiencia en C# y vb.NET utilizando el IDE Visual Studio.",
+    "name": "Metodologías Ágiles",
+    "description": "Aplicación de metodologías ágiles como Scrum para la gestión ágil de proyectos de desarrollo de software.",
     "percentage": 100
   },
   {
-    "name": "Visual Studio Code IDE",
-    "description": "Tengo experiencia en HTML, CSS, TypeScript y JavaScript utilizando el IDE Visual Studio Code.",
-    "percentage": 99
-  },
-  {
-    "name": "Windows",
-    "description": "Cuento con experiencia en el sistema operativo Windows.",
+    "name": "Frameworks de Automatización",
+    "description": "Experiencia en Junit, TestNG, Xunit, Selenium WebDriver y Cypress para la automatización de pruebas en diferentes lenguajes y entornos.",
     "percentage": 100
   },
   {
-    "name": "Linux",
-    "description": "Tengo experiencia en el sistema operativo Linux.",
-    "percentage": 80
-  },
-  {
-    "name": "Jira",
-    "description": "Realizo seguimiento de tickets en Jira, diseño casos de prueba, ejecuto pruebas, reporto defectos, creo versiones, ciclos y aplico filtros personalizados con SQL, entre otras tareas.",
-    "percentage": 100
-  },
-  {
-    "name": "Oracle SQL",
-    "description": "Trabajo con bases de datos Oracle utilizando SQL.",
-    "percentage": 90
-  },
-  {
-    "name": "Postman",
-    "description": "Realizo pruebas de APIs utilizando Postman.",
-    "percentage": 100
-  },
-  {
-    "name": "cURL",
-    "description": "Realizo pruebas de APIs utilizando cURL.",
-    "percentage": 100
-  },
-  {
-    "name": "DBeaver SQL",
-    "description": "Utilizo DBeaver como cliente para bases de datos.",
-    "percentage": 90
-  },
-  {
-    "name": "Filezilla FTP",
-    "description": "Utilizo Filezilla como cliente FTP.",
-    "percentage": 100
-  },
-  {
-    "name": "Clockify",
-    "description": "Realizo el seguimiento de horas utilizando Clockify.",
-    "percentage": 100
-  },
-  {
-    "name": "Jira Tempo",
-    "description": "Utilizo Jira Tempo para llevar el registro de horas.",
-    "percentage": 100
-  },
-  {
-    "name": "WinGet",
-    "description": "Realizo instalaciones certificadas en Windows por consola, de forma automática y/o programada.",
-    "percentage": 100
-  },
-  {
-    "name": "Chocolatey",
-    "description": "Realizo instalaciones por consola, de forma automática y/o programada, utilizando Chocolatey.",
-    "percentage": 100
-  },
-  {
-    "name": "Hyper-V",
-    "description": "Tengo experiencia en entornos virtuales utilizando Hyper-V.",
-    "percentage": 100
-  },
-  {
-    "name": "Pruebas con Datos",
-    "description": "Realizo pruebas utilizando conjuntos de datos.",
-    "percentage": 100
-  },
-  {
-    "name": "DotNet SDK",
-    "description": "Ejecuto pruebas mediante la línea de comandos y genero informes utilizando DotNet SDK.",
-    "percentage": 95
-  },
-  {
-    "name": "Servicios Web",
-    "description": "Realizo pruebas de Servicios Web.",
-    "percentage": 100
-  },
-  {
-    "name": "Pruebas Funcionales",
-    "description": "Realizo pruebas funcionales.",
-    "percentage": 100
-  },
-  {
-    "name": "Pruebas de Regresión",
-    "description": "Realizo pruebas de regresión.",
-    "percentage": 100
-  },
-  {
-    "name": "Reportes de Defectos",
-    "description": "Realizo reportes de defectos.",
-    "percentage": 100
-  },
-  {
-    "name": "Mejoras",
-    "description": "Propongo mejoras.",
-    "percentage": 100
-  },
-  {
-    "name": "Metodologías Ágiles: Scrum",
-    "description": "Tengo experiencia en la metodología ágil Scrum.",
-    "percentage": 100
-  },
-  {
-    "name": "Zoom",
-    "description": "Utilizo Zoom para videoconferencias.",
-    "percentage": 100
-  },
-  {
-    "name": "Microsoft Teams",
-    "description": "Utilizo Microsoft Teams para videoconferencias, chat con el equipo, llamadas, reuniones diarias y gestión de calendario.",
-    "percentage": 100
-  },
-  {
-    "name": "Cisco Jabber",
-    "description": "Utilizo Cisco Jabber para videoconferencias.",
-    "percentage": 100
-  },
-  {
-    "name": "Soap UI Pro",
-    "description": "Realizo pruebas de APIs utilizando Soap UI Pro.",
-    "percentage": 70
-  },
-  {
-    "name": "C#/CSharp",
-    "description": "Tengo experiencia en programación en C# durante mis estudios de ingeniería, trabajos personales y automatizaciones en entornos de trabajo.",
-    "percentage": 100
-  },
-  {
-    "name": "Outlook",
-    "description": "Utilizo Outlook para reportes, minutas, programar reuniones en el calendario y recibir avisos importantes.",
-    "percentage": 100
-  },
-  {
-    "name": "Planificación de Pruebas",
-    "description": "Desarrollo estrategias y planes de pruebas para cada proyecto. Identifico los objetivos de calidad y los criterios de aceptación.",
-    "percentage": 100
-  },
-  {
-    "name": "Diseño de Casos de Prueba",
-    "description": "Creo escenarios de prueba detallados que cubren diferentes aspectos del producto o servicio. Defino datos de entrada, pasos a seguir y resultados esperados.",
-    "percentage": 100
-  },
-  {
-    "name": "Ejecución de Pruebas",
-    "description": "Ejecuto los casos de prueba para evaluar el rendimiento, la funcionalidad y la usabilidad del producto. Identifico y registro cualquier defecto o problema encontrado.",
-    "percentage": 100
-  },
-  {
-    "name": "Automatización de Pruebas",
-    "description": "Desarrollo scripts y herramientas automatizadas para repetir pruebas de manera eficiente. Ejecuto pruebas automatizadas en diferentes configuraciones.",
-    "percentage": 100
-  },
-  {
-    "name": "Validación de Funcionalidad",
-    "description": "Me aseguro de que todas las características y funcionalidades cumplan con los requisitos y especificaciones.",
-    "percentage": 100
-  },
-  {
-    "name": "Pruebas de Rendimiento",
-    "description": "Evalúo el rendimiento en términos de velocidad de carga web.",
-    "percentage": 100
-  },
-  {
-    "name": "Pruebas de Usabilidad",
-    "description": "Evalúo la experiencia del usuario, la interfaz y la facilidad de uso del producto.",
-    "percentage": 100
-  },
-  {
-    "name": "Documentación",
-    "description": "Mantengo registros detallados de los casos de prueba, los resultados y los problemas encontrados. Genero informes de calidad para informar sobre el estado del proyecto.",
-    "percentage": 100
-  },
-  {
-    "name": "Colaboración",
-    "description": "Trabajo en estrecha colaboración con desarrolladores, diseñadores y otros equipos para abordar problemas y mejorar la calidad del producto.",
-    "percentage": 100
-  },
-  {
-    "name": "Revisión de Código",
-    "description": "Participo en revisiones de código para identificar problemas desde una perspectiva de calidad.",
-    "percentage": 100
-  },
-  {
-    "name": "Gestión de Defectos",
-    "description": "Registro y seguimiento de problemas en un sistema de gestión de problemas. Priorizo problemas según su gravedad y su impacto en la calidad general.",
-    "percentage": 100
-  },
-  {
-    "name": "Pruebas de Regresión",
-    "description": "Realizo pruebas de regresión para asegurarme de que las correcciones y mejoras no introduzcan nuevos problemas.",
-    "percentage": 100
-  },
-  {
-    "name": "Formación y Mejora",
-    "description": "Me mantengo actualizado sobre las mejores prácticas y herramientas de QA. Proporciono capacitación a nuevos miembros del equipo y promuevo la mejora continua.",
-    "percentage": 100
-  },
-  {
-    "name": "Pruebas de Regresión Automatizadas",
-    "description": "Ejecuto casos de prueba previamente automatizados para validar cambios.",
-    "percentage": 100
-  },
-  {
-    "name": "Pruebas de Rendimiento Automatizadas",
-    "description": "Simulo cargas de usuarios para evaluar el rendimiento.",
-    "percentage": 100
-  },
-  {
-    "name": "Pruebas de Integración Automatizadas",
-    "description": "Valido continuamente la integración entre componentes.",
-    "percentage": 100
-  },
-  {
-    "name": "Pruebas de Humo Automatizadas",
-    "description": "Realizo verificaciones rápidas de funcionalidades esenciales tras cada cambio.",
-    "percentage": 100
-  },
-  {
-    "name": "Pruebas de API Automatizadas",
-    "description": "Valido interfaces de programación de aplicaciones.",
-    "percentage": 100
-  },
-  {
-    "name": "Pruebas de Seguridad Automatizadas",
-    "description": "Identifico vulnerabilidades y brechas de seguridad.",
-    "percentage": 100
-  },
-  {
-    "name": "Mantenimiento de Scripts",
-    "description": "Actualizo y mejoro constantemente los scripts de prueba automatizados.",
-    "percentage": 100
-  },
-  {
-    "name": "Pruebas de Compatibilidad Automatizadas",
-    "description": "Valido en diferentes navegadores, dispositivos y sistemas operativos.",
-    "percentage": 100
-  },
-  {
-    "name": "Generación de Informes Automatizados",
-    "description": "Creo informes de prueba con resultados y estadísticas.",
-    "percentage": 100
-  },
-  {
-    "name": "Jasmine",
-    "description": "IDE: Visual Studio Code. Lenguaje: JavaScript con el framework Jasmine.",
+    "name": "Pruebas Automatizadas",
+    "description": "Diseño y ejecución de pruebas automatizadas, incluyendo pruebas de regresión, rendimiento, integración, humo, API y seguridad.",
     "percentage": 100
   },
   {
     "name": "SQL",
-    "description": "Lenguaje de consultas SQL. Lo utilizo para SQL Server y Jira.",
+    "description": "Uso de SQL para la gestión de bases de datos en SQL Server y Jira, apoyando el análisis y manejo de datos.",
     "percentage": 75
   },
   {
     "name": "Java",
-    "description": "IDE: Eclipse. Realizo pruebas automatizadas en Java con Selenium Web Driver.",
+    "description": "Desarrollo en Java y realización de pruebas automatizadas con Selenium WebDriver, especialmente en Eclipse.",
     "percentage": 90
   },
   {
-    "name": "BATCH",
-    "description": "Lenguaje de lotes de Windows. Automatización de tareas y ejecución de pruebas con DotNet SDK.",
+    "name": "Herramientas de Base de Datos",
+    "description": "Uso de Oracle SQL, DBeaver SQL y MySQL Workbench para la administración y manipulación de bases de datos.",
+    "percentage": 90
+  },
+  {
+    "name": "XML/JSON",
+    "description": "Manejo y manipulación de archivos XML y JSON, fundamentales en la integración de datos en proyectos de software.",
     "percentage": 100
   },
   {
-    "name": "PowerShell",
-    "description": "Ejecución de pruebas con DotNet SDK.",
-    "percentage": 100
-  },
-  {
-    "name": "XML",
-    "description": "Lectura de archivos XML.",
-    "percentage": 100
-  },
-  {
-    "name": "JSON",
-    "description": "Lectura de archivos JSON.",
-    "percentage": 100
-  },
-  {
-    "name": "GIT",
-    "description": "Utilizo GIT CLI consola, conectado con Github.",
+    "name": "GIT/GitKraken",
+    "description": "Uso de GIT Bash y GitKraken para el control de versiones, colaboración y seguimiento de cambios en el desarrollo de software.",
     "percentage": 95
   },
   {
-    "name": "GitKraken",
-    "description": "GitKraken para Windows, utilizando Github.",
+    "name": "Herramientas de Gestión y Seguimiento",
+    "description": "Uso de Clockify, Jira Tempo, y WinGet, Chocolatey para el seguimiento de horas y la gestión de instalaciones de software.",
     "percentage": 100
   },
   {
-    "name": "API REST",
-    "description": "Desarrollo de soluciones informáticas que consumen APIs a través de Fetch o XHR. Pruebas automatizadas de APIs.",
+    "name": "Virtualización",
+    "description": "Configuración y manejo de entornos virtuales con Hyper-V para simular diferentes entornos de prueba y desarrollo.",
     "percentage": 100
   },
   {
-    "name": "DevOps",
-    "description": "Experiencia en la implementación de prácticas DevOps, incluyendo integración continua, despliegue continuo, automatización, colaboración entre equipos y monitoreo.",
+    "name": "Herramientas de Pruebas de API",
+    "description": "Uso de Postman, cURL y Soap UI Pro para pruebas efectivas en APIs, asegurando su funcionalidad y fiabilidad.",
     "percentage": 100
   },
   {
-    "name": "Eclipse IDE",
-    "description": "Experiencia en JAVA con el IDE Eclipse.",
-    "percentage": 80
-  },
-  {
-    "name": "Visual Studio IDE",
-    "description": "Experiencia en C# y vb.NET con el IDE Visual Studio.",
-    "percentage": 100
-  },
-  {
-    "name": "Visual Studio Code IDE",
-    "description": "Experiencia en HTML, CSS, TypeScript, JavaScript con el IDE Visual Studio Code.",
-    "percentage": 99
-  },
-  {
-    "name": "Windows",
-    "description": "Experiencia en el sistema operativo Windows.",
-    "percentage": 100
-  },
-  {
-    "name": "Linux",
-    "description": "Experiencia en el sistema operativo Linux.",
-    "percentage": 80
-  },
-  {
-    "name": "Jira",
-    "description": "Seguimiento de tickets en Jira, diseño de casos de prueba, ejecución, reporte de defectos, creación de versiones, ciclos, y filtros personalizados con SQL, entre otros.",
-    "percentage": 100
-  },
-  {
-    "name": "Oracle SQL",
-    "description": "Base de datos Oracle.",
-    "percentage": 90
-  },
-  {
-    "name": "Postman",
-    "description": "Pruebas de APIs con Postman.",
-    "percentage": 100
-  },
-  {
-    "name": "cURL",
-    "description": "Pruebas de APIs con cURL.",
-    "percentage": 100
-  },
-  {
-    "name": "DBeaver SQL",
-    "description": "Cliente para bases de datos.",
-    "percentage": 90
-  },
-  {
-    "name": "Filezilla FTP",
-    "description": "Cliente para FTP.",
-    "percentage": 100
-  },
-  {
-    "name": "Clockify",
-    "description": "Seguimiento de horas con Clockify.",
-    "percentage": 100
-  },
-  {
-    "name": "Jira Tempo",
-    "description": "Seguimiento de horas con Jira Tempo.",
-    "percentage": 100
-  },
-  {
-    "name": "WinGet",
-    "description": "Instalaciones certificadas de Windows por consola, automáticas y/o programadas.",
-    "percentage": 100
-  },
-  {
-    "name": "Chocolatey",
-    "description": "Instalaciones por consola, automáticas y/o programadas.",
-    "percentage": 100
-  },
-  {
-    "name": "Hyper-V",
-    "description": "Configuración de entornos virtuales con Hyper-V.",
-    "percentage": 100
-  },
-  {
-    "name": "Web Services",
-    "description": "Pruebas de Web Services y desarrollo de soluciones.",
-    "percentage": 100
-  },
-  {
-    "name": "Metodologías ágiles: Scrum",
-    "description": "Experiencia en la metodología ágil Scrum.",
-    "percentage": 100
-  },
-  {
-    "name": "Microsoft Teams",
-    "description": "Uso de Microsoft Teams para videoconferencias, chat con el equipo, llamadas, reuniones diarias y gestión de calendario.",
+    "name": "Herramientas de Comunicación",
+    "description": "Uso de Zoom, Microsoft Teams y Cisco Jabber para la colaboración en equipos de trabajo.",
     "percentage": 100
   },
   {
     "name": "Outlook",
-    "description": "Uso de Outlook para informes, minutas, programación de reuniones y notificaciones importantes.",
+    "description": "Uso de Outlook para la gestión de comunicaciones, organización de reuniones y seguimiento de tareas.",
     "percentage": 100
   },
   {
-    "name": "SoapUI Pro",
-    "description": "Pruebas de APIs con SoapUI Pro.",
-    "percentage": 100
-  },
-  {
-    "name": "HTML",
-    "description": "Maquetación con HTML5.",
-    "percentage": 100
-  },
-  {
-    "name": "CSS",
-    "description": "Estilos con CSS3.",
-    "percentage": 95
-  },
-  {
-    "name": "JavaScript",
-    "description": "Programación en JavaScript ES6.",
-    "percentage": 95
-  },
-  {
-    "name": "TypeScript",
-    "description": "Programación en TypeScript en proyectos Angular 12 y 14.",
-    "percentage": 95
-  },
-  {
-    "name": "PHP",
-    "description": "Programación en PHP para comunicación con la base de datos y manipulación de archivos en el servidor.",
-    "percentage": 70
-  },
-  {
-    "name": "C",
-    "description": "Programación en C (durante mis estudios en la facultad de ingeniería).",
-    "percentage": 100
-  },
-  {
-    "name": "C++",
-    "description": "Programación en C++ (durante mis estudios en la facultad de ingeniería).",
-    "percentage": 100
-  },
-  {
-    "name": "C#/CSharp",
-    "description": "Programación en C# durante mis estudios en la facultad de ingeniería, trabajos personales y automatizaciones en el ámbito laboral.",
-    "percentage": 100
-  },
-  {
-    "name": "Visual Basic .NET",
-    "description": "Desarrollo en Visual Basic orientado a objetos .NET utilizando el IDE de Visual Studio.",
-    "percentage": 100
-  },
-  {
-    "name": "Framework",
-    "description": "Desarrollo con diversos frameworks.",
-    "percentage": 100
-  },
-  {
-    "name": "MySQL Workbench",
-    "description": "Herramienta de administración de bases de datos MySQL.",
-    "percentage": 100
-  },
-  {
-    "name": "Dev-C++",
-    "description": "IDE Dev-C++ (utilizado durante mis estudios en la facultad de ingeniería).",
+    "name": "Pruebas y Documentación",
+    "description": "Realización de pruebas, documentación técnica, colaboración en la revisión de código, gestión de defectos y mejora continua.",
     "percentage": 100
   },
   {
     "name": "Karma + Jasmine",
-    "description": "Pruebas unitarias con Karma + Jasmine.",
+    "description": "Implementación de pruebas unitarias con Karma y Jasmine, enfocándome en la calidad y funcionalidad del código.",
     "percentage": 100
-  },
-  {
-    "name": "Angular",
-    "description": "Experiencia en las versiones 14 y 16 de Angular.",
-    "percentage": 100
-  },
-  {
-    "name": "Bootstrap",
-    "description": "Experiencia con Bootstrap versión 5.",
-    "percentage": 95
   },
   {
     "name": "RxJS",
-    "description": "Angular con la biblioteca RxJS, que facilita la programación reactiva.",
+    "description": "Uso de RxJS en proyectos Angular para mejorar la programación reactiva y el manejo de eventos asincrónicos.",
+    "percentage": 90
+  },
+  {
+    "name": "Programación Orientada a Objetos (POO)",
+    "description": "Aplicación de principios de POO en C++, C#, Java y PHP para mejorar la estructura y mantenimiento del código.",
+    "percentage": 90
+  },
+  {
+    "name": "Token JWT",
+    "description": "Implementación de autenticación y seguridad con tokens JWT en aplicaciones, asegurando la integridad y confidencialidad de los datos.",
+    "percentage": 90
+  },
+  {
+    "name": "API/Integración",
+    "description": "Desarrollo e integración de APIs utilizando XHR y Fetch API para la comunicación efectiva entre cliente y servidor.",
+    "percentage": 90
+  },
+  {
+    "name": "Cucumber y Gherkin",
+    "description": "Uso de Cucumber y Gherkin para definir comportamientos de software, facilitando la automatización de pruebas BDD.",
+    "percentage": 90
+  },
+  {
+    "name": "Pruebas basadas en datos",
+    "description": "Realización de pruebas basadas en datos con Selenium WebDriver y Cypress para mejorar la cobertura de las pruebas.",
+    "percentage": 90
+  },
+  {
+    "name": "Pruebas de Servicios Web",
+    "description": "Ejecución de pruebas en servicios web utilizando Postman y SoapUI, para asegurar la calidad de las APIs.",
     "percentage": 90
   }
 ]
