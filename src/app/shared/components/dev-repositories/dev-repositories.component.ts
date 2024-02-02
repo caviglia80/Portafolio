@@ -44,7 +44,7 @@ export class DevRepositoriesComponent {
 
   public scrollTo(id: string): void {
     try {
-      if(!this.showAllRepos) return;
+      if (!this.showAllRepos) return;
       const element = document.getElementById(id);
       if (element) {
         element.scrollIntoView({ behavior: 'smooth', block: 'center' });

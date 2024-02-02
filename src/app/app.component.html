@@ -1,21 +1,22 @@
+<app-toast [title]="'CV - PDF'" [text]="'Ver versión '"
+  [link]="'https://drive.google.com/file/d/1A7wbdZgeuyXyhCBPWuTkKUv1tU2u6bFQ/view?usp=drive_link'" [linkTxt]="'PDF.'">
+</app-toast>
+
 <section>
-    <app-presentation></app-presentation>
+  <app-presentation></app-presentation>
 </section>
 
-<app-nav *ngIf="!isMain()"></app-nav>
+<app-nav></app-nav>
 
 <app-particles *ngIf="gVariableService.darkModeState"></app-particles>
 
 <router-outlet></router-outlet>
 
-<div class="d-flex flex-column position-fixed start-0 bottom-0 z-index-9999 text-center" *ngIf="!isMain()">
-    <app-top-btn></app-top-btn>
-    <app-github-btn></app-github-btn>
-    <app-linkedin-btn></app-linkedin-btn>
-    <app-whatsapp-btn></app-whatsapp-btn>
+<div class="d-flex flex-column position-fixed start-0 bottom-0 z-index-9999 text-center">
+  <app-top-btn></app-top-btn>
+  <!-- <app-github-btn></app-github-btn> -->
+  <app-linkedin-btn></app-linkedin-btn>
+  <app-whatsapp-btn></app-whatsapp-btn>
 </div>
 
-<footer id="contacto" class="bg-dark text-light py-4" *ngIf="!isMain()"><app-footer></app-footer></footer>
-
-
-
+<footer id="contacto" class="bg-dark text-light py-4"><app-footer></app-footer></footer>

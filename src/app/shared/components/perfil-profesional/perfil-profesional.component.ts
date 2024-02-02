@@ -1,25 +1,11 @@
-import { Component, OnInit } from '@angular/core';
-import { GlobalChecker } from 'src/app/app.component';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-perfil-profesional',
   templateUrl: './perfil-profesional.component.html',
   styleUrls: ['./perfil-profesional.component.css']
 })
-export class PerfilProfesionalComponent implements OnInit {
+export class PerfilProfesionalComponent {
   public imgPerfil: string = 'assets/Perfil.jpg';
 
-  constructor() { }
-
-  ngOnInit(): void {
-    this.checkImages();
-  }
-
-  private async checkImages() {
-    try {
-      this.imgPerfil = await GlobalChecker.checkImageExists(this.imgPerfil);
-    } catch (error) {
-      console.log(error);
-    }
-  }
 }

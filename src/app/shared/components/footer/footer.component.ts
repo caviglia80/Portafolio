@@ -7,15 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
   public anios: string = '';
+  public anio: string = '';
 
   constructor() { }
 
   ngOnInit(): void {
-    try {
-      this.anios = this.calcularEdad('10/10/1993');
-    } catch (error) {
-      console.log(error);
-    }
+    this.Año();
+    this.anios = this.calcularEdad('10/10/1993');
   }
 
   private calcularEdad(fechaNacimiento: string): string {
@@ -27,6 +25,14 @@ export class FooterComponent implements OnInit {
     } catch (error) {
       console.log(error);
       return '--';
+    }
+  }
+
+  private Año() {
+    try {
+      this.anio = new Date().getFullYear().toString();
+    } catch (error) {
+      console.log(error);
     }
   }
 }

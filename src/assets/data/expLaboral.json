@@ -1,28 +1,14 @@
 {
   "BOLDT2": {
-    "position": "Desarrollador Web",
+    "position": "Desarrollador de Software",
     "date": "Diciembre 2021 – Actualmente",
     "responsibilities": [
       "Metodología Ágil Scrum",
-      "Más desarrollo en frontend que backend",
-      "Diseñar/arreglar estilos con CSS, incluyendo mejoras y correcciones de responsividad",
-      "Diseñar/arreglar estilos con Bootstrap",
-      "Diseñar/arreglar HTML",
-      "Diseñar/arreglar funcionalidades en TypeScript con RXJS y otras librerías",
-      "Diseñar/arreglar Interceptores",
-      "Diseñar/arreglar clases e interfaces",
-      "Actualizar la versión de Angular",
-      "Versionado con GitHub (comandos)",
-      "Mantenimiento en .NET Core con C#, validadores y expresiones lambda",
-      "Agregar/editar tablas en SQL Server y MySQL",
-      "Mantenimiento de campos en JSON y XML",
-      "Diseñar APIs en PHP",
-      "Gestión de tokens JWT (expiración y autenticación en backend)",
-      "Desarrollo utilizando Lazy Loading"
+      "Encargado del mantenimiento y cambios de aplicativos web"
     ]
   },
   "BOLDT": {
-    "position": "QA Manual y Automatizado Sr.",
+    "position": "QA Automatizado Sr.",
     "date": "Noviembre 2020 – Diciembre 2021",
     "responsibilities": [
       "Metodología Ágil Scrum",
@@ -48,7 +34,7 @@
     ]
   },
   "HSBC": {
-    "position": "QA Manual Sr.",
+    "position": "QA Automatizado Sr.",
     "date": "Septiembre 2019 – Noviembre 2020",
     "responsibilities": [
       "Metodología Ágil Scrum",
@@ -99,7 +85,7 @@
     ]
   },
   "BNP": {
-    "position": "QA Manual Ssr.",
+    "position": "QA Manual",
     "date": "Agosto 2017 – Marzo 2018",
     "responsibilities": [
       "Metodología Ágil Scrum",
@@ -113,7 +99,7 @@
     ]
   },
   "Fravega": {
-    "position": "QA Manual Jr.",
+    "position": "QA Manual",
     "date": "Enero 2017 – Agosto 2017",
     "responsibilities": [
       "Pruebas de Aceptación de Usuario",

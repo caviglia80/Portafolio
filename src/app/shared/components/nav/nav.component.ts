@@ -1,6 +1,5 @@
 import { Component, HostListener, ElementRef } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
-import { GlobalChecker } from 'src/app/app.component';
 
 @Component({
   selector: 'app-nav',
@@ -10,7 +9,7 @@ import { GlobalChecker } from 'src/app/app.component';
 export class NavComponent {
   public imgLogo: string = 'assets/Logos/logo.png';
   public isCollapsed = true;
-  
+
   constructor(public router: Router, private elementRef: ElementRef) {
     try {
       this.router.events.subscribe((event) => {
@@ -23,24 +22,12 @@ export class NavComponent {
     }
   }
 
-  ngOnInit(): void {
-    this.checkImages();
-  }
-
   @HostListener('document:click', ['$event'])
   onDocumentClick(event: MouseEvent) {
     try {
       if (!this.elementRef.nativeElement.contains(event.target)) {
         this.isCollapsed = true;
       }
-    } catch (error) {
-      console.log(error);
-    }
-  }
-
-  private async checkImages() {
-    try {
-      this.imgLogo = await GlobalChecker.checkImageExists(this.imgLogo);
     } catch (error) {
       console.log(error);
     }

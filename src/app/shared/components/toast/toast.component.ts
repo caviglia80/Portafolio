@@ -25,10 +25,10 @@ export class ToastComponent implements OnDestroy {
       const timer$ = interval(1000).pipe(
         take(this.secondsLeft)
       );
-  
+
       this.timerSubscription = timer$.subscribe(() => {
         this.secondsLeft--;
-  
+
         if (this.secondsLeft === 0) {
           this.closeToast();
         }

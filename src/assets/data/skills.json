@@ -1,157 +1,52 @@
 [
   {
-    "name": "Lenguajes de Programación",
-    "description": "Desarrollo con lenguajes de programación como JavaScript, TypeScript, C#, PHP, C, C++, Java y VB.NET. Utilizo estos lenguajes para crear soluciones robustas y eficientes en proyectos de software.",
+    "name": "Programación con C#",
+    "description": "Desarrollo con lenguaje de programación C# / Csharp en aplicativos para windows y pruebas con Selenium.",
+    "percentage": 100
+  },
+  {
+    "name": "Programación con JavaScript y TypeScript",
+    "description": "Desarrollo con lenguaje de programación JavaScript y TypeScript para aplicativos web con Angular.",
+    "percentage": 100
+  },
+  {
+    "name": "Programación con PHP",
+    "description": "Desarrollo con lenguaje de programación PHP (particular) realice varios backends para clientes.",
+    "percentage": 100
+  },
+  {
+    "name": "Programación con vb.NET",
+    "description": "Desarrollo con lenguaje de programación Visual Basic (.NET) para windows forms (en universidad y de forma particular).",
+    "percentage": 100
+  },
+  {
+    "name": "Programación con C, C++",
+    "description": "Desarrollo con lenguaje de programación C y C++ (conocimientos de facultad)",
+    "percentage": 100
+  },
+  {
+    "name": "Programación con Java",
+    "description": "Desarrollo con lenguaje de programación Java para pruebas con Selenium.",
+    "percentage": 100
+  },
+  {
+    "name": "Lenguajes de Consulta SQL",
+    "description": "Uso de SQL para la gestión de bases de datos (MySQL, SQL Server)",
+    "percentage": 100
+  },
+  {
+    "name": "Estilos y CSS",
+    "description": "Experiemcia en CSS, Bootstrap 5, puedo hacer aplicaciones completamente responsivas.",
     "percentage": 95
   },
   {
-    "name": "Lenguajes de Consulta y Manipulación de Datos",
-    "description": "Uso de SQL para la gestión de bases de datos, y JSON para la manipulación de datos en aplicaciones web. Estas herramientas son fundamentales para el manejo eficiente de datos y la integración de sistemas.",
-    "percentage": 90
-  },
-  {
-    "name": "Lenguajes de Maquetación y Estilos",
-    "description": "Desarrollo con HTML para la estructuración de páginas web y CSS para la definición de estilos visuales. Estas tecnologías son esenciales para crear interfaces de usuario atractivas y responsivas.",
-    "percentage": 90
-  },
-  {
-    "name": "Estructuras de Datos",
-    "description": "Manejo de estructuras de datos como XML, empleadas para la configuración, intercambio y almacenamiento de información en un formato estructurado y accesible.",
-    "percentage": 85
-  },
-  {
-    "name": "Implementacion de la API de CHAT GPT",
-    "description": "Implementacion de la inteligencia artificial de OpenAI para soluciones especificas.",
-    "percentage": 100
-  },
-  {
-    "name": "IDEs",
-    "description": "Manejo de Eclipse, Visual Studio y Visual Studio Code para el desarrollo en diversos lenguajes, adaptándome a diferentes entornos y necesidades de proyectos.",
-    "percentage": 100
-  },
-  {
-    "name": "Sistemas Operativos",
-    "description": "Trabajo con Windows y Linux, adaptándome a diferentes entornos de desarrollo y despliegue.",
-    "percentage": 100
-  },
-  {
-    "name": "API REST",
-    "description": "Desarrollo, consumo e integración de APIs REST en diversas soluciones informáticas, con pruebas automatizadas para asegurar su funcionalidad.",
-    "percentage": 100
-  },
-  {
-    "name": "DevOps",
-    "description": "Implementación de prácticas DevOps, incluyendo integración y despliegue continuo, automatización y colaboración entre equipos.",
-    "percentage": 100
-  },
-  {
-    "name": "Metodologías Ágiles",
-    "description": "Aplicación de metodologías ágiles como Scrum para la gestión ágil de proyectos de desarrollo de software.",
-    "percentage": 100
-  },
-  {
-    "name": "Frameworks de Automatización",
-    "description": "Experiencia en Junit, TestNG, Xunit, Selenium WebDriver y Cypress para la automatización de pruebas en diferentes lenguajes y entornos.",
-    "percentage": 100
-  },
-  {
-    "name": "Pruebas Automatizadas",
-    "description": "Diseño y ejecución de pruebas automatizadas, incluyendo pruebas de regresión, rendimiento, integración, humo, API y seguridad.",
-    "percentage": 100
-  },
-  {
-    "name": "SQL",
-    "description": "Uso de SQL para la gestión de bases de datos en SQL Server y Jira, apoyando el análisis y manejo de datos.",
-    "percentage": 75
-  },
-  {
-    "name": "Java",
-    "description": "Desarrollo en Java y realización de pruebas automatizadas con Selenium WebDriver, especialmente en Eclipse.",
-    "percentage": 90
-  },
-  {
-    "name": "Herramientas de Base de Datos",
-    "description": "Uso de Oracle SQL, DBeaver SQL y MySQL Workbench para la administración y manipulación de bases de datos.",
-    "percentage": 90
-  },
-  {
-    "name": "XML/JSON",
-    "description": "Manejo y manipulación de archivos XML y JSON, fundamentales en la integración de datos en proyectos de software.",
-    "percentage": 100
-  },
-  {
-    "name": "GIT/GitKraken",
-    "description": "Uso de GIT Bash y GitKraken para el control de versiones, colaboración y seguimiento de cambios en el desarrollo de software.",
-    "percentage": 95
+    "name": "Flutter",
+    "description": "Experiencia basica con Flutter.",
+    "percentage": 70
   },
   {
     "name": "Herramientas de Gestión y Seguimiento",
-    "description": "Uso de Clockify, Jira Tempo, y WinGet, Chocolatey para el seguimiento de horas y la gestión de instalaciones de software.",
+    "description": "Uso de Jira para la gestion de tickets de desarrollo.",
     "percentage": 100
-  },
-  {
-    "name": "Virtualización",
-    "description": "Configuración y manejo de entornos virtuales con Hyper-V para simular diferentes entornos de prueba y desarrollo.",
-    "percentage": 100
-  },
-  {
-    "name": "Herramientas de Pruebas de API",
-    "description": "Uso de Postman, cURL y Soap UI Pro para pruebas efectivas en APIs, asegurando su funcionalidad y fiabilidad.",
-    "percentage": 100
-  },
-  {
-    "name": "Herramientas de Comunicación",
-    "description": "Uso de Zoom, Microsoft Teams y Cisco Jabber para la colaboración en equipos de trabajo.",
-    "percentage": 100
-  },
-  {
-    "name": "Outlook",
-    "description": "Uso de Outlook para la gestión de comunicaciones, organización de reuniones y seguimiento de tareas.",
-    "percentage": 100
-  },
-  {
-    "name": "Pruebas y Documentación",
-    "description": "Realización de pruebas, documentación técnica, colaboración en la revisión de código, gestión de defectos y mejora continua.",
-    "percentage": 100
-  },
-  {
-    "name": "Karma + Jasmine",
-    "description": "Implementación de pruebas unitarias con Karma y Jasmine, enfocándome en la calidad y funcionalidad del código.",
-    "percentage": 100
-  },
-  {
-    "name": "RxJS",
-    "description": "Uso de RxJS en proyectos Angular para mejorar la programación reactiva y el manejo de eventos asincrónicos.",
-    "percentage": 90
-  },
-  {
-    "name": "Programación Orientada a Objetos (POO)",
-    "description": "Aplicación de principios de POO en C++, C#, Java y PHP para mejorar la estructura y mantenimiento del código.",
-    "percentage": 90
-  },
-  {
-    "name": "Token JWT",
-    "description": "Implementación de autenticación y seguridad con tokens JWT en aplicaciones, asegurando la integridad y confidencialidad de los datos.",
-    "percentage": 90
-  },
-  {
-    "name": "API/Integración",
-    "description": "Desarrollo e integración de APIs utilizando XHR y Fetch API para la comunicación efectiva entre cliente y servidor.",
-    "percentage": 90
-  },
-  {
-    "name": "Cucumber y Gherkin",
-    "description": "Uso de Cucumber y Gherkin para definir comportamientos de software, facilitando la automatización de pruebas BDD.",
-    "percentage": 90
-  },
-  {
-    "name": "Pruebas basadas en datos",
-    "description": "Realización de pruebas basadas en datos con Selenium WebDriver y Cypress para mejorar la cobertura de las pruebas.",
-    "percentage": 90
-  },
-  {
-    "name": "Pruebas de Servicios Web",
-    "description": "Ejecución de pruebas en servicios web utilizando Postman y SoapUI, para asegurar la calidad de las APIs.",
-    "percentage": 90
   }
 ]

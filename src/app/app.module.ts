@@ -3,16 +3,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { ModalModule } from 'ngx-bootstrap/modal';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
 import { NavComponent } from '@components/nav/nav.component';
-import { ModalComponent } from '@components/modal/modal.component';
-import { MainComponent } from '@pages/main/main.component';
 import { DesarrolloComponent } from '@pages/desarrollo/desarrollo.component';
-import { QaComponent } from '@pages/qa/qa.component';
-import { TitleComponent } from '@components/title/title.component';
 import { ExperienciaLaboralComponent } from '@components/experiencia-laboral/experiencia-laboral.component';
 import { PerfilProfesionalComponent } from '@components/perfil-profesional/perfil-profesional.component';
 import { FooterComponent } from '@components/footer/footer.component';
@@ -24,7 +19,6 @@ import { SkillsComponent } from '@components/skills/skills.component';
 import { PercentageSortPipe } from './core/pipes/percentage-sort.pipe';
 import { EmpleadoresComponent } from '@components/empleadores/empleadores.component';
 import { DevRepositoriesComponent } from '@components/dev-repositories/dev-repositories.component';
-import { DestacadoComponent } from '@components/destacado/destacado.component';
 import { DarkModeComponent } from '@components/dark-mode/dark-mode.component';
 import { ToastComponent } from '@components/toast/toast.component';
 import { ParticlesComponent } from '@components/particles/particles.component';
@@ -36,11 +30,7 @@ import { ExperienceTimelineComponent } from './shared/components/experience-time
   declarations: [
     AppComponent,
     NavComponent,
-    ModalComponent,
-    MainComponent,
     DesarrolloComponent,
-    QaComponent,
-    TitleComponent,
     ExperienciaLaboralComponent,
     PerfilProfesionalComponent,
     FooterComponent,
@@ -52,7 +42,6 @@ import { ExperienceTimelineComponent } from './shared/components/experience-time
     PercentageSortPipe,
     EmpleadoresComponent,
     DevRepositoriesComponent,
-    DestacadoComponent,
     DarkModeComponent,
     ToastComponent,
     ParticlesComponent,
@@ -64,7 +53,6 @@ import { ExperienceTimelineComponent } from './shared/components/experience-time
     AppRoutingModule,
     BrowserModule,
     BrowserAnimationsModule,
-    ModalModule.forRoot(),
     FormsModule,
     HttpClientModule
   ],

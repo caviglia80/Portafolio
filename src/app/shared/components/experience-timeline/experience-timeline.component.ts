@@ -32,7 +32,7 @@ export class ExperienceTimelineComponent implements OnInit {
         });
       }
     } catch (error) {
-      console.log( "aaaaaaaa    " + error);
+      console.error(error);
     }
   }
 }

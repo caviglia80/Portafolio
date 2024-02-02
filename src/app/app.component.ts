@@ -1,6 +1,4 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
-import { Router, NavigationEnd } from '@angular/router';
-import { Subscription } from 'rxjs';
+import { Component, OnInit } from '@angular/core';
 import { Injectable } from '@angular/core';
 import { GVariableService } from '@services/gVariable/g-variable.service';
 
@@ -10,62 +8,16 @@ import { GVariableService } from '@services/gVariable/g-variable.service';
   styleUrls: ['./app.component.css']
 })
 
-export class AppComponent implements OnInit, OnDestroy {
+export class AppComponent implements OnInit {
   title = 'CV';
-  private routerSubscription: Subscription | undefined;
-  public static currentUrl: string = '';
-  public defaultLanguage: string = '';
 
-  constructor(private router: Router, public gVariableService: GVariableService) {
-    try {
-      this.routerSubscription = this.router.events.subscribe((event) => {
-        if (event instanceof NavigationEnd) {
-          AppComponent.currentUrl = event.url.split('/').pop() ?? '';
-        }
-      });
-    } catch (error) {
-      console.log(error);
-    }
+  constructor(
+    public gVariableService: GVariableService
+  ) {
   }
 
   ngOnInit() {
     if (!localStorage.getItem('darkModeEnabled')) this.gVariableService.darkModeState = this.gVariableService.darkModeDefault;
-  }
-
-  ngOnDestroy() {
-    try {
-      if (this.routerSubscription)
-        this.routerSubscription.unsubscribe();
-    } catch (error) {
-      console.log(error);
-    }
-  }
-
-  public isMain(): boolean {
-    try {
-      return AppComponent.currentUrl.includes('main') || (AppComponent.currentUrl === '');
-    } catch (error) {
-      console.log(error);
-      return false;
-    }
-  }
-
-  public isDesarrollo(): boolean {
-    try {
-      return AppComponent.currentUrl.includes('desarrollo');
-    } catch (error) {
-      console.log(error);
-      return false;
-    }
-  }
-
-  public isQa(): boolean {
-    try {
-      return AppComponent.currentUrl.includes('qa');
-    } catch (error) {
-      console.log(error);
-      return false;
-    }
   }
 }
 
@@ -77,13 +29,3 @@ export class GlobalVariables {
   public static githubUser: string = 'caviglia80';
 }
 
-export class GlobalChecker {
-  static async checkImageExists(imageUrl: string): Promise<string> {
-    try {
-      const response = await fetch(imageUrl);
-      return response.ok ? imageUrl : 'assets/error.svg';
-    } catch (error) {
-      return 'assets/error.svg';
-    }
-  }
-}

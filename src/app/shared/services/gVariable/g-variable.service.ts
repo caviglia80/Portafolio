@@ -20,10 +20,6 @@ export class GVariableService {
   get darkModeDefault(): boolean {
     return this._darkModeDefault;
   }
-
-
-
-
 }
 
 

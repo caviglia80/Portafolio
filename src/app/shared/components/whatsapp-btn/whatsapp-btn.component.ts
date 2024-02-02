@@ -28,7 +28,7 @@ export class WhatsappBtnComponent implements AfterViewInit, OnDestroy {
   ngOnDestroy() {
     try {
       if (this.onScroll)
-      window.removeEventListener('scroll', this.onScroll);
+        window.removeEventListener('scroll', this.onScroll);
     } catch (error) {
       console.log(error);
     }
