@@ -1,63 +1,32 @@
 <div id="expTimeline" class="flex-parent">
   <div class="input-flex-container">
-    <input type="radio" name="timeline-dot" data-description="0">
-    <div class="dot-info" data-description="0">
-      <span class="year">Enero 2017</span>
-      <span class="label">Frávega</span>
-    </div>
     <input type="radio" name="timeline-dot" data-description="1">
     <div class="dot-info" data-description="1">
-      <span class="year">Agosto 2017</span>
+      <span class="year">November 2016</span>
       <span class="label">BNP Paribas Cardif</span>
-    </div>
-    <input type="radio" name="timeline-dot" data-description="2">
-    <div class="dot-info" data-description="2">
-      <span class="year">Marzo 2018</span>
-      <span class="label">DIA</span>
     </div>
     <input type="radio" name="timeline-dot" data-description="3">
     <div class="dot-info" data-description="3">
-      <span class="year">Septiembre 2018</span>
+      <span class="year">March 2018</span>
       <span class="label">Banco Hipotecario</span>
     </div>
     <input type="radio" name="timeline-dot" data-description="4">
     <div class="dot-info" data-description="4">
-      <span class="year">Septiembre 2019</span>
+      <span class="year">February 2019</span>
       <span class="label">HSBC BANK ARGENTINA</span>
     </div>
     <input type="radio" name="timeline-dot" data-description="5" checked="">
     <div class="dot-info" data-description="5">
-      <span class="year">Noviembre 2020</span>
+      <span class="year">August 2020</span>
       <span class="label">BOLDT</span>
     </div>
     <input type="radio" name="timeline-dot" data-description="6" checked="">
     <div class="dot-info" data-description="6">
-      <span class="year">Diciembre 2021</span>
+      <span class="year">October 2021</span>
       <span class="label">BOLDT</span>
     </div>
 
     <div id="timeline-descriptions-wrapper">
-
-      <div class="item Animation" data-description="0">
-        <p class="titles">
-          {{ jobData["Fravega"]?.date || '...' }}
-          <br>
-          {{ jobData["Fravega"]?.position || '...' }}
-        </p>
-        <p class="details">
-          Responsabilidades:
-          <br>
-          <ng-container *ngIf="jobData['Fravega']?.responsibilities; else noResponsibilities">
-            <ng-container *ngFor="let responsibility of jobData['Fravega'].responsibilities; let i = index">
-              <i class="bi bi-arrow-right-short"></i>{{ responsibility }}<br>
-            </ng-container>
-          </ng-container>
-          <ng-template #noResponsibilities>
-            ...
-          </ng-template>
-        </p>
-        <br>
-      </div>
 
       <div class="item Animation" data-description="1">
         <p class="titles">
@@ -70,27 +39,6 @@
           <br>
           <ng-container *ngIf="jobData['BNP']?.responsibilities; else noResponsibilities">
             <ng-container *ngFor="let responsibility of jobData['BNP'].responsibilities; let i = index">
-              <i class="bi bi-arrow-right-short"></i>{{ responsibility }}<br>
-            </ng-container>
-          </ng-container>
-          <ng-template #noResponsibilities>
-            ...
-          </ng-template>
-        </p>
-        <br>
-      </div>
-
-      <div class="item Animation" data-description="2">
-        <p class="titles">
-          {{ jobData["DIA"]?.date || '...' }}
-          <br>
-          {{ jobData["DIA"]?.position || '...' }}
-        </p>
-        <p class="details">
-          Responsabilidades:
-          <br>
-          <ng-container *ngIf="jobData['DIA']?.responsibilities; else noResponsibilities">
-            <ng-container *ngFor="let responsibility of jobData['DIA'].responsibilities; let i = index">
               <i class="bi bi-arrow-right-short"></i>{{ responsibility }}<br>
             </ng-container>
           </ng-container>

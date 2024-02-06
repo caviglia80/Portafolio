@@ -1,115 +1,54 @@
 {
   "BOLDT2": {
-    "position": "Desarrollador de Software",
-    "date": "Diciembre 2021 – Actualmente",
+    "position": "Software developer",
+    "date": "October 2021 - Present ( + 2 years)",
     "responsibilities": [
-      "Metodología Ágil Scrum",
-      "Encargado del mantenimiento y cambios de aplicativos web"
+      "Agile Scrum Methodology",
+      "Maintenance and changes of web applications"
     ]
   },
   "BOLDT": {
-    "position": "QA Automatizado Sr.",
-    "date": "Noviembre 2020 – Diciembre 2021",
+    "position": "Senior Quality Assurance",
+    "date": "August 2020 - October 2021 (1 year 3 months)",
     "responsibilities": [
-      "Metodología Ágil Scrum",
-      "Automatización de Pruebas",
-      "Pruebas de Funcionalidad",
-      "Pruebas de Integración Automatizadas",
-      "Pruebas de Humo Automatizadas",
-      "Pruebas de API Automatizadas",
-      "Pruebas de Seguridad Automatizadas",
-      "Pruebas Unitarias",
-      "Mantenimiento de Scripts",
-      "Pruebas de Compatibilidad Automatizadas",
-      "Generación de Informes Automatizados",
-      "Planificación de Pruebas",
-      "Diseño de Casos de Prueba",
-      "Ejecución de Pruebas",
-      "Pruebas de Usabilidad",
-      "Pruebas de Regresión",
-      "Pruebas de Integración",
-      "Pruebas Exploratorias",
-      "Revisión de Diseños",
-      "Pruebas de Carga Manual"
+      "Scrum methodology",
+      "Analysis, design and execution of test cases",
+      "Documentation of executions and defects",
+      "Manual and automatic tests",
+      "Functional, non-functional and regression tests"
     ]
   },
   "HSBC": {
-    "position": "QA Automatizado Sr.",
-    "date": "Septiembre 2019 – Noviembre 2020",
+    "position": "Senior Quality Assurance",
+    "date": "February 2019 - August 2020 (1 year 7 months)",
     "responsibilities": [
-      "Metodología Ágil Scrum",
-      "Planificación de Pruebas",
-      "Diseño de Casos de Prueba",
-      "Ejecución de Pruebas",
-      "Pruebas de Funcionalidad",
-      "Pruebas de Usabilidad",
-      "Pruebas de Regresión",
-      "Pruebas de Integración",
-      "Pruebas Exploratorias",
-      "Revisión de Diseños",
-      "Pruebas de Carga Manual",
-      "Pruebas de Seguridad Básicas"
+      "Scrum methodology",
+      "Analysis, design and execution of test cases",
+      "Documentation of executions and defects",
+      "Manual and automatic tests",
+      "Functional, non-functional and regression tests"
     ]
   },
   "Hipotecario": {
-    "position": "QA Manual Ssr.",
-    "date": "Septiembre 2018 – Junio 2019",
+    "position": "Semi Senior Quality Assurance",
+    "date": "March 2018 - February 2019 (1 year)",
     "responsibilities": [
-      "Metodología Ágil Scrum",
-      "Planificación de Pruebas",
-      "Diseño de Casos de Prueba",
-      "Ejecución de Pruebas",
-      "Pruebas de Funcionalidad",
-      "Pruebas de Usabilidad",
-      "Pruebas de Regresión",
-      "Pruebas de Integración",
-      "Pruebas Exploratorias",
-      "Revisión de Diseños",
-      "Pruebas de Carga Manual"
-    ]
-  },
-  "DIA": {
-    "position": "QA Manual Ssr.",
-    "date": "Marzo 2018 – Septiembre 2018",
-    "responsibilities": [
-      "Metodología Ágil Scrum.",
-      "Planificación de Pruebas",
-      "Diseño de Casos de Prueba",
-      "Ejecución de Pruebas",
-      "Pruebas de Funcionalidad",
-      "Pruebas de Usabilidad",
-      "Pruebas de Regresión",
-      "Pruebas de Integración",
-      "Pruebas Exploratorias",
-      "Pruebas de Carga Manual"
+      "Scrum methodology",
+      "Analysis, design and execution of test cases",
+      "Documentation of executions and defects",
+      "Manual and automatic tests",
+      "Functional and regression tests"
     ]
   },
   "BNP": {
-    "position": "QA Manual",
-    "date": "Agosto 2017 – Marzo 2018",
+    "position": "Quality Assurance",
+    "date": "November 2016 - March 2018 (1 year 5 months)",
     "responsibilities": [
-      "Metodología Ágil Scrum",
-      "Planificación de Pruebas",
-      "Diseño de Casos de Prueba",
-      "Ejecución de Pruebas",
-      "Pruebas de Funcionalidad",
-      "Pruebas de Regresión",
-      "Pruebas Exploratorias",
-      "Pruebas de Carga Manual"
-    ]
-  },
-  "Fravega": {
-    "position": "QA Manual",
-    "date": "Enero 2017 – Agosto 2017",
-    "responsibilities": [
-      "Pruebas de Aceptación de Usuario",
-      "Planificación de Pruebas",
-      "Diseño de Casos de Prueba",
-      "Ejecución de Pruebas",
-      "Validación de Funcionalidad",
-      "Pruebas de Regresión",
-      "Pruebas Exploratorias",
-      "Pruebas de Integración"
+      "Scrum methodology",
+      "Analysis, design and execution of test cases",
+      "Documentation of executions and defects",
+      "Manual tests",
+      "Functional and regression tests"
     ]
   }
 }
