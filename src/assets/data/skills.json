@@ -1,52 +1,52 @@
 [
   {
-    "name": "Programación con C#",
-    "description": "Desarrollo con lenguaje de programación C# / Csharp en aplicativos para windows y pruebas con Selenium.",
+    "name": "Programming with C#",
+    "description": "Development with the C# programming language for Windows applications and testing with Selenium.",
     "percentage": 100
   },
   {
-    "name": "Programación con JavaScript y TypeScript",
-    "description": "Desarrollo con lenguaje de programación JavaScript y TypeScript para aplicativos web con Angular.",
+    "name": "Programming with JavaScript and TypeScript",
+    "description": "Development with the JavaScript and TypeScript programming languages for web applications using Angular.",
     "percentage": 100
   },
   {
-    "name": "Programación con PHP",
-    "description": "Desarrollo con lenguaje de programación PHP (particular) realice varios backends para clientes.",
+    "name": "PHP Programming",
+    "description": "Development with the PHP programming language to create several backends for clients.",
     "percentage": 100
   },
   {
-    "name": "Programación con vb.NET",
-    "description": "Desarrollo con lenguaje de programación Visual Basic (.NET) para windows forms (en universidad y de forma particular).",
+    "name": "Programming with vb.NET",
+    "description": "Development with the Visual Basic (.NET) programming language for Windows Forms, both academically and privately.",
     "percentage": 100
   },
   {
-    "name": "Programación con C, C++",
-    "description": "Desarrollo con lenguaje de programación C y C++ (conocimientos de facultad)",
+    "name": "Programming with C, C++",
+    "description": "Development with the C and C++ programming languages, knowledge acquired at the university.",
     "percentage": 100
   },
   {
-    "name": "Programación con Java",
-    "description": "Desarrollo con lenguaje de programación Java para pruebas con Selenium.",
+    "name": "Java Programming",
+    "description": "Development with the Java programming language for testing with Selenium.",
     "percentage": 100
   },
   {
-    "name": "Lenguajes de Consulta SQL",
-    "description": "Uso de SQL para la gestión de bases de datos (MySQL, SQL Server)",
+    "name": "SQL Query Languages",
+    "description": "Utilization of SQL for database management, including MySQL and SQL Server.",
     "percentage": 100
   },
   {
-    "name": "Estilos y CSS",
-    "description": "Experiemcia en CSS, Bootstrap 5, puedo hacer aplicaciones completamente responsivas.",
+    "name": "Styles and CSS",
+    "description": "Proficient in CSS and Bootstrap 5, capable of creating fully responsive applications.",
     "percentage": 95
   },
   {
     "name": "Flutter",
-    "description": "Experiencia basica con Flutter.",
+    "description": "Basic proficiency in Flutter.",
     "percentage": 70
   },
   {
-    "name": "Herramientas de Gestión y Seguimiento",
-    "description": "Uso de Jira para la gestion de tickets de desarrollo.",
+    "name": "Management and Monitoring Tools",
+    "description": "Experience using Jira for development ticket management.",
     "percentage": 100
   }
 ]

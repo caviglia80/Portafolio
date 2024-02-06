@@ -1,67 +1,67 @@
 [
   {
-    "name": "Angular desde cero a experto",
-    "description": "Udemy: Curso completo sobre Angular, desde fundamentos hasta nivel experto, incluyendo creación de aplicaciones reales con Angular 12 y TypeScript.",
+    "name": "Angular from Zero to Expert",
+    "description": "Udemy: Complete course on Angular, from fundamentals to expert level, including the creation of real applications with Angular 12 and TypeScript.",
     "percentage": 100
   },
   {
-    "name": "Angular 14 - La Guia Completa",
-    "description": "Udemy: Curso integral sobre Angular 14, cubriendo desde los fundamentos hasta técnicas avanzadas, con énfasis en TypeScript.",
+    "name": "Angular 14 - The Complete Guide",
+    "description": "Udemy: Comprehensive course on Angular 14, covering from the fundamentals to advanced techniques, with an emphasis on TypeScript.",
     "percentage": 100
   },
   {
-    "name": "RxJS nivel PRO",
-    "description": "Curso avanzado sobre RxJS, enfocado en programación reactiva y manejo de eventos asincrónicos para aplicaciones web.",
+    "name": "RxJS PRO Level",
+    "description": "Advanced course on RxJS, focused on reactive programming and handling asynchronous events for web applications.",
     "percentage": 50
   },
   {
     "name": "Bootstrap 5",
-    "description": "Udemy: Curso completo sobre Bootstrap 5, abarcando desde conceptos básicos hasta avanzados, con proyectos prácticos y CSS.",
+    "description": "Udemy: Complete course on Bootstrap 5, covering from basic concepts to advanced, with practical projects and CSS.",
     "percentage": 100
   },
   {
-    "name": "Maestría en CSS3",
-    "description": "Curso avanzado en CSS3, cubriendo Flexbox, Grid, SASS y Bootstrap 5, con enfoque en diseño responsivo y estilización moderna.",
+    "name": "Mastery in CSS3",
+    "description": "Advanced course in CSS3, covering Flexbox, Grid, SASS, and Bootstrap 5, with a focus on responsive design and modern styling.",
     "percentage": 100
   },
   {
-    "name": "CSS La Guía Completa",
-    "description": "Curso exhaustivo sobre CSS, incluyendo Flexbox, CSS Grid y SASS, con más de 20 proyectos prácticos para consolidar conocimientos.",
+    "name": "CSS The Complete Guide",
+    "description": "Exhaustive course on CSS, including Flexbox, CSS Grid, and SASS, with more than 20 practical projects to consolidate knowledge.",
     "percentage": 100
   },
   {
-    "name": "Flutter - Móvil: De cero a experto",
-    "description": "Curso completo de Flutter para desarrollo multiplataformas focalizado a móvil.",
+    "name": "Flutter - Mobile: From Zero to Expert",
+    "description": "Complete Flutter course for cross-platform development focused on mobile.",
     "percentage": 60
   },
   {
-    "name": "Flutter desde cero",
-    "description": "Curso completo de Flutter para desarrollo multiplataformas con arquitectura limpia.",
+    "name": "Flutter from Zero",
+    "description": "Complete Flutter course for cross-platform development with clean architecture.",
     "percentage": 0
   },
   {
-    "name": "Bases de Datos y SQL",
-    "description": "Educación IT: Curso completo sobre fundamentos de bases de datos y SQL, incluyendo diseño, manipulación y consultas.",
+    "name": "Databases and SQL",
+    "description": "Educación IT: Complete course on database fundamentals and SQL, including design, manipulation, and queries.",
     "percentage": 100
   },
   {
-    "name": "Curso de PHP",
-    "description": "Curso completo sobre desarrollo de backend en PHP.",
+    "name": "PHP Course",
+    "description": "Complete course on backend development in PHP.",
     "percentage": 50
   },
   {
-    "name": "NodeJS: De cero a experto",
-    "description": "Curso de Node.js completo.",
+    "name": "NodeJS: From Zero to Expert",
+    "description": "Complete Node.js course.",
     "percentage": 60
   },
   {
-    "name": "Master en APIs RESTful con NodeJS",
-    "description": "Curso de Node.js completo.",
+    "name": "Master in RESTful APIs with NodeJS",
+    "description": "Complete Node.js course.",
     "percentage": 40
   },
   {
-    "name": "Construyendo Web APIs RESTful con ASP.NET Core 6",
-    "description": "Programacion de Web APIs en C#",
+    "name": "Building RESTful Web APIs with ASP.NET Core 6",
+    "description": "Web API programming in C#",
     "percentage": 100
   }
 ]
