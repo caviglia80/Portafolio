@@ -12,8 +12,6 @@
   }
 }
 
-
-
-
-
-
+.nav-link {
+  cursor: pointer;
+}
