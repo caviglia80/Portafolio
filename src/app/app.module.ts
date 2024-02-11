@@ -16,7 +16,6 @@ import { GithubBtnComponent } from '@components/github-btn/github-btn.component'
 import { TopBtnComponent } from '@components/top-btn/top-btn.component';
 import { SkillsComponent } from '@components/skills/skills.component';
 import { PercentageSortPipe } from './core/pipes/percentage-sort.pipe';
-import { EmpleadoresComponent } from '@components/empleadores/empleadores.component';
 import { DevRepositoriesComponent } from '@components/dev-repositories/dev-repositories.component';
 import { DarkModeComponent } from '@components/dark-mode/dark-mode.component';
 import { ToastComponent } from '@components/toast/toast.component';
@@ -38,7 +37,6 @@ import { ExperienceTimelineComponent } from './shared/components/experience-time
     TopBtnComponent,
     SkillsComponent,
     PercentageSortPipe,
-    EmpleadoresComponent,
     DevRepositoriesComponent,
     DarkModeComponent,
     ToastComponent,

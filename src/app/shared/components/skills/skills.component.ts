@@ -29,10 +29,12 @@ export class SkillsComponent implements OnInit {
   }
 
   private cargarDatos() {
-    this.http.get<Skill[]>(this.Json).subscribe({
+    this.http.get<any[]>(this.Json).subscribe({
       next: (data) => {
-        this.lista = data;
-        this.filtrarLista();
+        if (data && data.length !== 0) {
+          this.lista = data;
+          this.filtrarLista();
+        }
       },
       error: (error) => console.error(error)
     });
