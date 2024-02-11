@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { GithubService } from '@services/github/github.service';
 import { Observable } from 'rxjs';
 
@@ -7,15 +7,23 @@ import { Observable } from 'rxjs';
   templateUrl: './dev-repositories.component.html',
   styleUrls: ['./dev-repositories.component.css']
 })
-export class DevRepositoriesComponent {
-  public repos$: Observable<any[]> = this.githubService.getRepos();
+export class DevRepositoriesComponent implements OnInit {
+  // public repos$: Observable<any[]> = this.githubService.getRepos();
+  public repos$: Observable<any[]> | null = null
+  public repos: any[] | null = null
   public repoCount: number = 0;
   public showAllRepos: boolean = false;
 
-  constructor(private githubService: GithubService) {
-    this.repos$.subscribe(repos => {
-      this.repoCount = repos.length - 6;
-    });
+  constructor(private githubService: GithubService) { }
+
+  ngOnInit() {
+    this.repos$ = this.githubService.getRepos();
+    if (this.repos$)
+      this.repos$.subscribe(repos => {
+        this.repoCount = repos.length - 6;
+        this.repos = repos
+          .filter(item => item.name !== "caviglia80.github.io");
+      });
   }
 
   public truncateDescription(description: string): string {
