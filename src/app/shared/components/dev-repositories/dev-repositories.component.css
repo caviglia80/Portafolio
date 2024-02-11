@@ -80,3 +80,8 @@ img:active {
 .repoItem {
   border: none !important;
 }
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}

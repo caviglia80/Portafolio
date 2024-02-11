@@ -20,9 +20,11 @@ export class DevRepositoriesComponent implements OnInit {
     this.repos$ = this.githubService.getRepos();
     if (this.repos$)
       this.repos$.subscribe(repos => {
-        this.repoCount = repos.length - 6;
-        this.repos = repos
-          .filter(item => item.name !== "caviglia80.github.io");
+        if (repos && repos.length !== 0) {
+          this.repoCount = repos.length - 6;
+          this.repos = repos
+            .filter(item => item.name !== "caviglia80.github.io");
+        }
       });
   }
 
