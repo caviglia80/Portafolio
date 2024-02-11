@@ -9,17 +9,34 @@
       <h1>Github</h1>
     </h2>
 
-    <div *ngIf="repos as repos" class="row text-center justify-content-center">
+    <!-- <div *ngIf="repos as repos" class="row text-center justify-content-center">
       <div *ngFor="let repo of showAllRepos ? repos : repos.slice(0, 6)" class="repoItem col-lg-4 mb-3 Animation">
         <a href="{{ repo.html_url }}" target="_blank" rel="noreferrer">
           <img src="{{ repo.owner.avatar_url }}" alt="{{ repo.owner.login }}"
             class="bd-placeholder-img rounded-circle mb-2" width="140" height="140" role="img"
             title="{{ repo.owner.login }}">
         </a>
-        <!-- <img src="{{ repo.owner.avatar_url }}" alt="{{ repo.owner.login }}"
+        <img src="{{ repo.owner.avatar_url }}" alt="{{ repo.owner.login }}"
           class="bd-placeholder-img rounded-circle mb-2" width="140" height="140" role="img"
-          title="{{ repo.owner.login }}"> -->
+          title="{{ repo.owner.login }}">
         <h3 class="">{{ truncateTitle(repo.name) }}</h3>
+        <p>{{ truncateDescription(repo.description) }}</p>
+      </div>
+    </div> -->
+
+    <div *ngIf="repos as repos" class="row text-center justify-content-center">
+      <div *ngFor="let repo of showAllRepos ? repos : repos.slice(0, 6)" class="repoItem col-lg-4 mb-3 Animation">
+        <div class="image-container" style="position: relative; display: inline-block;">
+          <a href="{{ repo.html_url }}" target="_blank" rel="noreferrer">
+            <img src="{{ repo.owner.avatar_url }}" alt="{{ repo.owner.login }}"
+              class="bd-placeholder-img rounded-circle mb-2" width="140" height="140" role="img"
+              title="{{ repo.owner.login }}">
+            <span class="label Animation">
+              {{ repo.language }}
+            </span>
+          </a>
+        </div>
+        <h3>{{ truncateTitle(repo.name) }}</h3>
         <p>{{ truncateDescription(repo.description) }}</p>
       </div>
     </div>
