@@ -1,1 +1,1 @@
-Angular, TypeScript, CSS, Bootstrap.
+Pagina de CV diseñado con Angular y Bootstrap.
