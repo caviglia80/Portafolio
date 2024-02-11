@@ -8,6 +8,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ExperienceTimelineComponent implements OnInit {
   @Input() jobData: any = {};
+  svgSeleccion: number = 3;
 
   constructor(private http: HttpClient) { }
 
@@ -20,6 +21,9 @@ export class ExperienceTimelineComponent implements OnInit {
     if (element) {
       element.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
+  }
+  public seleccionar(id: number) {
+    this.svgSeleccion = id;
   }
 
   public cargarDatos() {
