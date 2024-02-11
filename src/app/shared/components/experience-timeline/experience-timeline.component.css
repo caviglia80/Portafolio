@@ -245,6 +245,11 @@ input[data-description="4"]:checked~#timeline-descriptions-wrapper .item[data-de
   animation: desplazarTexto .4s ease-out forwards;
 }
 
+.texto-animado3 {
+  opacity: 0;
+  animation: desplazarTexto .5s ease-out forwards;
+}
+
 ul li svg {
   transition: all .5s !important;
 }
