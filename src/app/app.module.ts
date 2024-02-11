@@ -8,7 +8,6 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { NavComponent } from '@components/nav/nav.component';
 import { DesarrolloComponent } from '@pages/desarrollo/desarrollo.component';
-import { ExperienciaLaboralComponent } from '@components/experiencia-laboral/experiencia-laboral.component';
 import { PerfilProfesionalComponent } from '@components/perfil-profesional/perfil-profesional.component';
 import { FooterComponent } from '@components/footer/footer.component';
 import { WhatsappBtnComponent } from '@components/whatsapp-btn/whatsapp-btn.component';
@@ -31,7 +30,6 @@ import { ExperienceTimelineComponent } from './shared/components/experience-time
     AppComponent,
     NavComponent,
     DesarrolloComponent,
-    ExperienciaLaboralComponent,
     PerfilProfesionalComponent,
     FooterComponent,
     WhatsappBtnComponent,

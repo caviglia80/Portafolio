@@ -29,12 +29,12 @@
     <div id="timeline-descriptions-wrapper">
 
       <div class="item Animation" data-description="1">
-        <p class="titles">
+        <p class="titles texto-animado1">
           {{ jobData["BNP"]?.date || '...' }}
           <br>
           {{ jobData["BNP"]?.position || '...' }}
         </p>
-        <p class="details">
+        <p class="details texto-animado2">
           Responsabilidades:
           <br>
           <ng-container *ngIf="jobData['BNP']?.responsibilities; else noResponsibilities">
@@ -50,12 +50,12 @@
       </div>
 
       <div class="item Animation" data-description="3">
-        <p class="titles">
+        <p class="titles texto-animado1">
           {{ jobData["Hipotecario"]?.date || '...' }}
           <br>
           {{ jobData["Hipotecario"]?.position || '...' }}
         </p>
-        <p class="details">
+        <p class="details texto-animado2">
           Responsabilidades:
           <br>
           <ng-container *ngIf="jobData['Hipotecario']?.responsibilities; else noResponsibilities">
@@ -71,12 +71,12 @@
       </div>
 
       <div class="item Animation" data-description="4">
-        <p class="titles">
+        <p class="titles texto-animado1">
           {{ jobData["HSBC"]?.date || '...' }}
           <br>
           {{ jobData["HSBC"]?.position || '...' }}
         </p>
-        <p class="details">
+        <p class="details texto-animado2">
           Responsabilidades:
           <br>
           <ng-container *ngIf="jobData['HSBC']?.responsibilities; else noResponsibilities">
@@ -92,12 +92,12 @@
       </div>
 
       <div class="item Animation" data-description="5">
-        <p class="titles">
+        <p class="titles texto-animado1">
           {{ jobData["BOLDT"]?.date || '...' }}
           <br>
           {{ jobData["BOLDT"]?.position || '...' }}
         </p>
-        <p class="details">
+        <p class="details texto-animado2">
           Responsabilidades:
           <br>
           <ng-container *ngIf="jobData['BOLDT']?.responsibilities; else noResponsibilities">
@@ -113,17 +113,17 @@
       </div>
 
       <div class="item Animation" data-description="6">
-        <p class="titles">
+        <p class="titles texto-animado1">
           {{ jobData["BOLDT2"]?.date || '...' }}
           <br>
           {{ jobData["BOLDT2"]?.position || '...' }}
         </p>
-        <p class="details">
+        <p class="details texto-animado2">
           Responsabilidades:
           <br>
           <ng-container *ngIf="jobData['BOLDT2']?.responsibilities; else noResponsibilities">
             <ng-container *ngFor="let responsibility of jobData['BOLDT2'].responsibilities; let i = index">
-              <i class="bi bi-arrow-right-short"></i>{{ responsibility }}<br>
+              <i class="bi bi-arrow-right-short"></i>{{ responsibility }} <br>
             </ng-container>
           </ng-container>
           <ng-template #noResponsibilities>
