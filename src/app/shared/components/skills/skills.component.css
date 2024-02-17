@@ -11,13 +11,12 @@
   box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
 }
 
-.liSeleccion {
-  box-shadow: 1px 1px 5px #1ba1ef80;
-  background-color: rgba(128, 128, 128, 0.301);
-}
-
 li:hover {
   filter: brightness(120%);
+}
+
+ul li p {
+  font-weight: 100 !important;
 }
 
 .contenedor-filtro {
@@ -25,6 +24,25 @@ li:hover {
   align-items: center;
 }
 
-ul li p {
-  font-weight: 100 !important;
+.itemSelected {
+  box-shadow: 1px 1px 2px #1ba1ef8a;
+  background-color: #1ba1ef1b;
+}
+
+.itemSelectedAnimation:active {
+  animation: itemSelectedAnimation 10s;
+}
+
+@keyframes itemSelectedAnimation {
+  0% {
+    transform: scaleY(.5);
+  }
+
+  5% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }

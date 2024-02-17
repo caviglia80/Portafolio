@@ -10,7 +10,7 @@
     </h2>
 
     <!-- <div *ngIf="repos as repos" class="row text-center justify-content-center">
-      <div *ngFor="let repo of showAllRepos ? repos : repos.slice(0, 6)" class="repoItem col-lg-4 mb-3 Animation">
+      <div *ngFor="let repo of showAllRepos ? repos : repos.slice(0, 6)" class="repoItem col-lg-4 mb-3 ">
         <a href="{{ repo.html_url }}" target="_blank" rel="noreferrer">
           <img src="{{ repo.owner.avatar_url }}" alt="{{ repo.owner.login }}"
             class="bd-placeholder-img rounded-circle mb-2" width="140" height="140" role="img"
@@ -25,13 +25,13 @@
     </div> -->
 
     <div *ngIf="repos" class="row text-center justify-content-center">
-      <div *ngFor="let repo of showAllRepos ? repos : repos.slice(0, 6)" class="repoItem col-lg-4 mb-3 Animation">
+      <div *ngFor="let repo of showAllRepos ? repos : repos.slice(0, 6)" class="repoItem col-lg-4 mb-3 scaleAnimation">
         <div class="image-container">
           <a href="{{ repo.html_url }}" target="_blank" rel="noreferrer">
             <img src="{{ repo.owner.avatar_url }}" alt="{{ repo.owner.login }}"
               class="bd-placeholder-img rounded-circle mb-2" width="140" height="140" role="img"
               title="{{ repo.owner.login }}">
-            <span class="label Animation">
+            <span class="label scaleAnimation">
               {{ repo.language }}
             </span>
           </a>
