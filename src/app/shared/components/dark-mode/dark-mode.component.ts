@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { GVariableService } from '@services/gVariable/g-variable.service';
 
 @Component({
@@ -9,7 +9,9 @@ import { GVariableService } from '@services/gVariable/g-variable.service';
 
 export class DarkModeComponent implements OnInit {
 
-  constructor(private gVariableService: GVariableService) { }
+  constructor(
+    private gVariableService: GVariableService,
+    private cdr: ChangeDetectorRef) { }
 
   ngOnInit(): void {
     /* if (!localStorage.getItem('darkModeEnabled')) this.gVariableService.darkModeState = this.gVariableService.darkModeDefault; */
@@ -19,7 +21,6 @@ export class DarkModeComponent implements OnInit {
 
   private OnlyOnInitialize(): void {
     try {
-      /*  this.gVariableService.darkModeState = localStorage.getItem('darkModeEnabled') === 'true'; */
       const darkModeToggle = document.getElementById('darkmode-toggle') as HTMLInputElement;
       if (this.gVariableService.darkModeState) {
         if (!darkModeToggle.checked) {
@@ -35,6 +36,7 @@ export class DarkModeComponent implements OnInit {
         }
         document.body.classList.remove('dark-mode');
       }
+      this.changeTheme();
     } catch (error) {
       console.log(error);
     }
@@ -45,15 +47,12 @@ export class DarkModeComponent implements OnInit {
       const toggleElement = document.getElementById("darkmode-toggle");
       if (toggleElement)
         toggleElement.addEventListener('change', () => {
-          /* this.gVariableService.darkModeState = localStorage.getItem('darkModeEnabled') === 'true'; */
           if (this.gVariableService.darkModeState) {
             document.body.classList.remove('dark-mode');
-            /*             localStorage.setItem('darkModeEnabled', 'false'); */
             this.gVariableService.darkModeState = false;
           }
           else {
             document.body.classList.add('dark-mode');
-            /*             localStorage.setItem('darkModeEnabled', 'true'); */
             this.gVariableService.darkModeState = true;
           }
         });
@@ -61,4 +60,14 @@ export class DarkModeComponent implements OnInit {
       console.log(error);
     }
   }
+
+  async changeTheme() {
+    let badge = document.getElementById('profile-badge') as HTMLElement;
+    const isDarkMode = document.body.classList.contains('dark-mode');
+    badge.dataset['theme'] = isDarkMode ? 'dark' : 'light';
+  }
+
 }
+
+
+

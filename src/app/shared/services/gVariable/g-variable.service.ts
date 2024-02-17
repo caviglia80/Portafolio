@@ -10,7 +10,6 @@ export class GVariableService {
   constructor() { }
 
   get darkModeState(): boolean {
-    /* if (!localStorage.getItem('darkModeEnabled')) localStorage.setItem('darkModeEnabled', this._darkModeDefault.toString()); */
     return localStorage.getItem('darkModeEnabled') === 'true';
   }
   set darkModeState(value: boolean) {
