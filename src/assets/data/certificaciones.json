@@ -1,67 +1,163 @@
 [
   {
-    "name": "Angular from Zero to Expert",
-    "description": "Udemy: Complete course on Angular, from fundamentals to expert level, including the creation of real applications with Angular 12 and TypeScript.",
+    "name": "Fundamentos profesionales del desarrollo de software",
+    "description": "Fundamentos profesionales del desarrollo de software, por Microsoft y LinkedIn.",
+    "img": "https://media.licdn.com/dms/image/D4D22AQG-rxZlmzz6Zg/feedshare-shrink_1280/0/1708182154071?e=1710979200&v=beta&t=RIzx535zdfoif_c-1ldJubLR00guaHu9Glj6uU6XxOw",
+    "link": "https://www.linkedin.com/learning/certificates/b33543d96f33552dbc142dba80526ab277e73e7fccef57af966435034177f11f",
+    "percentage": 100
+  },
+  {
+    "name": "Angular desde cero a experto",
+    "img": "https://udemy-certificate.s3.amazonaws.com/image/UC-e7219113-edf1-496a-9f7e-c3d68b964ddf.jpg?v=1689435570000",
+    "link": "https://www.udemy.com/certificate/UC-e7219113-edf1-496a-9f7e-c3d68b964ddf/",
+    "description": "Certificado de finalización de Udemy",
+    "percentage": 100
+  },
+  {
+    "name": "Bootstrap 5 Completo",
+    "img": "https://udemy-certificate.s3.amazonaws.com/image/UC-97728cfe-8bfa-45b0-aae7-1cea8ce6cf2c.jpg?v=1689893831000",
+    "link": "https://www.udemy.com/certificate/UC-97728cfe-8bfa-45b0-aae7-1cea8ce6cf2c/",
+    "description": "Certificado de finalización de Udemy",
+    "percentage": 100
+  },
+  {
+    "name": "Introducción a Bases de Datos y SQL",
+    "img": "https://api.educacionit.com/pdf/certificados/francisco-caviglia-212852/29755?content_type=jpeg",
+    "link": "https://www.educacionit.com/perfil/francisco-caviglia-212852/certificado/29755",
+    "description": "Certificado de finalización de Educación IT",
+    "percentage": 100
+  },
+  {
+    "name": "Web APIs RESTful con ASP.NET Core",
+    "img": "https://udemy-certificate.s3.amazonaws.com/image/UC-d8117716-1051-43d9-a297-971f20d932fc.jpg?v=1706219597000",
+    "link": "https://www.udemy.com/certificate/UC-d8117716-1051-43d9-a297-971f20d932fc/",
+    "description": "Certificado de finalización de Udemy",
+    "percentage": 100
+  },
+  {
+    "name": "DevOps esencial",
+    "img": "https://media.licdn.com/dms/image/D4D22AQGgi59aFyBPPw/feedshare-shrink_1280/0/1708037183787?e=1710979200&v=beta&t=_M5Su59KLYptGuxucJrHG2kTYkOD1PyVnm_2s9hGZ50",
+    "link": "https://www.linkedin.com/learning/certificates/7e52b338ab564e42bf055bb8e7073ab3086802592f49ad2db6df4c633df00566",
+    "description": "Certificado de finalización de LinkedIn Learning",
+    "percentage": 100
+  },
+  {
+    "name": "Introducción a Redes",
+    "img": "https://api.educacionit.com/pdf/certificados/francisco-caviglia-212852/30109?content_type=jpeg",
+    "link": "https://www.educacionit.com/perfil/francisco-caviglia-212852/certificado/30109",
+    "description": "Certificado de finalización de Educación IT",
+    "percentage": 100
+  },
+  {
+    "name": "Linux Introducción ",
+    "img": "https://api.educacionit.com/pdf/certificados/francisco-caviglia-212852/30152?content_type=jpeg",
+    "link": "https://www.educacionit.com/perfil/francisco-caviglia-212852/certificado/30152",
+    "description": "Certificado de finalización de Educación IT",
+    "percentage": 100
+  },
+  {
+    "name": "Fundamentos de la programación: Más allá de lo básico",
+    "img": "https://media.licdn.com/dms/image/D4D22AQF_Im5Z9teEoQ/feedshare-shrink_1280/0/1708182563276?e=1710979200&v=beta&t=HUYeuugtTg3FYaxTrMH2yNBvZAlaVRQfJUkOmAEwwoQ",
+    "link": "https://www.linkedin.com/learning/certificates/5a10d57fdf6ab3d2ebd83d3295802f49df06facc5b01f67dcc60e2d44944bb9a",
+    "description": "Certificado de finalización de LinkedIn Learning",
+    "percentage": 100
+  },
+  {
+    "name": "Fundamentos esenciales de la programación",
+    "img": "https://media.licdn.com/dms/image/D4D22AQFYYgliDozNJg/feedshare-shrink_1280/0/1708080137717?e=1710979200&v=beta&t=QxMyMd0CxEvueLKanZAVLSIKMCNMQD-0xYq6fD6horw",
+    "link": "https://www.linkedin.com/learning/certificates/e303fe1163dcd865433931d53f884be29b717731b3ba92221d054e7c6749610c",
+    "description": "Certificado de finalización de LinkedIn Learning",
+    "percentage": 100
+  },
+  {
+    "name": "Introducción a las habilidades profesionales en el desarrollo de software",
+    "img": "https://media.licdn.com/dms/image/D4D22AQGR4Vo5JVRtow/feedshare-shrink_1280/0/1708091034609?e=1710979200&v=beta&t=j2Yt25ctzQ6jZH4AHlle3Pzo6MAb1BWiHDk329nexto",
+    "link": "https://www.linkedin.com/learning/certificates/bc9e3c352a0414ceefc212b8a03b7d0c162bbcef7aae83a1a8e1ace66cbc2edb",
+    "description": "Certificado de finalización de LinkedIn Learning",
+    "percentage": 100
+  },
+  {
+    "name": "Cypress: Automatización de pruebas de punta a punta",
+    "img": "https://udemy-certificate.s3.amazonaws.com/image/UC-2fe42abc-0c9c-4c9a-a151-6b9f0d858520.jpg?v=1684868049000",
+    "link": "https://www.udemy.com/certificate/UC-2fe42abc-0c9c-4c9a-a151-6b9f0d858520/",
+    "description": "Certificado de finalización de Udemy",
+    "percentage": 100
+  },
+  {
+    "name": "Testing Automation con Selenium",
+    "img": "https://api.educacionit.com/pdf/certificados/francisco-caviglia-212852/52312?content_type=jpeg",
+    "link": "https://www.educacionit.com/perfil/francisco-caviglia-212852/certificado/52312",
+    "description": "Certificado de finalización de Educación IT",
+    "percentage": 100
+  },
+  {
+    "name": "Software Tester QA",
+    "img": "https://api.educacionit.com/pdf/certificados/francisco-caviglia-212852/37195?content_type=jpeg",
+    "link": "https://www.educacionit.com/perfil/francisco-caviglia-212852/certificado/37195",
+    "description": "Certificado de finalización de Educación IT",
     "percentage": 100
   },
   {
     "name": "Angular 14 - The Complete Guide",
+    "img": "",
+    "link": "",
     "description": "Udemy: Comprehensive course on Angular 14, covering from the fundamentals to advanced techniques, with an emphasis on TypeScript.",
-    "percentage": 100
+    "percentage": 70
   },
   {
     "name": "RxJS PRO Level",
+    "img": "",
+    "link": "",
     "description": "Advanced course on RxJS, focused on reactive programming and handling asynchronous events for web applications.",
-    "percentage": 50
-  },
-  {
-    "name": "Bootstrap 5",
-    "description": "Udemy: Complete course on Bootstrap 5, covering from basic concepts to advanced, with practical projects and CSS.",
-    "percentage": 100
-  },
-  {
-    "name": "Mastery in CSS3",
-    "description": "Advanced course in CSS3, covering Flexbox, Grid, SASS, and Bootstrap 5, with a focus on responsive design and modern styling.",
-    "percentage": 100
-  },
-  {
-    "name": "CSS The Complete Guide",
-    "description": "Exhaustive course on CSS, including Flexbox, CSS Grid, and SASS, with more than 20 practical projects to consolidate knowledge.",
-    "percentage": 100
-  },
-  {
-    "name": "Flutter - Mobile: From Zero to Expert",
-    "description": "Complete Flutter course for cross-platform development focused on mobile.",
     "percentage": 60
   },
   {
+    "name": "Flutter - Mobile: From Zero to Expert",
+    "img": "",
+    "link": "",
+    "description": "Complete Flutter course for cross-platform development focused on mobile.",
+    "percentage": 90
+  },
+  {
     "name": "Flutter from Zero",
+    "img": "",
+    "link": "",
     "description": "Complete Flutter course for cross-platform development with clean architecture.",
     "percentage": 0
   },
   {
-    "name": "Databases and SQL",
-    "description": "Educación IT: Complete course on database fundamentals and SQL, including design, manipulation, and queries.",
-    "percentage": 100
-  },
-  {
-    "name": "PHP Course",
-    "description": "Complete course on backend development in PHP.",
+    "name": "Mastery in CSS3",
+    "img": "",
+    "link": "",
+    "description": "Advanced course in CSS3, covering Flexbox, Grid, SASS, and Bootstrap 5, with a focus on responsive design and modern styling.",
     "percentage": 50
   },
   {
+    "name": "CSS The Complete Guide",
+    "img": "",
+    "link": "",
+    "description": "Exhaustive course on CSS, including Flexbox, CSS Grid, and SASS, with more than 20 practical projects to consolidate knowledge.",
+    "percentage": 50
+  },
+  {
+    "name": "PHP Course",
+    "img": "",
+    "link": "",
+    "description": "Complete course on backend development in PHP.",
+    "percentage": 60
+  },
+  {
     "name": "NodeJS: From Zero to Expert",
+    "img": "",
+    "link": "",
     "description": "Complete Node.js course.",
     "percentage": 60
   },
   {
     "name": "Master in RESTful APIs with NodeJS",
+    "img": "",
+    "link": "",
     "description": "Complete Node.js course.",
-    "percentage": 40
-  },
-  {
-    "name": "Building RESTful Web APIs with ASP.NET Core 6",
-    "description": "Web API programming in C#",
-    "percentage": 100
+    "percentage": 55
   }
 ]

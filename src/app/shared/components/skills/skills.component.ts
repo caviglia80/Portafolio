@@ -3,7 +3,9 @@ import { HttpClient } from '@angular/common/http';
 
 interface Skill {
   name: string;
-  description: string;
+  img?: string;
+  link?: string;
+  description?: string;
   percentage: number;
 }
 
@@ -14,6 +16,7 @@ interface Skill {
 })
 export class SkillsComponent implements OnInit {
 
+  public imagenCargando = true;
   private lista: Skill[] = [];
   public listaFiltrada: Skill[] = [];
   public filtro: string = '';
@@ -43,7 +46,7 @@ export class SkillsComponent implements OnInit {
   public filtrarLista(): void {
     this.listaFiltrada = this.lista.filter(item =>
       item.name.toLowerCase().includes(this.filtro.toLowerCase()) ||
-      item.description.toLowerCase().includes(this.filtro.toLowerCase())
+      item.description!.toLowerCase().includes(this.filtro.toLowerCase())
     );
     this.seleccionarPrimerItem();
   }
@@ -53,6 +56,8 @@ export class SkillsComponent implements OnInit {
   }
 
   public seleccionarItem(item: Skill, index: number) {
+    if (this.itemSeleccionadoIndex !== index)
+      this.imagenCargando = true;
     this.itemSeleccionado = item;
     this.itemSeleccionadoIndex = index;
   }

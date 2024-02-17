@@ -6,7 +6,7 @@
       <!-- filtro col 12 -->
       <div class="col-12 form-group mb-2">
         <div class="contenedor-filtro">
-          <input type="text" class="form-control" [(ngModel)]="filtro" (keyup)="filtrarLista()" placeholder="Filtrar">
+          <input type="text" class="form-control" [(ngModel)]="filtro" (keyup)="filtrarLista()" placeholder="Filter">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-funnel m-2"
             viewBox="0 0 16 16">
             <path
@@ -47,6 +47,28 @@
               <p class="h1 text-center" *ngIf="!itemSeleccionado">Ask me 😅</p>
               <p class="infoDetalles" *ngIf="itemSeleccionado">{{ itemSeleccionado.description }}</p>
             </div>
+
+            <!-- imagen en la parte inferior -->
+            <ng-container *ngIf="itemSeleccionado && itemSeleccionado.img">
+              <!-- Spinner -->
+              <div *ngIf="imagenCargando" class="d-flex justify-content-center align-items-center" style="height: 40%;">
+                <div class="spinner-border text-primary" role="status"></div>
+              </div>
+
+              <!-- Imagen dentro de un enlace, si existe -->
+              <a [hidden]="imagenCargando" *ngIf="itemSeleccionado.link; else noLinkImage"
+                href="{{ itemSeleccionado.link }}" target="_blank" rel="noreferrer noopener">
+                <img src="{{ itemSeleccionado.img }}" (load)="imagenCargando = false" class="img-fluid p-2"
+                  alt="Imagen {{ itemSeleccionado.name }}">
+              </a>
+
+              <!-- Imagen sin enlace -->
+              <ng-template #noLinkImage>
+                <img [hidden]="imagenCargando" src="{{ itemSeleccionado.img }}" (load)="imagenCargando = false"
+                  class="img-fluid p-2" alt="Imagen {{ itemSeleccionado.name }}">
+              </ng-template>
+            </ng-container>
+
           </div>
 
         </div>

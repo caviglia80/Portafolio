@@ -18,7 +18,7 @@ export class TopBtnComponent implements OnInit {
         this.button.addEventListener('click', () => {
           window.scrollTo({ top: 0, behavior: 'smooth' });
         });
-  
+
       window.addEventListener('scroll', () => {
         if (this.button)
           if (window.scrollY > 0)
@@ -31,4 +31,3 @@ export class TopBtnComponent implements OnInit {
     }
   }
 }
- 
