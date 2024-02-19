@@ -105,6 +105,13 @@
     "percentage": 70
   },
   {
+    "name": "GitHub para programadores",
+    "img": "https://media.licdn.com/dms/image/D4D22AQHf4B1XiJKU1g/feedshare-shrink_1280/0/1708344033742?e=1710979200&v=beta&t=KEGIluuAHAj6KK7s009JDmCnlIVfTZit6dur_rRNkgk",
+    "link": "https://www.linkedin.com/learning/certificates/e0d76d5a6991fe659fe1e912a2b648ada148b4d7d9f6e9d73154bb17d1ae9a7b",
+    "description": "Certificado de finalización de LinkedIn Learning",
+    "percentage": 100
+  },
+  {
     "name": "RxJS PRO Level",
     "img": "",
     "link": "",
