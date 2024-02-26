@@ -1,7 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Ysabeau+SC:wght@600&display=swap');
 @import '~bootstrap/dist/css/bootstrap.min.css';
 @import '~bootstrap-icons/font/bootstrap-icons.css';
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Ysabeau+SC:wght@600&display=swap');
-
 
 .brightnessAnimation:active {
   animation: brightnessAnimation 3s;
@@ -114,8 +113,7 @@ header .logo .icono {
 }
 
 h2 {
-  color: #3da5e2;
-  /* font-family: 'Open Sans', sans-serif; */
+  color: #3da5e2 !important;
   font-weight: 300 !important;
   font-size: 32px;
 }
@@ -125,10 +123,6 @@ h2 {
   /* font-family: 'Open Sans', sans-serif; */
   font-weight: 300;
   font-size: 32px;
-}
-
-.destacados h2 {
-  color: #777777;
 }
 
 h3 {
@@ -219,7 +213,6 @@ h3 {
 
 .dark-mode p,
 .dark-mode .logo h2,
-.dark-mode .destacados h2,
 .dark-mode h4 {
   color: #ccc;
 }
