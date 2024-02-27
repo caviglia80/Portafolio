@@ -65,26 +65,12 @@
   }
 }
 
-/* No permitir seleccionar texto para todos los navegadores */
 * {
-  user-select: none !important;
-  -webkit-user-drag: none !important;
   font-family: 'Roboto', 'Open Sans', sans-serif !important;
-}
-
-/* Para Safari */
-*::selection {
-  background-color: transparent;
-}
-
-/* Para Firefox */
-*::-moz-selection {
-  background-color: transparent;
 }
 
 body {
   background: #f2f2f2;
-  /* font-family: 'Open Sans', sans-serif; */
 }
 
 header .nav {

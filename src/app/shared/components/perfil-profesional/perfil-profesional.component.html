@@ -1,6 +1,12 @@
 <div id="perfil" class="row acerca-de align-items-center px-4 mb-5">
   <div class="col-12 col-lg-4 foto text-center">
-    <img src="assets/Perfil.jpg" class="rounded-circle mb-2 p-1 w-75">
+
+    <img
+      src="https://media.licdn.com/dms/image/D4D03AQEB0fdgcFOj7Q/profile-displayphoto-shrink_400_400/0/1681946777982?e=1714608000&v=beta&t=dju3BdaAFN1UlnNA0AK9kMJYr-NAeTtXj4iwcj6az7w"
+      class="rounded-circle mb-2 p-1 w-100" (error)="imageError = true" *ngIf="!imageError">
+    <img src="assets/Perfil.jpg" class="rounded-circle mb-2 p-1 w-75" *ngIf="imageError">
+
+
     <!-- <p class="nombre">Francisco Caviglia</p> -->
   </div>
 

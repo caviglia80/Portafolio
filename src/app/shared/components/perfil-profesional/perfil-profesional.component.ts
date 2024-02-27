@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class PerfilProfesionalComponent {
   public imgPerfil: string = 'assets/Perfil.jpg';
-
+  imageError: boolean = false;
 }

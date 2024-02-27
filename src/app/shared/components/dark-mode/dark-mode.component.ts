@@ -36,7 +36,7 @@ export class DarkModeComponent implements OnInit {
         }
         document.body.classList.remove('dark-mode');
       }
-      this.changeTheme();
+      // this.changeTheme();
     } catch (error) {
       console.log(error);
     }
@@ -61,11 +61,11 @@ export class DarkModeComponent implements OnInit {
     }
   }
 
-  async changeTheme() {
-    let badge = document.getElementById('profile-badge') as HTMLElement;
-    const isDarkMode = document.body.classList.contains('dark-mode');
-    badge.dataset['theme'] = isDarkMode ? 'dark' : 'light';
-  }
+  // async changeTheme() {
+  //   let badge = document.getElementById('profile-badge') as HTMLElement;
+  //   const isDarkMode = document.body.classList.contains('dark-mode');
+  //   badge.dataset['theme'] = isDarkMode ? 'dark' : 'light';
+  // }
 
 }
 
