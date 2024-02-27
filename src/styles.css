@@ -287,3 +287,7 @@ h3 {
   filter: brightness(1.4);
   opacity: .5;
 }
+
+.dark-mode .navbar-icon {
+  filter: drop-shadow(2px 1px 1px #2998d9bd);
+}
