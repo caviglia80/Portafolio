@@ -22,7 +22,7 @@ export class ExperienceTimelineComponent implements OnInit {
       element.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
   }
-  public seleccionar(id: number) {
+  public seleccionarSVG(id: number) {
     this.svgSeleccion = id;
   }
 

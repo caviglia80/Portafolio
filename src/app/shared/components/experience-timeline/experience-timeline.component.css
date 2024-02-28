@@ -25,10 +25,10 @@
 input {
   width: 20px;
   height: 20px;
-  background-color: #1ba0ef;
+  /* background-color: #1ba0ef; */
   position: relative;
   border-radius: 50%;
-  border: 2px solid #1ba0ef;
+  border: 2px solid #1b62ef99;
   display: block;
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -40,7 +40,7 @@ input {
 
 input:hover {
   border: 1px solid #1ba0ef;
-  transform: scale(1.5);
+  transform: scale(1.1);
 }
 
 input:focus {
@@ -48,10 +48,12 @@ input:focus {
 }
 
 input:checked {
-  background-color: #1ba0ef;
+  background-color: #1b62ef99;
   animation: agrandamiento 1.5s linear infinite !important;
-  filter: brightness(1.1);
+  filter: brightness(1.5);
   opacity: .9 !important;
+  border: none;
+  box-shadow: 1px 1px 10px #1b62ef99;
 }
 
 input:checked~input {
@@ -59,7 +61,7 @@ input:checked~input {
 }
 
 input:checked+.dot-info span {
-  transform: scale(1.2);
+  transform: scale(1.1);
   font-weight: bold;
   opacity: 1 !important;
 }
@@ -195,30 +197,30 @@ input[data-description="4"]:checked~#timeline-descriptions-wrapper .item[data-de
 
 @keyframes agrandamiento {
   0% {
-    transform: scale(.7);
+    transform: scale(1);
   }
 
   50% {
-    transform: scale(1);
+    transform: scale(1.1);
     filter: brightness(1.2);
   }
 
   100% {
-    transform: scale(.7);
+    transform: scale(1);
   }
 }
 
 @keyframes agrandamientoSmall {
   0% {
-    transform: scale(.6);
+    transform: scale(1);
   }
 
   50% {
-    transform: scale(.9);
+    transform: scale(1.1);
   }
 
   100% {
-    transform: scale(.6);
+    transform: scale(1);
   }
 }
 
