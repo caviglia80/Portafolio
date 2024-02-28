@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GlobalVariables } from 'src/app/app.component';
 
 @Component({
   selector: 'app-footer',
@@ -8,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class FooterComponent implements OnInit {
   public anios: string = '';
   public anio: string = '';
+  cv = GlobalVariables.cv;
 
   constructor() { }
 
