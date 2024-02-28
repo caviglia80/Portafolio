@@ -110,6 +110,7 @@ input:checked+.dot-info span {
   margin-top: 1vh;
   margin-bottom: 2vh;
   display: none;
+  min-height: 250px;
 }
 
 #timeline-descriptions-wrapper .btn {

@@ -25,11 +25,12 @@ ul li p {
 }
 
 .itemSelected {
-  box-shadow: 1px 1px 2px #1ba1ef8a;
+  box-shadow: 2px 2px 1px #1ba1ef8a;
   background-color: #1ba1ef1b;
+  border: 1px solid #1ba1ef8a;
 }
 
-.itemSelectedAnimation:active {
+/* .itemSelectedAnimation:active {
   animation: itemSelectedAnimation 10s;
 }
 
@@ -45,4 +46,8 @@ ul li p {
   100% {
     transform: scale(1);
   }
+} */
+
+.lista-scroll li {
+  cursor: pointer;
 }

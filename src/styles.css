@@ -97,6 +97,7 @@ header .logo .icono {
 .portafolio {
   border-top: 5px solid #3da5e2;
   background: #fff;
+  min-height: 636px;
 }
 
 h2 {
@@ -208,8 +209,11 @@ p a:hover {
 
 .dark-mode .btn {
   color: #1ba0ef;
-  border: 1px solid #00426a !important;
+  /* border: 1px solid #00426a !important; */
+  border: none;
+  box-shadow: 1px 1px 1px #00416aa8 !important;
   background-color: transparent;
+  margin: 2px;
 }
 
 .dark-mode .btn:hover {
