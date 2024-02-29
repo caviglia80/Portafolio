@@ -28,6 +28,27 @@ export class DevRepositoriesComponent implements OnInit {
       });
   }
 
+  public getLanguages(principallanguague: string): string[] {
+    try {
+      if (principallanguague.toLowerCase().includes('c++') ||
+        principallanguague.toLowerCase().includes('flutter') ||
+        principallanguague.toLowerCase().includes('dart')) {
+        return ['Flutter', 'Dart'];
+      } else if (principallanguague.toLowerCase().includes('typescript') ||
+        principallanguague.toLowerCase().includes('html')) {
+        return ['Angular', 'TypeScript'];
+      } else if (principallanguague.toLowerCase().includes('css') ||
+        principallanguague.toLowerCase().includes('html')) {
+        return ['HTML', 'CSS'];
+      } else {
+        return [principallanguague];
+      }
+    } catch (error) {
+      console.log(error);
+      return [''];
+    }
+  }
+
   public truncateDescription(description: string): string {
     try {
       if (description)

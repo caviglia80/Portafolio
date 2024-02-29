@@ -7,7 +7,7 @@ import { Router, NavigationEnd } from '@angular/router';
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent {
-  public imgLogo: string = 'assets/Logos/logo.png';
+  public imgLogo: string = 'assets/img/logo2.png';
   public isCollapsed = true;
 
   constructor(public router: Router, private elementRef: ElementRef) {

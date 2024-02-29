@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./perfil-profesional.component.css']
 })
 export class PerfilProfesionalComponent {
-  public imgPerfil: string = 'assets/Perfil.jpg';
+  public imgPerfil: string = 'assets/img/Perfil.jpg';
   imageError: boolean = false;
 }

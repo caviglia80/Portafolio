@@ -30,9 +30,13 @@
             <img src="{{ repo.owner.avatar_url }}" alt="{{ repo.owner.login }}"
               class="bd-placeholder-img rounded-circle mb-2" width="140" height="140" role="img"
               title="{{ repo.owner.login }}">
-            <span class="label scaleAnimation">
-              {{ repo.language }}
-            </span>
+
+            <ng-container *ngFor="let language of getLanguages(repo.language); let i = index">
+              <span *ngIf="language" [ngClass]="{'mb-4': i === 1}" class="label scaleAnimation">
+                {{ language }}
+              </span>
+            </ng-container>
+
           </a>
         </div>
         <h3 style="font-weight: 100; font-size: 18px;">{{ truncateTitle(repo.name) }}</h3>
