@@ -14,4 +14,5 @@
 
 .nav-link {
   cursor: pointer;
+  font-weight: 700 !important;
 }
