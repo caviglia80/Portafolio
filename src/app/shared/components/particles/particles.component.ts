@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 declare var particlesJS: any;
 
-import * as THREE from 'three';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
+// import * as THREE from 'three';
+// import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 
 @Component({
   selector: 'app-particles',
@@ -426,73 +426,73 @@ export class ParticlesComponent implements OnInit {
 
 
 
-class BubbleParticles {
-  private scene: THREE.Scene;
-  private camera: THREE.PerspectiveCamera;
-  private renderer: THREE.WebGLRenderer;
-  private particlesMesh: THREE.Points | null = null;
+// class BubbleParticles {
+//   private scene: THREE.Scene;
+//   private camera: THREE.PerspectiveCamera;
+//   private renderer: THREE.WebGLRenderer;
+//   private particlesMesh: THREE.Points | null = null;
 
-  constructor() {
-    this.scene = new THREE.Scene();
-    this.camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+//   constructor() {
+//     this.scene = new THREE.Scene();
+//     this.camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
 
-    // Crear el renderer y configurar el tamaño y color de fondo
-    this.renderer = new THREE.WebGLRenderer();
-    this.renderer.setClearColor('#000000'); // Color de fondo opcional
-    const container = document.getElementById('three-js');
-    if (container) {
-      this.renderer.setSize(container.clientWidth, container.clientHeight);
-      container.appendChild(this.renderer.domElement); // Montar el lienzo en el contenedor específico
-    } else {
-      console.error('No se encontró el contenedor #three-js');
-    }
+//     // Crear el renderer y configurar el tamaño y color de fondo
+//     this.renderer = new THREE.WebGLRenderer();
+//     this.renderer.setClearColor('#000000'); // Color de fondo opcional
+//     const container = document.getElementById('three-js');
+//     if (container) {
+//       this.renderer.setSize(container.clientWidth, container.clientHeight);
+//       container.appendChild(this.renderer.domElement); // Montar el lienzo en el contenedor específico
+//     } else {
+//       console.error('No se encontró el contenedor #three-js');
+//     }
 
-    this.initParticles();
-    this.animate();
-    this.setupResize();
-  }
+//     this.initParticles();
+//     this.animate();
+//     this.setupResize();
+//   }
 
-  private initParticles(): void {
-    const particlesGeometry = new THREE.BufferGeometry();
-    const particlesCnt = 5000; // Cantidad de partículas
-    const posArray = new Float32Array(particlesCnt * 3); // x, y, z por partícula
+//   private initParticles(): void {
+//     const particlesGeometry = new THREE.BufferGeometry();
+//     const particlesCnt = 5000; // Cantidad de partículas
+//     const posArray = new Float32Array(particlesCnt * 3); // x, y, z por partícula
 
-    for (let i = 0; i < particlesCnt * 3; i++) {
-      posArray[i] = (Math.random() - 0.5) * (Math.random() * 5);
-    }
+//     for (let i = 0; i < particlesCnt * 3; i++) {
+//       posArray[i] = (Math.random() - 0.5) * (Math.random() * 5);
+//     }
 
-    particlesGeometry.setAttribute('position', new THREE.BufferAttribute(posArray, 3));
+//     particlesGeometry.setAttribute('position', new THREE.BufferAttribute(posArray, 3));
 
-    const particlesMaterial = new THREE.PointsMaterial({
-      size: 0.005,
-      color: '#81d4fa'
-    });
+//     const particlesMaterial = new THREE.PointsMaterial({
+//       size: 0.005,
+//       color: '#81d4fa'
+//     });
 
-    this.particlesMesh = new THREE.Points(particlesGeometry, particlesMaterial);
-    this.scene.add(this.particlesMesh);
+//     this.particlesMesh = new THREE.Points(particlesGeometry, particlesMaterial);
+//     this.scene.add(this.particlesMesh);
 
-    this.camera.position.z = 3;
-  }
+//     this.camera.position.z = 3;
+//   }
 
-  private animate = (): void => {
-    requestAnimationFrame(this.animate);
-    if (this.particlesMesh) {
-      this.particlesMesh.rotation.y += 0.001;
-    }
-    this.renderer.render(this.scene, this.camera);
-  }
+//   private animate = (): void => {
+//     requestAnimationFrame(this.animate);
+//     if (this.particlesMesh) {
+//       this.particlesMesh.rotation.y += 0.001;
+//     }
+//     this.renderer.render(this.scene, this.camera);
+//   }
 
-  private setupResize() {
-    window.addEventListener('resize', this.onWindowResize, false);
-  }
+//   private setupResize() {
+//     window.addEventListener('resize', this.onWindowResize, false);
+//   }
 
-  private onWindowResize = (): void => {
-    const container = document.getElementById('three-js');
-    if (container) {
-      this.camera.aspect = container.clientWidth / container.clientHeight;
-      this.camera.updateProjectionMatrix();
-      this.renderer.setSize(container.clientWidth, container.clientHeight);
-    }
-  }
-}
+//   private onWindowResize = (): void => {
+//     const container = document.getElementById('three-js');
+//     if (container) {
+//       this.camera.aspect = container.clientWidth / container.clientHeight;
+//       this.camera.updateProjectionMatrix();
+//       this.renderer.setSize(container.clientWidth, container.clientHeight);
+//     }
+//   }
+// }
 

@@ -51,3 +51,7 @@ ul li p {
 .lista-scroll li {
   cursor: pointer;
 }
+
+.img-fluid {
+  max-height: 321px;
+}
