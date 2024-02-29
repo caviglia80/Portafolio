@@ -10,7 +10,27 @@
     "percentage": 100
   },
   {
-    "name": "PHP Programming",
+    "name": "Web applications with Angular",
+    "description": "Development Angular web applications using RXJS, CSS, Bootstrap 5, Angular material, Lazy loading modules.",
+    "percentage": 100
+  },
+  {
+    "name": "Programming with Java",
+    "description": "Development with the Java programming language for testing with Selenium.",
+    "percentage": 100
+  },
+  {
+    "name": "SQL Query Languages",
+    "description": "Utilization of SQL for database management, including MySQL and SQL Server.",
+    "percentage": 100
+  },
+  {
+    "name": "HTML layout",
+    "description": "Development web with HTML CSS, JavaScript.",
+    "percentage": 100
+  },
+  {
+    "name": "Programming with PHP",
     "description": "Development with the PHP programming language to create several backends for clients.",
     "percentage": 100
   },
@@ -25,28 +45,53 @@
     "percentage": 100
   },
   {
-    "name": "Java Programming",
-    "description": "Development with the Java programming language for testing with Selenium.",
-    "percentage": 100
-  },
-  {
-    "name": "SQL Query Languages",
-    "description": "Utilization of SQL for database management, including MySQL and SQL Server.",
-    "percentage": 100
-  },
-  {
-    "name": "Styles and CSS",
+    "name": "Styles",
     "description": "Proficient in CSS and Bootstrap 5, capable of creating fully responsive applications.",
     "percentage": 95
   },
   {
-    "name": "Flutter",
-    "description": "Basic proficiency in Flutter.",
+    "name": "Programming with Flutter (Dart)",
+    "description": "Basic proficiency in Flutter (dart).",
     "percentage": 70
+  },
+  {
+    "name": "Programming with python",
+    "description": "Basic proficiency in python.",
+    "percentage": 70
+  },
+  {
+    "name": "Programming with Node.JS",
+    "description": "Backend web application development using Node.JS (JavaScript).",
+    "percentage": 100
+  },
+  {
+    "name": "ASP.NET Core MVC Programming (C#)",
+    "description": "Backend web application development using ASP.NET Core MVC (C#).",
+    "percentage": 100
   },
   {
     "name": "Management and Monitoring Tools",
     "description": "Experience using Jira for development ticket management.",
+    "percentage": 100
+  },
+  {
+    "name": "Version control with GIT / GitKraken",
+    "description": "Version control with GIT / GitKraken. (using github).",
+    "percentage": 100
+  },
+  {
+    "name": "API Documentation with Swagger",
+    "description": "Implementing Swagger for API documentation and testing in ASP.NET Core applications.",
+    "percentage": 100
+  },
+  {
+    "name": "Object-Oriented Programming (OOP)",
+    "description": "Utilizing Object-Oriented Programming principles to design and implement scalable and maintainable systems.",
+    "percentage": 100
+  },
+  {
+    "name": "API Integration",
+    "description": "Implementing and managing the integration of external APIs into backend systems to extend functionalities.",
     "percentage": 100
   }
 ]

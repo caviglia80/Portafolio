@@ -87,3 +87,8 @@
 .btn-perfil {
   margin-top: 0;
 }
+
+p a span,
+p span {
+  white-space: nowrap;
+}
