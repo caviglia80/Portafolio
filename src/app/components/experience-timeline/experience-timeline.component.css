@@ -48,21 +48,21 @@ input:focus {
 }
 
 input:checked {
-  background-color: #1b62ef99;
+  background-color: #1b62ef99 !important;
   animation: agrandamiento 1.5s linear infinite !important;
-  filter: brightness(1.5);
+  filter: brightness(1.5) !important;
   opacity: .9 !important;
-  border: none;
-  box-shadow: 1px 1px 10px #1b62ef99;
+  border: none !important;
+  box-shadow: 1px 1px 10px #1b62ef99 !important;
 }
 
 input:checked~input {
-  background-color: transparent;
+  background-color: transparent !important;
 }
 
 input:checked+.dot-info span {
-  transform: scale(1.1);
-  font-weight: bold;
+  transform: scale(1.1) !important;
+  font-weight: bold !important;
   opacity: 1 !important;
 }
 
@@ -121,17 +121,9 @@ input:checked+.dot-info span {
   bottom: 0;
 }
 
-/* input[data-description="0"]:checked~#timeline-descriptions-wrapper .item[data-description="0"] {
-    display: block;
-} */
-
 input[data-description="0"]:checked~#timeline-descriptions-wrapper .item[data-description="0"] {
   display: block;
 }
-
-/* input[data-description="2"]:checked~#timeline-descriptions-wrapper .item[data-description="2"] {
-    display: block;
-} */
 
 input[data-description="1"]:checked~#timeline-descriptions-wrapper .item[data-description="1"] {
   display: block;
@@ -233,8 +225,6 @@ input[data-description="4"]:checked~#timeline-descriptions-wrapper .item[data-de
   to {
     transform: translateX(0);
     opacity: 1;
-    /* box-shadow: 1px 2px 5px #1ba1efbb;
-    padding: 10px; */
   }
 }
 
@@ -260,6 +250,8 @@ ul li svg {
 .selecccionado {
   transform: scale(1.4);
   filter: brightness(1.4);
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .empresas ul li svg path {

@@ -105,22 +105,16 @@ h2 {
   font-size: 32px;
 }
 
-.nav h2 {
+/* .nav h2 {
   color: #0e0d0d;
-  /* font-family: 'Open Sans', sans-serif; */
   font-weight: 300;
   font-size: 32px;
-}
+} */
 
 h3 {
-  color: #1ba0ef;
-  /* font-family: 'Open Sans', sans-serif; */
+  color: #1ba0ef !important;
   font-weight: 200;
   font-size: 28px;
-}
-
-.modal-dialog {
-  max-width: 1000px;
 }
 
 .acerca-de .foto .nombre {
@@ -158,10 +152,6 @@ h3 {
   padding-left: 20px;
 }
 
-/* #destacado img:hover {
-	box-shadow: 4px 4px 15px #0e0d0d;
-} */
-
 p a {
   color: #3887c3 !important;
   text-decoration: none;
@@ -179,82 +169,64 @@ p a:hover {
 .dark-mode .nav,
 .dark-mode .portafolio {
   /* background: #121212; */
-  background: none;
-  color: #ffffff;
-  border: 1px solid #00426a;
+  background: none !important;
+  color: #ffffff !important;
+  border: 1px solid #00426a !important;
 }
 
 .dark-mode input,
 .dark-mode input:focus {
-  border: 1px solid #00426a;
-  background-color: #00000098;
-  color: #ccc;
+  border: 1px solid #00426a !important;
+  background-color: #00000098 !important;
+  color: #ccc !important;
 }
 
 .dark-mode input::placeholder {
-  color: #ccc;
+  color: #ccc !important;
 }
 
 .dark-mode .cuadro-texto {
-  color: #ccc;
+  color: #ccc !important;
   border: 1px solid #00426a !important;
 }
 
 .dark-mode p,
-.dark-mode .logo h2,
+/* .dark-mode .logo h2, */
 .dark-mode h4 {
-  color: #ccc;
+  color: #ccc !important;
 }
 
 .dark-mode .btn {
-  color: #1ba0ef;
-  /* border: 1px solid #00426a !important; */
-  border: none;
+  color: #1ba0ef !important;
+  border: none !important;
   box-shadow: 1px 1px 1px #00416aa8 !important;
-  background-color: transparent;
-  margin: 2px;
+  background-color: transparent !important;
+  margin: 2px !important;
 }
 
 .dark-mode .btn:hover {
-  color: #ffffff;
-  background-color: #00426a;
+  color: #ffffff !important;
+  background-color: #00426a !important;
 }
 
 .dark-mode .btn:active {
-  color: #ffffff;
-  background-color: #3887c3;
+  color: #ffffff !important;
+  background-color: #3887c3 !important;
 }
 
 .dark-mode ul li a {
-  color: #3887c3;
+  color: #3887c3 !important;
 }
 
-.dark-mode nav,
+/* .dark-mode nav,
 .dark-mode footer {
   background-color: #0e0d0d !important;
-}
+} */
 
 .dark-mode .bi,
 .dark-mode .moon {
-  color: #1ba0ef;
+  color: #1ba0ef !important;
   fill: #1ba0ef !important;
-}
-
-.dark-mode .modal-content {
-  background-color: #0e0d0d !important;
-  border: 1px solid #00426a !important;
-}
-
-.dark-mode .modal-content h5 {
-  color: #1ba0ef;
-}
-
-.dark-mode .modal-content .bi {
-  color: red !important;
-}
-
-.dark-mode .modal-content button span {
-  color: #1ba0ef;
 }
 
 .dark-mode .toast {
@@ -262,7 +234,7 @@ p a:hover {
 }
 
 .dark-mode .toast-body {
-  color: #0e0d0d;
+  color: #0e0d0d !important;
 }
 
 .dark-mode .toast a,
@@ -272,32 +244,15 @@ p a:hover {
   fill: #00426a !important;
 }
 
-.dark-mode #destacado img {
-  box-shadow: 0px 0px 10px #1ba1efbb;
-}
-
-.dark-mode #destacado img:hover {
-  box-shadow: 2px 2px 10px #1ba1efbb;
-}
-
-.dark-mode .nav-item .dropdown-menu {
-  background-color: #0e0d0d;
-  border: 1px solid #00426a;
-}
-
 .dark-mode ul li p {
   color: #3887c3 !important;
 }
 
 .dark-mode #repositorio a img {
-  filter: brightness(1.4);
-  opacity: .5;
+  filter: brightness(1.4) !important;
+  opacity: .5 !important;
 }
 
 .dark-mode .navbar-icon {
-  filter: drop-shadow(2px 1px 1px #2998d9bd);
+  filter: drop-shadow(2px 1px 1px #2998d9bd) !important;
 }
-
-/* .empresas ul li svg path {
-  fill: red !important;
-} */
