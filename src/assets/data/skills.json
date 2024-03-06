@@ -25,8 +25,8 @@
     "percentage": 100
   },
   {
-    "name": "HTML layout",
-    "description": "Development web with HTML CSS, JavaScript.",
+    "name": "HTML5 layout",
+    "description": "Advanced development of web interfaces using HTML5, CSS3 and JavaScript.",
     "percentage": 100
   },
   {
@@ -71,7 +71,7 @@
   },
   {
     "name": "Management and Monitoring Tools",
-    "description": "Experience using Jira for development ticket management.",
+    "description": "Experience using Jira for development ticket management and Confluence for documentation.",
     "percentage": 100
   },
   {
@@ -91,7 +91,17 @@
   },
   {
     "name": "API Integration",
-    "description": "Implementing and managing the integration of external APIs into backend systems to extend functionalities.",
+    "description": "Experience in the design and integration of RESTful APIs, focused on system interoperability and scalability.",
+    "percentage": 100
+  },
+  {
+    "name": "LINQ",
+    "description": "Experience using LINQ to efficiently perform data queries in .NET, improving code readability and efficiency.",
+    "percentage": 100
+  },
+  {
+    "name": "NoSQL Database Management",
+    "description": "Experience in using NoSQL technologies for database management, including Firestore, focused on the development of scalable and real-time solutions.",
     "percentage": 100
   }
 ]
