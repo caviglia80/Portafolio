@@ -9,7 +9,7 @@ import { GVariableService } from '@services/gVariable/g-variable.service';
 })
 
 export class AppComponent implements OnInit {
-  title = 'CV';
+  title = 'Software Developer';
   cv = GlobalVariables.cv;
 
 
@@ -24,9 +24,8 @@ export class AppComponent implements OnInit {
 }
 
 @Injectable()
-export class GlobalVariables {
+export abstract class GlobalVariables {
   public static wspNumer: string = '+393500415970';
-  public static wspTxt: string = '';
   public static linkedinUser: string = 'francisco-caviglia';
   public static githubUser: string = 'caviglia80';
   public static cv: string = 'https://drive.google.com/file/d/1KViwFTm27gAb056W7NjMOkwI-9Ex59fg/view?usp=sharing';

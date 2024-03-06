@@ -16,8 +16,8 @@ import { DarkModeComponent } from '@components/dark-mode/dark-mode.component';
 import { ToastComponent } from '@components/toast/toast.component';
 import { ParticlesComponent } from '@components/particles/particles.component';
 import { GVariableService } from '@services/gVariable/g-variable.service';
-import { ExperienceTimelineComponent } from './shared/components/experience-timeline/experience-timeline.component';
-import { SocialButtonsComponent } from './shared/components/social-buttons/social-buttons.component';
+import { ExperienceTimelineComponent } from '@components/experience-timeline/experience-timeline.component';
+import { SocialButtonsComponent } from '@components/social-buttons/social-buttons.component';
 
 @NgModule({
   declarations: [
