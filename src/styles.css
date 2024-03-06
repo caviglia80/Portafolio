@@ -1,7 +1,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Ysabeau+SC:wght@600&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ysabeau+SC:wght@600&display=swap');
-@import '~bootstrap/dist/css/bootstrap.min.css';
-@import '~bootstrap-icons/font/bootstrap-icons.css';
+/* @import '~bootstrap/dist/css/bootstrap.min.css'; */
+/* @import '~bootstrap-icons/font/bootstrap-icons.css'; */
 
 .brightnessAnimation:active {
   animation: brightnessAnimation 3s;

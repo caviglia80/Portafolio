@@ -10,9 +10,6 @@ import { NavComponent } from '@components/nav/nav.component';
 import { DesarrolloComponent } from '@pages/desarrollo/desarrollo.component';
 import { PerfilProfesionalComponent } from '@components/perfil-profesional/perfil-profesional.component';
 import { FooterComponent } from '@components/footer/footer.component';
-import { WhatsappBtnComponent } from '@components/whatsapp-btn/whatsapp-btn.component';
-import { LinkedinBtnComponent } from '@components/linkedin-btn/linkedin-btn.component';
-import { GithubBtnComponent } from '@components/github-btn/github-btn.component';
 import { TopBtnComponent } from '@components/top-btn/top-btn.component';
 import { SkillsComponent } from '@components/skills/skills.component';
 import { PercentageSortPipe } from './core/pipes/percentage-sort.pipe';
@@ -22,6 +19,7 @@ import { ToastComponent } from '@components/toast/toast.component';
 import { ParticlesComponent } from '@components/particles/particles.component';
 import { GVariableService } from '@services/gVariable/g-variable.service';
 import { ExperienceTimelineComponent } from './shared/components/experience-timeline/experience-timeline.component';
+import { SocialButtonsComponent } from './shared/components/social-buttons/social-buttons.component';
 
 @NgModule({
   declarations: [
@@ -30,9 +28,6 @@ import { ExperienceTimelineComponent } from './shared/components/experience-time
     DesarrolloComponent,
     PerfilProfesionalComponent,
     FooterComponent,
-    WhatsappBtnComponent,
-    LinkedinBtnComponent,
-    GithubBtnComponent,
     TopBtnComponent,
     SkillsComponent,
     PercentageSortPipe,
@@ -40,7 +35,8 @@ import { ExperienceTimelineComponent } from './shared/components/experience-time
     DarkModeComponent,
     ToastComponent,
     ParticlesComponent,
-    ExperienceTimelineComponent
+    ExperienceTimelineComponent,
+    SocialButtonsComponent
   ],
   imports: [
     BrowserModule,

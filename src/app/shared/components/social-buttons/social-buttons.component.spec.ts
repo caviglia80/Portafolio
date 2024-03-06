@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LinkedinBtnComponent } from './linkedin-btn.component';
+import { SocialButtonsComponent } from './social-buttons.component';
 
-describe('LinkedinBtnComponent', () => {
-  let component: LinkedinBtnComponent;
-  let fixture: ComponentFixture<LinkedinBtnComponent>;
+describe('SocialButtonsComponent', () => {
+  let component: SocialButtonsComponent;
+  let fixture: ComponentFixture<SocialButtonsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ LinkedinBtnComponent ]
+      declarations: [ SocialButtonsComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(LinkedinBtnComponent);
+    fixture = TestBed.createComponent(SocialButtonsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
