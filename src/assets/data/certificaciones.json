@@ -112,74 +112,11 @@
     "percentage": 100
   },
   {
-    "name": "Angular 14 - The Complete Guide",
-    "img": "",
-    "link": "",
-    "description": "Udemy: Comprehensive course on Angular 14, covering from the fundamentals to advanced techniques, with an emphasis on TypeScript.",
-    "percentage": 70
-  },
-  {
     "name": "GitHub para programadores",
     "img": "https://media.licdn.com/dms/image/D4D22AQHf4B1XiJKU1g/feedshare-shrink_1280/0/1708344033742?e=1710979200&v=beta&t=KEGIluuAHAj6KK7s009JDmCnlIVfTZit6dur_rRNkgk",
     "link": "https://www.linkedin.com/learning/certificates/e0d76d5a6991fe659fe1e912a2b648ada148b4d7d9f6e9d73154bb17d1ae9a7b",
     "description": "LinkedIn Learning Certificate of Completion",
     "percentage": 100
-  },
-  {
-    "name": "RxJS PRO Level",
-    "img": "",
-    "link": "",
-    "description": "Advanced course on RxJS, focused on reactive programming and handling asynchronous events for web applications.",
-    "percentage": 60
-  },
-  {
-    "name": "Flutter - Mobile: From Zero to Expert",
-    "img": "",
-    "link": "",
-    "description": "Complete Flutter course for cross-platform development focused on mobile.",
-    "percentage": 90
-  },
-  {
-    "name": "Flutter from Zero",
-    "img": "",
-    "link": "",
-    "description": "Complete Flutter course for cross-platform development with clean architecture.",
-    "percentage": 0
-  },
-  {
-    "name": "Mastery in CSS3",
-    "img": "",
-    "link": "",
-    "description": "Advanced course in CSS3, covering Flexbox, Grid, SASS, and Bootstrap 5, with a focus on responsive design and modern styling.",
-    "percentage": 50
-  },
-  {
-    "name": "CSS The Complete Guide",
-    "img": "",
-    "link": "",
-    "description": "Exhaustive course on CSS, including Flexbox, CSS Grid, and SASS, with more than 20 practical projects to consolidate knowledge.",
-    "percentage": 50
-  },
-  {
-    "name": "PHP Course",
-    "img": "",
-    "link": "",
-    "description": "Complete course on backend development in PHP.",
-    "percentage": 60
-  },
-  {
-    "name": "NodeJS: From Zero to Expert",
-    "img": "",
-    "link": "",
-    "description": "Complete Node.js course.",
-    "percentage": 60
-  },
-  {
-    "name": "Master in RESTful APIs with NodeJS",
-    "img": "",
-    "link": "",
-    "description": "Complete Node.js course.",
-    "percentage": 55
   },
   {
     "name": "Arquitectura de software",
@@ -308,17 +245,66 @@
     "percentage": 100
   },
   {
-    "name": "Angular 14 - La Guia Completa",
+    "name": "Angular 14 - The Complete Guide",
     "img": "https://udemy-certificate.s3.amazonaws.com/image/UC-125d51f3-e90e-44c0-b9e6-399aa035aaef.jpg?v=1709495942000",
     "link": "https://www.udemy.com/certificate/UC-125d51f3-e90e-44c0-b9e6-399aa035aaef",
     "description": "Udemy Certificate of Completion",
     "percentage": 100
   },
   {
-    "name": "RxJS nivel PRO",
+    "name": "RxJS PRO Level",
     "img": "https://udemy-certificate.s3.amazonaws.com/image/UC-97df98fd-b804-4627-89c7-5b54cd56148b.jpg?v=1709671517000",
     "link": "https://www.udemy.com/certificate/UC-97df98fd-b804-4627-89c7-5b54cd56148b",
     "description": "Udemy Certificate of Completion",
     "percentage": 100
+  },
+  {
+    "name": "Flutter - Mobile: From Zero to Expert",
+    "img": "",
+    "link": "",
+    "description": "Complete Flutter course for cross-platform development focused on mobile.",
+    "percentage": 90
+  },
+  {
+    "name": "Flutter from Zero",
+    "img": "",
+    "link": "",
+    "description": "Complete Flutter course for cross-platform development with clean architecture.",
+    "percentage": 0
+  },
+  {
+    "name": "Mastery in CSS3",
+    "img": "",
+    "link": "",
+    "description": "Advanced course in CSS3, covering Flexbox, Grid, SASS, and Bootstrap 5, with a focus on responsive design and modern styling.",
+    "percentage": 50
+  },
+  {
+    "name": "CSS The Complete Guide",
+    "img": "",
+    "link": "",
+    "description": "Exhaustive course on CSS, including Flexbox, CSS Grid, and SASS, with more than 20 practical projects to consolidate knowledge.",
+    "percentage": 50
+  },
+  {
+    "name": "PHP Course",
+    "img": "",
+    "link": "",
+    "description": "Complete course on backend development in PHP.",
+    "percentage": 60
+  },
+  {
+    "name": "NodeJS: From Zero to Expert",
+    "img": "",
+    "link": "",
+    "description": "Complete Node.js course.",
+    "percentage": 60
+  },
+  {
+    "name": "Master in RESTful APIs with NodeJS",
+    "img": "",
+    "link": "",
+    "description": "Complete Node.js course.",
+    "percentage": 55
   }
 ]
