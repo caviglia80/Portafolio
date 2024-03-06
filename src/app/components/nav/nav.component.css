@@ -2,6 +2,10 @@
   box-shadow: none;
 }
 
+.navbar-toggler:active {
+  background-color: #aec4ff29;
+}
+
 .navbar-icon {
   max-width: 52px;
 }

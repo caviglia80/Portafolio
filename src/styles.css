@@ -56,13 +56,13 @@
     height: 76px;
   }
 
-  header .menu {
+  /* header #menu {
     min-height: 76px;
   }
 
-  header .menu a {
+  header #menu a {
     width: 100%;
-  }
+  } */
 
   .dark-mode .navbar {
     background: transparent !important;
@@ -81,7 +81,7 @@ header .nav {
   min-height: 80px;
   overflow: hidden;
   background: #fff;
-  border-bottom: 5px solid #3da5e2;
+  border-bottom: 3px solid #3da5e2;
 }
 
 header .logo h2,
@@ -99,8 +99,8 @@ header .logo .icono {
 }
 
 .portafolio {
-  border-top: 5px solid #3da5e2;
-  border-bottom: 5px solid #3da5e2;
+  border-top: 3px solid #3da5e2;
+  border-bottom: 3px solid #3da5e2;
   background: #fff;
   min-height: 636px;
 }
@@ -271,4 +271,14 @@ p a:hover {
 .dark-mode .img-certificado {
   border: none !important;
   filter: drop-shadow(0px 0px 10px #138ed5bd) !important;
+}
+
+.dark-mode .navbar-toggler {
+  border: none !important;
+  filter: drop-shadow(1px 1px 1px #00416aa8) !important;
+  box-shadow: 1px 1px 1px #00416aa8 !important;
+}
+
+.dark-mode .navbar-toggler:active {
+  background-color: #00426a !important;
 }
