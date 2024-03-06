@@ -57,8 +57,8 @@
               <!-- Imagen dentro de un enlace, si existe -->
               <a [hidden]="imagenCargando" *ngIf="itemSeleccionado.link; else noLinkImage"
                 href="{{ itemSeleccionado.link }}" target="_blank" rel="noreferrer noopener">
-                <img src="{{ itemSeleccionado.img }}" (load)="imagenCargando = false" class="img-fluid p-2"
-                  alt="Imagen {{ itemSeleccionado.name }}">
+                <img src="{{ itemSeleccionado.img }}" (load)="imagenCargando = false"
+                  class="img-fluid p-2 img-certificado" alt="Imagen {{ itemSeleccionado.name }}">
               </a>
 
               <!-- Imagen sin enlace -->
