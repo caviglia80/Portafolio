@@ -257,12 +257,11 @@ ul li svg {
   transition: all .5s !important;
 }
 
-/* ul li svg:hover {
-  transform: scale(1.2);
-  filter: brightness(1.5);
-} */
-
 .selecccionado {
   transform: scale(1.4);
-  filter: brightness(1.5);
+  filter: brightness(1.4);
+}
+
+.empresas ul li svg path {
+  fill: #1b62ef90;
 }

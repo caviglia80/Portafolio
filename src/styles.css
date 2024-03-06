@@ -1,7 +1,6 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Ysabeau+SC:wght@600&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ysabeau+SC:wght@600&display=swap');
-/* @import '~bootstrap/dist/css/bootstrap.min.css'; */
-/* @import '~bootstrap-icons/font/bootstrap-icons.css'; */
+/* @import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~bootstrap-icons/font/bootstrap-icons.css'; */
 
 .brightnessAnimation:active {
   animation: brightnessAnimation 3s;
@@ -298,3 +297,7 @@ p a:hover {
 .dark-mode .navbar-icon {
   filter: drop-shadow(2px 1px 1px #2998d9bd);
 }
+
+/* .empresas ul li svg path {
+  fill: red !important;
+} */
