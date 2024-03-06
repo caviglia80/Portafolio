@@ -292,5 +292,33 @@
     "link": "https://www.linkedin.com/learning/certificates/a5f7ffe330f3f419190ea1589300d8d459ca5382465afcc63c71834d60c7bd37?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3Bt50Mih8LRBqfhr7PtyRETg%3D%3D",
     "description": "LinkedIn Learning Certificate of Completion",
     "percentage": 100
+  },
+  {
+    "name": "Angular esencial",
+    "img": "https://media.licdn.com/dms/image/D4D22AQExoEn9can3sA/feedshare-shrink_1280/0/1709325865278?e=1712793600&v=beta&t=ACI7fCu3PHNvTHuvFjC_jOCZcjgLes_PEZbrbQhiCAc",
+    "link": "https://www.linkedin.com/learning/certificates/12cf1e31aa033e150cb77978968ed13d7484173b7fe03136e5fadcec031125ba",
+    "description": "LinkedIn Learning Certificate of Completion",
+    "percentage": 100
+  },
+  {
+    "name": "TypeScript esencial",
+    "img": "https://media.licdn.com/dms/image/D4D22AQELmUgQP-OmTQ/feedshare-shrink_1280/0/1709338361204?e=1712793600&v=beta&t=R1BRqB3FB-DHXLQQ3hX5fQ2Px1YOGa9gd1TVGX4zWs8",
+    "link": "https://www.linkedin.com/learning/certificates/7df0fb0f9d15500d20b24ff1ed9ecd1c1ff7061e19ce0bd2d5658c88fffdfe45",
+    "description": "LinkedIn Learning Certificate of Completion",
+    "percentage": 100
+  },
+  {
+    "name": "Angular 14 - La Guia Completa",
+    "img": "https://udemy-certificate.s3.amazonaws.com/image/UC-125d51f3-e90e-44c0-b9e6-399aa035aaef.jpg?v=1709495942000",
+    "link": "https://www.udemy.com/certificate/UC-125d51f3-e90e-44c0-b9e6-399aa035aaef",
+    "description": "Udemy Certificate of Completion",
+    "percentage": 100
+  },
+  {
+    "name": "RxJS nivel PRO",
+    "img": "https://udemy-certificate.s3.amazonaws.com/image/UC-97df98fd-b804-4627-89c7-5b54cd56148b.jpg?v=1709671517000",
+    "link": "https://www.udemy.com/certificate/UC-97df98fd-b804-4627-89c7-5b54cd56148b",
+    "description": "Udemy Certificate of Completion",
+    "percentage": 100
   }
 ]
