@@ -27,27 +27,25 @@ export class SkillsComponent implements OnInit {
 
   constructor(private http: HttpClient) { }
 
-  ngOnInit() {
-    this.cargarDatos();
-  }
-
-  private cargarDatos() {
-    this.http.get<any[]>(this.Json).subscribe({
-      next: (data) => {
-        if (data && data.length !== 0) {
-          this.lista = data;
-          this.filtrarLista();
-        }
-      },
-      error: (error) => console.error(error)
-    });
+  async ngOnInit() {
+    if (this.Json)
+      this.http.get<any[]>(this.Json).subscribe({
+        next: (data) => {
+          if (data && data.length !== 0) {
+            this.lista = data;
+            if (this.lista && this.lista.length !== 0)
+              this.filtrarLista();
+          }
+        },
+        error: (error) => console.error(error)
+      });
   }
 
   public filtrarLista(): void {
     this.listaFiltrada = this.lista.filter(item =>
       item.name.toLowerCase().includes(this.filtro.toLowerCase()) ||
       item.description!.toLowerCase().includes(this.filtro.toLowerCase())
-    );
+    )!.sort((a, b) => b.percentage - a.percentage);
     this.seleccionarPrimerItem();
   }
 
@@ -71,4 +69,5 @@ export class SkillsComponent implements OnInit {
       this.itemSeleccionadoIndex = -1;
     }
   }
+
 }

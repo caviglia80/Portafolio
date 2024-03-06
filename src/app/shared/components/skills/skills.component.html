@@ -20,7 +20,7 @@
           <!-- list col 7 12 -->
           <ul class="col-md-7 col-sm-12 info p-0"
             [ngClass]="{'lista-scroll': hayMasDeOchoItems(),'hidden' :!itemSeleccionado}">
-            <li *ngFor="let item of listaFiltrada | percentageSort; let i = index" class="py-1 px-2 m-2"
+            <li *ngFor="let item of listaFiltrada; let i = index" class="py-1 px-2 m-2"
               [ngClass]="{'itemSelected my-3': i === itemSeleccionadoIndex}" (mousedown)="seleccionarItem(item, i)"
               (touchstart)="null" tabindex="-1" style="overflow: hidden;">
 

@@ -7,12 +7,10 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
 import { NavComponent } from '@components/nav/nav.component';
-import { DesarrolloComponent } from '@pages/desarrollo/desarrollo.component';
 import { PerfilProfesionalComponent } from '@components/perfil-profesional/perfil-profesional.component';
 import { FooterComponent } from '@components/footer/footer.component';
 import { TopBtnComponent } from '@components/top-btn/top-btn.component';
 import { SkillsComponent } from '@components/skills/skills.component';
-import { PercentageSortPipe } from './core/pipes/percentage-sort.pipe';
 import { DevRepositoriesComponent } from '@components/dev-repositories/dev-repositories.component';
 import { DarkModeComponent } from '@components/dark-mode/dark-mode.component';
 import { ToastComponent } from '@components/toast/toast.component';
@@ -25,12 +23,10 @@ import { SocialButtonsComponent } from './shared/components/social-buttons/socia
   declarations: [
     AppComponent,
     NavComponent,
-    DesarrolloComponent,
     PerfilProfesionalComponent,
     FooterComponent,
     TopBtnComponent,
     SkillsComponent,
-    PercentageSortPipe,
     DevRepositoriesComponent,
     DarkModeComponent,
     ToastComponent,

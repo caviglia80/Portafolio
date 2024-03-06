@@ -1,12 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { DesarrolloComponent } from '@pages/desarrollo/desarrollo.component';
+// import { DesarrolloComponent } from '@pages/desarrollo/desarrollo.component';
+import { AppComponent } from './app.component';
 
 const routes: Routes = [
-  { path: 'CV', component: DesarrolloComponent },
-  { path: '', redirectTo: '/CV', pathMatch: 'full' },
-  { path: '**', redirectTo: '/CV', pathMatch: 'full' }
+  { path: '', component: AppComponent },
+  // { path: '', redirectTo: '/CV', pathMatch: 'full' },
+  { path: '**', redirectTo: '', pathMatch: 'full' }
 ];
 
 @NgModule({

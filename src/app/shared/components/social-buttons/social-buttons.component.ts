@@ -16,7 +16,7 @@ export class SocialButtonsComponent implements AfterViewInit, OnDestroy {
       this.onScroll = () => {
         if (window.innerWidth < 768) {
           const currentScroll: number = ~~(window.scrollY + window.innerHeight);
-          const beforeFooter: number = ~~(document.documentElement.scrollHeight * .80);
+          const beforeFooter: number = ~~(document.documentElement.scrollHeight * .86);
 
           if (button)
             if (currentScroll >= beforeFooter)
