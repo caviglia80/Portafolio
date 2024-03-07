@@ -259,10 +259,10 @@ p a:hover {
   color: #3887c3 !important;
 }
 
-.dark-mode #repositorio a img {
+/* .dark-mode #repositorio a img {
   filter: brightness(1.4) !important;
   opacity: .5 !important;
-}
+} */
 
 .dark-mode .navbar-icon {
   filter: drop-shadow(2px 1px 1px #2998d9bd) !important;

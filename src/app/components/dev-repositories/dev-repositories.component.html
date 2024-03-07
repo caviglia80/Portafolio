@@ -1,35 +1,20 @@
 <div id="repositorio" class="row g-0 px-4 mb-5" *ngIf="repos">
   <div class="col">
 
-    <!-- <h2 class="titulo text-center py-5">
-      <a href="https://github.com/caviglia80" target="_blank" rel="noreferrer">GitHub</a>
-    </h2> -->
-
     <h2 class="titulo text-center py-5">Github (real time)</h2>
-
-
-    <!-- <div *ngIf="repos as repos" class="row text-center justify-content-center">
-      <div *ngFor="let repo of showAllRepos ? repos : repos.slice(0, 6)" class="repoItem col-lg-4 mb-3 ">
-        <a href="{{ repo.html_url }}" target="_blank" rel="noreferrer">
-          <img src="{{ repo.owner.avatar_url }}" alt="{{ repo.owner.login }}"
-            class="bd-placeholder-img rounded-circle mb-2" width="140" height="140" role="img"
-            title="{{ repo.owner.login }}">
-        </a>
-        <img src="{{ repo.owner.avatar_url }}" alt="{{ repo.owner.login }}"
-          class="bd-placeholder-img rounded-circle mb-2" width="140" height="140" role="img"
-          title="{{ repo.owner.login }}">
-        <h3 class="">{{ truncateTitle(repo.name) }}</h3>
-        <p>{{ truncateDescription(repo.description) }}</p>
-      </div>
-    </div> -->
 
     <div *ngIf="repos" class="row text-center justify-content-center">
       <div *ngFor="let repo of showAllRepos ? repos : repos.slice(0, 6)" class="repoItem col-lg-4 mb-3 scaleAnimation">
-        <div class="image-container">
+
+        <div class="image-container p-3">
           <a href="{{ repo.html_url }}" target="_blank" rel="noreferrer">
-            <img src="{{ repo.owner.avatar_url }}" alt="{{ repo.owner.login }}"
+
+            <!-- <img src="{{ repo.owner.avatar_url }}" alt="{{ repo.owner.login }}"
               class="bd-placeholder-img rounded-circle mb-2" width="140" height="140" role="img"
-              title="{{ repo.owner.login }}">
+              title="{{ repo.owner.login }}"> -->
+
+            <img src="{{ getImg(repo.language) }}" alt="{{ repo.owner.login }}" class="mb-2" width="140" height="140"
+              role="img" title="{{ repo.owner.login }}">
 
             <ng-container *ngFor="let language of getLanguages(repo.language); let i = index">
               <span *ngIf="language" [ngClass]="{'mb-4': i === 1}" class="label scaleAnimation">

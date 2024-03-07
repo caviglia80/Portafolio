@@ -49,6 +49,35 @@ export class DevRepositoriesComponent implements OnInit {
     }
   }
 
+  public getImg(principallanguague: string): string {
+    try {
+      if (principallanguague.toLowerCase().includes('c++') ||
+        principallanguague.toLowerCase().includes('flutter') ||
+        principallanguague.toLowerCase().includes('dart')) {
+        return 'assets/img/flutter.png';
+      } else if (principallanguague.toLowerCase().includes('typescript') ||
+        principallanguague.toLowerCase().includes('html')) {
+        return 'assets/img/angular.png';
+      } else if (principallanguague.toLowerCase().includes('css') ||
+        principallanguague.toLowerCase().includes('html')) {
+        return 'assets/img/javascript.png';
+      } else if (principallanguague.toLowerCase().includes('php')) {
+        return 'assets/img/php.png';
+      } else if (principallanguague.toLowerCase().includes('javascript')) {
+        return 'assets/img/javascript.png';
+      } else if (principallanguague.toLowerCase().includes('visual basic')) {
+        return 'assets/img/vb.png';
+      } else if (principallanguague.toLowerCase().includes('c#')) {
+        return 'assets/img/c.png';
+      } else {
+        return 'assets/img/default1.png';
+      }
+    } catch (error) {
+      console.log(error);
+      return '';
+    }
+  }
+
   public truncateDescription(description: string): string {
     try {
       if (description)
