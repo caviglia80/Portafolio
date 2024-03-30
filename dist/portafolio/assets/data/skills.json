@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Programming with C#",
+    "description": "Development with the C# programming language for Windows applications and testing with Selenium.",
+    "percentage": 100
+  },
+  {
+    "name": "Programming with JavaScript and TypeScript",
+    "description": "Development with the JavaScript and TypeScript programming languages for web applications using Angular.",
+    "percentage": 100
+  },
+  {
+    "name": "Web applications with Angular",
+    "description": "Development Angular web applications using RXJS, CSS, Bootstrap 5, Angular material, Lazy loading modules.",
+    "percentage": 100
+  },
+  {
+    "name": "Programming with Java",
+    "description": "Development with the Java programming language for testing with Selenium.",
+    "percentage": 100
+  },
+  {
+    "name": "SQL Query Languages",
+    "description": "Utilization of SQL for database management, including MySQL and SQL Server.",
+    "percentage": 100
+  },
+  {
+    "name": "HTML5 layout",
+    "description": "Advanced development of web interfaces using HTML5, CSS3 and JavaScript.",
+    "percentage": 100
+  },
+  {
+    "name": "Programming with PHP",
+    "description": "Development with the PHP programming language to create several backends for clients.",
+    "percentage": 100
+  },
+  {
+    "name": "Programming with vb.NET",
+    "description": "Development with the Visual Basic (.NET) programming language for Windows Forms, both academically and privately.",
+    "percentage": 100
+  },
+  {
+    "name": "Programming with C, C++",
+    "description": "Development with the C and C++ programming languages, knowledge acquired at the university.",
+    "percentage": 100
+  },
+  {
+    "name": "Styles",
+    "description": "Proficient in CSS and Bootstrap 5, capable of creating fully responsive applications.",
+    "percentage": 95
+  },
+  {
+    "name": "Programming with Flutter (Dart)",
+    "description": "Basic proficiency in Flutter (dart).",
+    "percentage": 70
+  },
+  {
+    "name": "Programming with python",
+    "description": "Basic proficiency in python.",
+    "percentage": 70
+  },
+  {
+    "name": "Programming with Node.JS",
+    "description": "Backend web application development using Node.JS (JavaScript).",
+    "percentage": 100
+  },
+  {
+    "name": "ASP.NET Core MVC Programming (C#)",
+    "description": "Backend web application development using ASP.NET Core MVC (C#).",
+    "percentage": 100
+  },
+  {
+    "name": "Management and Monitoring Tools",
+    "description": "Experience using Jira for development ticket management and Confluence for documentation.",
+    "percentage": 100
+  },
+  {
+    "name": "Version control",
+    "description": "Version control with GIT / GitKraken (using github).",
+    "percentage": 100
+  },
+  {
+    "name": "API Documentation with Swagger",
+    "description": "Implementing Swagger for API documentation and testing in ASP.NET Core applications.",
+    "percentage": 100
+  },
+  {
+    "name": "Object-Oriented Programming (OOP)",
+    "description": "Utilizing Object-Oriented Programming principles to design and implement scalable and maintainable systems.",
+    "percentage": 100
+  },
+  {
+    "name": "API Integration",
+    "description": "Experience in the design and integration of RESTful APIs, focused on system interoperability and scalability.",
+    "percentage": 100
+  },
+  {
+    "name": "LINQ",
+    "description": "Experience using LINQ to efficiently perform data queries in .NET, improving code readability and efficiency.",
+    "percentage": 100
+  },
+  {
+    "name": "NoSQL Database Management",
+    "description": "Experience in using NoSQL technologies for database management, including Firestore, focused on the development of scalable and real-time solutions.",
+    "percentage": 100
+  }
+]

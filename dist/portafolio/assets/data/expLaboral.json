@@ -1,0 +1,54 @@
+{
+  "BOLDT2": {
+    "position": "Software Developer",
+    "date": "October 2021 - Present ( + 2 years)",
+    "responsibilities": [
+      "Agile Scrum Methodology",
+      "Maintenance and changes of web applications"
+    ]
+  },
+  "BOLDT": {
+    "position": "Senior Quality Assurance",
+    "date": "August 2020 - October 2021 (1 year 3 months)",
+    "responsibilities": [
+      "Scrum methodology",
+      "Analysis, design and execution of test cases",
+      "Documentation of executions and defects",
+      "Manual and automatic tests",
+      "Functional, non-functional and regression tests"
+    ]
+  },
+  "HSBC": {
+    "position": "Senior Quality Assurance",
+    "date": "February 2019 - August 2020 (1 year 7 months)",
+    "responsibilities": [
+      "Scrum methodology",
+      "Analysis, design and execution of test cases",
+      "Documentation of executions and defects",
+      "Manual and automatic tests",
+      "Functional, non-functional and regression tests"
+    ]
+  },
+  "Hipotecario": {
+    "position": "Semi Senior Quality Assurance",
+    "date": "March 2018 - February 2019 (1 year)",
+    "responsibilities": [
+      "Scrum methodology",
+      "Analysis, design and execution of test cases",
+      "Documentation of executions and defects",
+      "Manual and automatic tests",
+      "Functional and regression tests"
+    ]
+  },
+  "BNP": {
+    "position": "Quality Assurance",
+    "date": "November 2016 - March 2018 (1 year 5 months)",
+    "responsibilities": [
+      "Scrum methodology",
+      "Analysis, design and execution of test cases",
+      "Documentation of executions and defects",
+      "Manual tests",
+      "Functional and regression tests"
+    ]
+  }
+}
