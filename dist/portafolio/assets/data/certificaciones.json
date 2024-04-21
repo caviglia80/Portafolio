@@ -1,14 +1,14 @@
 [
   {
     "name": "Fundamentos profesionales del desarrollo de software",
-    "img": "https://media.licdn.com/dms/image/D4D22AQG-rxZlmzz6Zg/feedshare-shrink_1280/0/1708182154071?e=1714608000&v=beta&t=4hBt_A2YfQLIFnJPIpS8FhrpEn2818b1zOooD5F8WyA",
+    "img": "assets/img/courses/Fundamentos profesionales del desarrollo de software.jpeg",
     "link": "https://www.linkedin.com/learning/certificates/b33543d96f33552dbc142dba80526ab277e73e7fccef57af966435034177f11f",
     "description": "Microsoft Certificate of Completion",
     "percentage": 100
   },
   {
     "name": "Career Essentials in Generative AI by Microsoft and LinkedIn",
-    "img": "https://media.licdn.com/dms/image/D4D22AQFH_kUck52z3w/feedshare-shrink_1280/0/1708893735196?e=1712188800&v=beta&t=FaUHylGesQiygwJyfqU2h9E6NDbcSUjbhfNTKciiOxw",
+    "img": "assets/img/courses/Career Essentials in Generative AI by Microsoft and LinkedIn.jpeg",
     "link": "https://www.linkedin.com/learning/certificates/2139b49756e086ab381fdb184632de12b15cbc88359ba425c601ae2c81cc1f08?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3Bt50Mih8LRBqfhr7PtyRETg%3D%3D",
     "description": "Microsoft Certificate of Completion",
     "percentage": 100
@@ -36,7 +36,7 @@
   },
   {
     "name": "Node.js esencial",
-    "img": "https://media.licdn.com/dms/image/D4D22AQFVSYr9gUDppg/feedshare-shrink_1280/0/1708984868027?e=1712188800&v=beta&t=joyoYXtZuoYI5magWmaSsSeZRYGq4XEzGpae9dOTmqs",
+    "img": "assets/img/courses/Node.js esencial.jpeg",
     "link": "https://www.linkedin.com/learning/certificates/d84d2f5de35ea4d009db3875e2aa7f4496969c8a7ace5ca5373eb7a0dfe0b639?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3Bt50Mih8LRBqfhr7PtyRETg%3D%3D",
     "description": "LinkedIn Learning Certificate of Completion",
     "percentage": 100
@@ -50,7 +50,7 @@
   },
   {
     "name": "DevOps esencial",
-    "img": "https://media.licdn.com/dms/image/D4D22AQGgi59aFyBPPw/feedshare-shrink_1280/0/1708037183787?e=1714608000&v=beta&t=paIG3i4yQQ51UuLQUKc-q0TyMXf-yZT71EjJS3QZFpM",
+    "img": "assets/img/courses/DevOps esencial.jpeg",
     "link": "https://www.linkedin.com/learning/certificates/7e52b338ab564e42bf055bb8e7073ab3086802592f49ad2db6df4c633df00566",
     "description": "LinkedIn Learning Certificate of Completion",
     "percentage": 100
@@ -71,21 +71,21 @@
   },
   {
     "name": "Fundamentos de la programación: Más allá de lo básico",
-    "img": "https://media.licdn.com/dms/image/D4D22AQF_Im5Z9teEoQ/feedshare-shrink_1280/0/1708182563276?e=1714608000&v=beta&t=kCTFI1WUPtu6S3zo8lPG4LRJ7WPvwlsMxecvaZqhKyQ",
+    "img": "assets/img/courses/Fundamentos de la programación.jpeg",
     "link": "https://www.linkedin.com/learning/certificates/5a10d57fdf6ab3d2ebd83d3295802f49df06facc5b01f67dcc60e2d44944bb9a",
     "description": "LinkedIn Learning Certificate of Completion",
     "percentage": 100
   },
   {
     "name": "Fundamentos esenciales de la programación",
-    "img": "https://media.licdn.com/dms/image/D4D22AQFYYgliDozNJg/feedshare-shrink_1280/0/1708080137717?e=1714608000&v=beta&t=CHsvpcmbK2K6aiM2Dw8z9BkAHIoLkE1JyNpthKv7eBM",
+    "img": "assets/img/courses/Fundamentos esenciales de la programación.jpeg",
     "link": "https://www.linkedin.com/learning/certificates/e303fe1163dcd865433931d53f884be29b717731b3ba92221d054e7c6749610c",
     "description": "LinkedIn Learning Certificate of Completion",
     "percentage": 100
   },
   {
     "name": "Introducción a las habilidades profesionales en el desarrollo de software",
-    "img": "https://media.licdn.com/dms/image/D4D22AQGR4Vo5JVRtow/feedshare-shrink_1280/0/1708091034609?e=1714608000&v=beta&t=9Xh79aYJQoQ5MqBHFl5pisYIe_I9W1NiK5_ZHRluDu8",
+    "img": "assets/img/courses/Introducción a las habilidades profesionales en el desarrollo de software.jpeg",
     "link": "https://www.linkedin.com/learning/certificates/bc9e3c352a0414ceefc212b8a03b7d0c162bbcef7aae83a1a8e1ace66cbc2edb",
     "description": "LinkedIn Learning Certificate of Completion",
     "percentage": 100
@@ -113,133 +113,133 @@
   },
   {
     "name": "GitHub para programadores",
-    "img": "https://media.licdn.com/dms/image/D4D22AQHf4B1XiJKU1g/feedshare-shrink_1280/0/1708344033742?e=1714608000&v=beta&t=eBhGbxkk14fYZJno8zYYYIQl9bTkcbIkYurjv_tDAWA",
+    "img": "assets/img/courses/GitHub para programadores.jpeg",
     "link": "https://www.linkedin.com/learning/certificates/e0d76d5a6991fe659fe1e912a2b648ada148b4d7d9f6e9d73154bb17d1ae9a7b",
     "description": "LinkedIn Learning Certificate of Completion",
     "percentage": 100
   },
   {
     "name": "Arquitectura de software",
-    "img": "https://media.licdn.com/dms/image/D4D22AQEd6WGNZ1ztPQ/feedshare-shrink_1280/0/1708370846215?e=1712188800&v=beta&t=Tg6jo1vgoRQPgJcR1Eqot3x1NWgLqHPyqD8TQITxAso",
+    "img": "assets/img/courses/Arquitectura de software.jpeg",
     "link": "https://www.linkedin.com/learning/certificates/ac6c0aadcd15a2a3293ba8dbb6d469f8fc2b71b8b3b2af12e3e29a52b5591bf2?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BZ6%2FTM2SvSNqoWfzC2e2i7A%3D%3D",
     "description": "LinkedIn Learning Certificate of Completion",
     "percentage": 100
   },
   {
     "name": "Scrum avanzado",
-    "img": "https://media.licdn.com/dms/image/D4D22AQFspYWHZZvcDg/feedshare-shrink_1280/0/1708376509473?e=1712188800&v=beta&t=3mXpw7ztMYsfAXqb_fpR47rwhpOnZe69yClhEE4nEX8",
+    "img": "assets/img/courses/Scrum avanzado.jpeg",
     "link": "https://www.linkedin.com/learning/certificates/a9bc527d406a7b059e993e9fb0a849c3f34e744195cef2473f56f13ea5eb489d?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BZ6%2FTM2SvSNqoWfzC2e2i7A%3D%3D",
     "description": "LinkedIn Learning Certificate of Completion",
     "percentage": 100
   },
   {
     "name": "Scrum avanzado",
-    "img": "https://media.licdn.com/dms/image/D4D22AQFTgn3p3nt47g/feedshare-shrink_1280/0/1708639404580?e=1712188800&v=beta&t=LIhjKGdVMPRraKt4pUQGRZZAFI-S9EiHckSraJtMylU",
+    "img": "assets/img/courses/Scrum avanzado2.jpeg",
     "link": "https://www.linkedin.com/learning/certificates/afd500e9a786da3ad1d82fdcf08f5bd433844449fba739440f03e194b9e7d0c2?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BZ6%2FTM2SvSNqoWfzC2e2i7A%3D%3D",
     "description": "Project Management Institute Certificate of Completion",
     "percentage": 100
   },
   {
     "name": "Desarrollo ágil de software",
-    "img": "https://media.licdn.com/dms/image/D4D22AQGIwgSeOF_7Pg/feedshare-shrink_1280/0/1708606774420?e=1712188800&v=beta&t=hDCpML74zw_HOCkAHICze3eVF6Q47wazsw_kBhVl7pI",
+    "img": "assets/img/courses/Desarrollo ágil de software.jpeg",
     "link": "https://www.linkedin.com/learning/certificates/b57f9eeb5065567121a0d8908062ec4db93679ec8b59f0f7badec93296bd31ba?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BBC5oWCfQRN2H7l%2FJHJgskQ%3D%3D",
     "description": "LinkedIn Learning Certificate of Completion",
     "percentage": 100
   },
   {
     "name": "Comunicación",
-    "img": "https://media.licdn.com/dms/image/D4D22AQHHXpcONx0tJg/feedshare-shrink_1280/0/1708627213428?e=1712188800&v=beta&t=-MvRWywonHN1igT_jBI96IVE6aSOgoE0GnjYpuWgCHU",
+    "img": "assets/img/courses/Comunicación.jpeg",
     "link": "https://www.linkedin.com/learning/certificates/a1aaa904a814b5b2ea9ccf2ffa53c82b687e99ab0c730f2a043b8665b2b69a23?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BBC5oWCfQRN2H7l%2FJHJgskQ%3D%3D",
     "description": "LinkedIn Learning Certificate of Completion",
     "percentage": 100
   },
   {
     "name": "Comunicación",
-    "img": "https://media.licdn.com/dms/image/D4D22AQEpEDZbkOHjrg/feedshare-shrink_1280/0/1708638703828?e=1712188800&v=beta&t=tPm6V8oQYHprQh_JU_p6x9k05qxMXbCgCLUya_YdGWw",
+    "img": "assets/img/courses/Comunicación2.jpeg",
     "link": "https://www.linkedin.com/learning/certificates/e5cee9cfabe7721b7a4a50abf6dfdfc49d34e2c656663b552faaacf149ed9c2b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BBC5oWCfQRN2H7l%2FJHJgskQ%3D%3D",
     "description": "Project Management Institute Certificate of Completion",
     "percentage": 100
   },
   {
     "name": "Communication Foundations",
-    "img": "https://media.licdn.com/dms/image/D4D22AQHA_36jNmwQIw/feedshare-shrink_1280/0/1708636247320?e=1712188800&v=beta&t=ZWpE-rQFiVMHRomxHkwxdmTxZc2vh0Du6e7UoFt8hbo",
+    "img": "assets/img/courses/Communication Foundations.jpeg",
     "link": "https://www.linkedin.com/learning/certificates/de21de710a985f26756a3b2ed64c3014bef656b247452aebf9782531adde6fef?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BBC5oWCfQRN2H7l%2FJHJgskQ%3D%3D",
     "description": "LinkedIn Learning Certificate of Completion",
     "percentage": 100
   },
   {
     "name": "Communication Foundations",
-    "img": "https://media.licdn.com/dms/image/D4D22AQEEWyBo5IecBg/feedshare-shrink_1280/0/1708638454902?e=1712188800&v=beta&t=cElWxdtV86uxAAakZrWhvQRoPD7k12KmQzPXl03Lnm8",
+    "img": "assets/img/courses/Communication Foundations2.jpeg",
     "link": "https://www.linkedin.com/learning/certificates/88ffb11b7e1bd0100e63d9934189d0c05c226d40e6fbf9f54e16cc1911709732?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BBC5oWCfQRN2H7l%2FJHJgskQ%3D%3D",
     "description": "National Association of State Boards of Accountancy (NASBA) Certificate of Completion",
     "percentage": 100
   },
   {
     "name": "Communication Foundations",
-    "img": "https://media.licdn.com/dms/image/D4D22AQFjBN_bfB4vCg/feedshare-shrink_1280/0/1708638486490?e=1712188800&v=beta&t=--XP7gBowvK8vOlO7jsaZay7456c6LA4PNrRLooB9JU",
+    "img": "assets/img/courses/Communication Foundations3.jpeg",
     "link": "https://www.linkedin.com/learning/certificates/c7013e6cac8210538a1a04d8cd40fd1d10c4991546a0b98ba7a44273e3ee2621?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BBC5oWCfQRN2H7l%2FJHJgskQ%3D%3D",
     "description": "Project Management Institute Certificate of Completion",
     "percentage": 100
   },
   {
     "name": "Introducción a las habilidades profesionales en análisis de datos",
-    "img": "https://media.licdn.com/dms/image/D4D22AQHT40RUAq_Uig/feedshare-shrink_1280/0/1708781528200?e=1712188800&v=beta&t=vMNmvg8AA9CvW2LLIa6qSB-o-t1gG9VedCuMUp-pPck",
+    "img": "assets/img/courses/Introducción a las habilidades profesionales en análisis de datos.jpeg",
     "link": "https://www.linkedin.com/learning/certificates/d6363730cfb3b747ccb572d9102cd891633691acbc8782fed13997e5fd46978c?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3Bt50Mih8LRBqfhr7PtyRETg%3D%3D",
     "description": "LinkedIn Learning Certificate of Completion",
     "percentage": 100
   },
   {
     "name": "Generative AI",
-    "img": "https://media.licdn.com/dms/image/D4D22AQEWNrZ9LK98ZQ/feedshare-shrink_1280/0/1708798446344?e=1712188800&v=beta&t=k6r4PrrTEsKLJR6NeiUDJrlzQGrS6Fe-0R5PsN_26VI",
+    "img": "assets/img/courses/Generative AI.jpeg",
     "link": "https://www.linkedin.com/learning/certificates/923b866f1985c83366ea27245e5e4a15f611d2bd086b5f7185aaf9df1cf32bed?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3Bt50Mih8LRBqfhr7PtyRETg%3D%3D",
     "description": "LinkedIn Learning Certificate of Completion",
     "percentage": 100
   },
   {
     "name": "Generative AI: The Evolution of Thoughtful Online Search",
-    "img": "https://media.licdn.com/dms/image/D4D22AQFk9KCBOVwSPA/feedshare-shrink_1280/0/1708808578175?e=1712188800&v=beta&t=vpGm0tl6f0zulzYt-e6dmSlfm1iuY_q0E-j6Ss5MPi0",
+    "img": "assets/img/courses/Generative AI The Evolution of Thoughtful Online Search.jpeg",
     "link": "https://www.linkedin.com/learning/certificates/6123e69da3d0cd1a7d8fd6bb3759ab09f5caf66357dd8ab2f85b1319a4fd312f?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3Bt50Mih8LRBqfhr7PtyRETg%3D%3D",
     "description": "LinkedIn Learning Certificate of Completion",
     "percentage": 100
   },
   {
     "name": "Microsoft 365 Copilot",
-    "img": "https://media.licdn.com/dms/image/D4D22AQE1Mpb7dIi4Cw/feedshare-shrink_1280/0/1708875918040?e=1712188800&v=beta&t=ZbmXKVbX-IaPKyl61XGK5bmoL8KJlGmrnhe9565BeKQ",
+    "img": "assets/img/courses/Microsoft 365 Copilot.jpeg",
     "link": "https://www.linkedin.com/learning/certificates/c9b965c92273809593a14b720de087ad1662759e13612b0ca727f34749c703c6?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3Bt50Mih8LRBqfhr7PtyRETg%3D%3D",
     "description": "LinkedIn Learning Certificate of Completion",
     "percentage": 100
   },
   {
     "name": "Streamlining Your Work with Copilot",
-    "img": "https://media.licdn.com/dms/image/D4D22AQHRLBWRcasQYw/feedshare-shrink_1280/0/1708866692059?e=1712188800&v=beta&t=ExgR4rZaitVyDXyQNfgrKga0GycoL9xZRhTykAWdAJE",
+    "img": "assets/img/courses/Streamlining Your Work with Copilot.jpeg",
     "link": "https://www.linkedin.com/learning/certificates/7388717a834851489237a427050d624122f5598123302c5707174d30a279aab4?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3Bt50Mih8LRBqfhr7PtyRETg%3D%3D",
     "description": "LinkedIn Learning Certificate of Completion",
     "percentage": 100
   },
   {
     "name": "Ethics in the Age of Generative AI",
-    "img": "https://media.licdn.com/dms/image/D4D22AQE-l1NaOkBlIw/feedshare-shrink_1280/0/1708877793796?e=1712188800&v=beta&t=8GkvRbQ25mUgITwUwneKNLFOoMgtiKXw1WYN7TuTfKQ",
+    "img": "assets/img/courses/Ethics in the Age of Generative AI.jpeg",
     "link": "https://www.linkedin.com/learning/certificates/5dbf3f1258726becf39a66f7ceed0dd9807b81b36b5bb8d7b332da461820a1fa?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3Bt50Mih8LRBqfhr7PtyRETg%3D%3D",
     "description": "LinkedIn Learning Certificate of Completion",
     "percentage": 100
   },
   {
     "name": "Introduction to Artificial Intelligence",
-    "img": "https://media.licdn.com/dms/image/D4D22AQFXtuQNB_5X2Q/feedshare-shrink_1280/0/1708889647139?e=1712188800&v=beta&t=9_nLotc7zLfeh654KGawkSrz9JBSKJHkfo4FKxb1umk",
+    "img": "assets/img/courses/Introduction to Artificial Intelligence.jpeg",
     "link": "https://www.linkedin.com/learning/certificates/a5f7ffe330f3f419190ea1589300d8d459ca5382465afcc63c71834d60c7bd37?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3Bt50Mih8LRBqfhr7PtyRETg%3D%3D",
     "description": "LinkedIn Learning Certificate of Completion",
     "percentage": 100
   },
   {
     "name": "Angular esencial",
-    "img": "https://media.licdn.com/dms/image/D4D22AQExoEn9can3sA/feedshare-shrink_1280/0/1709325865278?e=1712793600&v=beta&t=ACI7fCu3PHNvTHuvFjC_jOCZcjgLes_PEZbrbQhiCAc",
+    "img": "assets/img/courses/Angular esencial.jpeg",
     "link": "https://www.linkedin.com/learning/certificates/12cf1e31aa033e150cb77978968ed13d7484173b7fe03136e5fadcec031125ba",
     "description": "LinkedIn Learning Certificate of Completion",
     "percentage": 100
   },
   {
     "name": "TypeScript esencial",
-    "img": "https://media.licdn.com/dms/image/D4D22AQELmUgQP-OmTQ/feedshare-shrink_1280/0/1709338361204?e=1712793600&v=beta&t=R1BRqB3FB-DHXLQQ3hX5fQ2Px1YOGa9gd1TVGX4zWs8",
+    "img": "assets/img/courses/TypeScript esencial.jpeg",
     "link": "https://www.linkedin.com/learning/certificates/7df0fb0f9d15500d20b24ff1ed9ecd1c1ff7061e19ce0bd2d5658c88fffdfe45",
     "description": "LinkedIn Learning Certificate of Completion",
     "percentage": 100
@@ -260,51 +260,51 @@
   },
   {
     "name": "Flutter - Mobile: From Zero to Expert",
-    "img": "",
-    "link": "",
-    "description": "Complete Flutter course for cross-platform development focused on mobile.",
-    "percentage": 90
+    "img": "https://udemy-certificate.s3.amazonaws.com/image/UC-2654ba23-ff90-458e-9452-6b8d83a3502f.jpg?v=1713304246000",
+    "link": "https://www.udemy.com/certificate/UC-2654ba23-ff90-458e-9452-6b8d83a3502f/",
+    "description": "Udemy Certificate of Completion",
+    "percentage": 100
   },
   {
     "name": "Flutter from Zero",
     "img": "",
     "link": "",
     "description": "Complete Flutter course for cross-platform development with clean architecture.",
-    "percentage": 0
+    "percentage": 10
   },
   {
     "name": "Mastery in CSS3",
     "img": "",
     "link": "",
     "description": "Advanced course in CSS3, covering Flexbox, Grid, SASS, and Bootstrap 5, with a focus on responsive design and modern styling.",
-    "percentage": 50
+    "percentage": 20
   },
   {
     "name": "CSS The Complete Guide",
     "img": "",
     "link": "",
     "description": "Exhaustive course on CSS, including Flexbox, CSS Grid, and SASS, with more than 20 practical projects to consolidate knowledge.",
-    "percentage": 50
+    "percentage": 30
   },
   {
     "name": "PHP Course",
     "img": "",
     "link": "",
     "description": "Complete course on backend development in PHP.",
-    "percentage": 60
+    "percentage": 40
   },
   {
     "name": "NodeJS: From Zero to Expert",
     "img": "",
     "link": "",
     "description": "Complete Node.js course.",
-    "percentage": 60
+    "percentage": 20
   },
   {
     "name": "Master in RESTful APIs with NodeJS",
     "img": "",
     "link": "",
     "description": "Complete Node.js course.",
-    "percentage": 55
+    "percentage": 30
   }
 ]
