@@ -28,6 +28,6 @@ export abstract class GlobalVariables {
   public static wspNumer: string = '+393500415970';
   public static linkedinUser: string = 'francisco-caviglia';
   public static githubUser: string = 'caviglia80';
-  public static cv: string = 'https://drive.google.com/file/d/1yegsYQTRPz731300D-zPvtA7cTCdPJS2/view?usp=sharing';
+  public static cv: string = 'https://drive.google.com/file/d/1V6KjgTz34SQjIcoKp_zgGOkLAKaGDaMX/view?usp=drive_link';
 }
 
