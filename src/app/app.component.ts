@@ -25,9 +25,9 @@ export class AppComponent implements OnInit {
 
 @Injectable()
 export abstract class GlobalVariables {
-  public static wspNumer: string = '+393500415970';
+  public static wspNumer: string = '+34600046609';
   public static linkedinUser: string = 'francisco-caviglia';
   public static githubUser: string = 'caviglia80';
-  public static cv: string = 'https://drive.google.com/file/d/1V6KjgTz34SQjIcoKp_zgGOkLAKaGDaMX/view?usp=drive_link';
+  public static cv: string = 'https://drive.google.com/file/d/1jB1XE0CuCx7K03mGgciavkGecXCRo3dE/view?usp=drive_link';
 }
 

@@ -10,6 +10,7 @@ export class FooterComponent implements OnInit {
   public anios: string = '';
   public anio: string = '';
   cv = GlobalVariables.cv;
+  wspNumer = GlobalVariables.wspNumer;
 
   constructor() { }
 
